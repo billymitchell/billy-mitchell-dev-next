@@ -15,7 +15,7 @@ export default function Companies({ children }) {
             <InViewAnimationTwo
               rootMargin="-25% 0%"
               className="init-invisible" animation={undefined} duration={undefined} delay={undefined} fillmode={undefined} easing={undefined} iteration={undefined} threshold={undefined}            >
-              <h3 className="margin-top-0">Businesses I've Worked With</h3>
+              <h3 className="margin-top-0">Businesses I&apos;ve Worked With</h3>
             </InViewAnimationTwo>
             <InViewAnimationTwo
               rootMargin="-25% 0%"

@@ -8,10 +8,9 @@ const IfFeaturedMedia = ({ portfolioItem }) => {
   const [imageSize, setImageSize] = useState(null);
   const imageUrl = portfolioItem.fields['Featured Image URL'];
   const title = portfolioItem.fields['Project Title'] || 'Untitled Project';
-
-  if (!imageUrl) return null;
-
-  const isVideo = /\.(mp4|webm|mov|gif)$/i.test(imageUrl); // Include GIFs as videos
+  const isVideo = imageUrl
+    ? /\.(mp4|webm|mov|gif)$/i.test(imageUrl)
+    : false; // Include GIFs as videos
 
   useEffect(() => {
     if (!imageUrl || isVideo) return;
@@ -22,6 +21,8 @@ const IfFeaturedMedia = ({ portfolioItem }) => {
       setImageSize({ width: img.naturalWidth, height: img.naturalHeight });
     };
   }, [imageUrl, isVideo]);
+
+  if (!imageUrl) return null;
 
   if (isVideo) {
     const webmUrl = `https://res.cloudinary.com/billymitchell/video/upload/f_webm,q_auto:low/v1750459284/portfolio/${imageUrl}`;

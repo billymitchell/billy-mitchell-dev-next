@@ -115,8 +115,12 @@ export default function Home() {
         <Homesplash />
         <FullStack />
         <TechStack />
-        <Services children={<FetchServices />} />
-        <Companies children={<FetchCompanies />} />
+        <Services>
+          <FetchServices />
+        </Services>
+        <Companies>
+          <FetchCompanies />
+        </Companies>
         <About />
         {/* <ContactSection /> */}
       </div>
@@ -124,4 +128,3 @@ export default function Home() {
     </>
   );
 }
-
