@@ -4,22 +4,21 @@ const Airtable = require('airtable');
 const { log } = require('console');
 require('dotenv').config({ path: '.env.local' });
 
-// Initialize Airtable client
-const apiKey = process.env.NEXT_PUBLIC_AIR_TABLE_TOKEN;
+// Initialize Airtable client when running the script directly
 const baseId = 'appvr5KrgKiJo1E7M';
-
-if (!apiKey) {
-  throw new Error(
-    'Missing Airtable API key. Check your environment variables.'
-  );
-}
-
-const base = new Airtable({ apiKey }).base(baseId);
 
 //https://airtable.com/appvr5KrgKiJo1E7M/api/docs#javascript/table:projects:list
 
 const fetchAndSaveData = async () => {
   try {
+    const apiKey = process.env.NEXT_PUBLIC_AIR_TABLE_TOKEN;
+    if (!apiKey) {
+      throw new Error(
+        'Missing Airtable API key. Check your environment variables.'
+      );
+    }
+    const base = new Airtable({ apiKey }).base(baseId);
+
     const projectsData = await base('Projects')
       .select({
         filterByFormula:
@@ -71,7 +70,9 @@ const fetchAndSaveData = async () => {
   }
 };
 
-fetchAndSaveData().catch((error) => {
-  console.error('Airtable fetch failed:', error);
-  process.exit(1);
-});
+if (require.main === module) {
+  fetchAndSaveData().catch((error) => {
+    console.error('Airtable fetch failed:', error);
+    process.exit(1);
+  });
+}

@@ -1,4 +1,3 @@
-import { fetchAirtableData } from '../utilities/getAirtableData';
 import InViewAnimationTwo from '../utilities/InViewAnimationTwo.js';
 import servicesData from '../utilities/data/servicesData.json';
 
