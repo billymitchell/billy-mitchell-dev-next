@@ -8,6 +8,94 @@
       "id": null,
       "name": "Companies"
     },
+    "id": "rec0GqFfmFS63Xbct",
+    "_rawJson": {
+      "id": "rec0GqFfmFS63Xbct",
+      "createdTime": "2020-06-11T20:28:10.000Z",
+      "fields": {
+        "Company Name": "Federal Data Systems",
+        "URL": "https://www.feddata.com/",
+        "Project": [
+          "rec3GfyhkYPh9OHEI"
+        ],
+        "Industry": [
+          "Technology "
+        ],
+        "Render On": "Both"
+      }
+    },
+    "fields": {
+      "Company Name": "Federal Data Systems",
+      "URL": "https://www.feddata.com/",
+      "Project": [
+        "rec3GfyhkYPh9OHEI"
+      ],
+      "Industry": [
+        "Technology "
+      ],
+      "Render On": "Both"
+    }
+  },
+  {
+    "_table": {
+      "_base": {
+        "_airtable": {},
+        "_id": "appvr5KrgKiJo1E7M"
+      },
+      "id": null,
+      "name": "Companies"
+    },
+    "id": "rec0QNfGozYGRt1Jm",
+    "_rawJson": {
+      "id": "rec0QNfGozYGRt1Jm",
+      "createdTime": "2020-08-25T02:10:05.000Z",
+      "fields": {
+        "Company Name": "University of Maryland Baltimore County",
+        "URL": "https://www.umbc.edu/",
+        "Project": [
+          "recbsakNLajYt2IKP",
+          "rectEqViKNUvAQkny",
+          "recKPuLq2WzOYPddL",
+          "reclD9BJ7KwZePQrr",
+          "rec6cjvnEeR2l4wIg",
+          "recdJEoKqy5b9Fs1M",
+          "recawGh75bQETjlKx",
+          "rec4iSW77mEJAvVex"
+        ],
+        "Industry": [
+          "DID NOT DO WORK FOR"
+        ],
+        "Render On": "Both"
+      }
+    },
+    "fields": {
+      "Company Name": "University of Maryland Baltimore County",
+      "URL": "https://www.umbc.edu/",
+      "Project": [
+        "recbsakNLajYt2IKP",
+        "rectEqViKNUvAQkny",
+        "recKPuLq2WzOYPddL",
+        "reclD9BJ7KwZePQrr",
+        "rec6cjvnEeR2l4wIg",
+        "recdJEoKqy5b9Fs1M",
+        "recawGh75bQETjlKx",
+        "rec4iSW77mEJAvVex"
+      ],
+      "Industry": [
+        "DID NOT DO WORK FOR"
+      ],
+      "Render On": "Both"
+    }
+  },
+  {
+    "_table": {
+      "_base": {
+        "_airtable": {},
+        "_id": "appvr5KrgKiJo1E7M"
+      },
+      "id": null,
+      "name": "Companies"
+    },
     "id": "rec2LPJTExlHPiePl",
     "_rawJson": {
       "id": "rec2LPJTExlHPiePl",
@@ -24,7 +112,8 @@
           "E-commerce"
         ],
         "Company Logo": "companies/ftg",
-        "Display Order": 8
+        "Display Order": 8,
+        "Render On": "billymitchell.dev"
       }
     },
     "fields": {
@@ -39,7 +128,8 @@
         "E-commerce"
       ],
       "Company Logo": "companies/ftg",
-      "Display Order": 8
+      "Display Order": 8,
+      "Render On": "billymitchell.dev"
     }
   },
   {
@@ -51,36 +141,259 @@
       "id": null,
       "name": "Companies"
     },
-    "id": "recDED2wYX8j6O1op",
+    "id": "rec3YSzCNkb5JVUdN",
     "_rawJson": {
-      "id": "recDED2wYX8j6O1op",
-      "createdTime": "2020-06-11T20:28:40.000Z",
+      "id": "rec3YSzCNkb5JVUdN",
+      "createdTime": "2020-06-12T20:29:22.000Z",
       "fields": {
-        "Company Name": "Seasons Pizza",
-        "URL": "https://www.seasonspizza.com/",
+        "Company Name": "The Cyphers Agency",
+        "URL": "https://thecyphersagency.com/",
         "Project": [
-          "recQuNMnhjROT6dlh"
+          "rec3GfyhkYPh9OHEI",
+          "recs7qnkIADDCnFXW",
+          "recnym8cxma9IFC9u",
+          "recek9yajiyMLhUmf",
+          "recqFTSG8insESxaL",
+          "recaBUxW3eNROwbn9",
+          "recQuNMnhjROT6dlh",
+          "recaMg4iKiJ1k02rq",
+          "recDff6ElCCVspKQN",
+          "rec3Sh8vWvpjyQ6nA",
+          "recff2IKTlQnD03Hu",
+          "recHSK1wIxNvKS1qE",
+          "rec1xl9bxa67Uo3iK",
+          "recTA7q2nL6lb6Xbx",
+          "recvG7ZowdlArIO3G",
+          "reclussC6bue9P9Nd"
         ],
-        "Feature": true,
         "Industry": [
-          "Food"
+          "Advertising"
         ],
-        "Company Logo": "companies/seasons-pizza",
-        "Display Order": 5
+        "Render On": "Both"
       }
     },
     "fields": {
-      "Company Name": "Seasons Pizza",
-      "URL": "https://www.seasonspizza.com/",
+      "Company Name": "The Cyphers Agency",
+      "URL": "https://thecyphersagency.com/",
       "Project": [
-        "recQuNMnhjROT6dlh"
+        "rec3GfyhkYPh9OHEI",
+        "recs7qnkIADDCnFXW",
+        "recnym8cxma9IFC9u",
+        "recek9yajiyMLhUmf",
+        "recqFTSG8insESxaL",
+        "recaBUxW3eNROwbn9",
+        "recQuNMnhjROT6dlh",
+        "recaMg4iKiJ1k02rq",
+        "recDff6ElCCVspKQN",
+        "rec3Sh8vWvpjyQ6nA",
+        "recff2IKTlQnD03Hu",
+        "recHSK1wIxNvKS1qE",
+        "rec1xl9bxa67Uo3iK",
+        "recTA7q2nL6lb6Xbx",
+        "recvG7ZowdlArIO3G",
+        "reclussC6bue9P9Nd"
       ],
-      "Feature": true,
       "Industry": [
-        "Food"
+        "Advertising"
       ],
-      "Company Logo": "companies/seasons-pizza",
-      "Display Order": 5
+      "Render On": "Both"
+    }
+  },
+  {
+    "_table": {
+      "_base": {
+        "_airtable": {},
+        "_id": "appvr5KrgKiJo1E7M"
+      },
+      "id": null,
+      "name": "Companies"
+    },
+    "id": "rec4UvnGnKwCs9agu",
+    "_rawJson": {
+      "id": "rec4UvnGnKwCs9agu",
+      "createdTime": "2020-08-25T02:15:03.000Z",
+      "fields": {
+        "Company Name": "Billy Mitchell Design",
+        "Project": [
+          "recbSGFwN8GZQVTNO",
+          "recpi5sdQzMwfg2AK",
+          "recth8pCRJAHDTssy",
+          "recn1gsXJnbud64FE",
+          "recvVEhdDblcHb3Uh",
+          "recyogiNRyeSAXOdy",
+          "recVPk5TDt9F6jsht",
+          "recuC0pn3ymPEX5kQ",
+          "recy7MjP8cFGFY9bA",
+          "recBZkJAqGBM8iJzh"
+        ],
+        "Industry": [
+          "Arts",
+          "Advertising"
+        ],
+        "Render On": "Both"
+      }
+    },
+    "fields": {
+      "Company Name": "Billy Mitchell Design",
+      "Project": [
+        "recbSGFwN8GZQVTNO",
+        "recpi5sdQzMwfg2AK",
+        "recth8pCRJAHDTssy",
+        "recn1gsXJnbud64FE",
+        "recvVEhdDblcHb3Uh",
+        "recyogiNRyeSAXOdy",
+        "recVPk5TDt9F6jsht",
+        "recuC0pn3ymPEX5kQ",
+        "recy7MjP8cFGFY9bA",
+        "recBZkJAqGBM8iJzh"
+      ],
+      "Industry": [
+        "Arts",
+        "Advertising"
+      ],
+      "Render On": "Both"
+    }
+  },
+  {
+    "_table": {
+      "_base": {
+        "_airtable": {},
+        "_id": "appvr5KrgKiJo1E7M"
+      },
+      "id": null,
+      "name": "Companies"
+    },
+    "id": "rec60rm0ahEEGqjOg",
+    "_rawJson": {
+      "id": "rec60rm0ahEEGqjOg",
+      "createdTime": "2025-06-06T22:39:36.000Z",
+      "fields": {
+        "Company Name": "Yuzu Ramen",
+        "Project": [
+          "recRJsXpQm3UHzwSg"
+        ],
+        "Render On": "Both"
+      }
+    },
+    "fields": {
+      "Company Name": "Yuzu Ramen",
+      "Project": [
+        "recRJsXpQm3UHzwSg"
+      ],
+      "Render On": "Both"
+    }
+  },
+  {
+    "_table": {
+      "_base": {
+        "_airtable": {},
+        "_id": "appvr5KrgKiJo1E7M"
+      },
+      "id": null,
+      "name": "Companies"
+    },
+    "id": "recADp7S4hkU7Z8Lf",
+    "_rawJson": {
+      "id": "recADp7S4hkU7Z8Lf",
+      "createdTime": "2020-06-11T20:28:07.000Z",
+      "fields": {
+        "Company Name": "Daniel Stuelpnagel",
+        "URL": "https://danielstuelpnagel.com/",
+        "Project": [
+          "recBBx6WXoj1g3fwe"
+        ],
+        "Industry": [
+          "Arts"
+        ],
+        "Render On": "Both"
+      }
+    },
+    "fields": {
+      "Company Name": "Daniel Stuelpnagel",
+      "URL": "https://danielstuelpnagel.com/",
+      "Project": [
+        "recBBx6WXoj1g3fwe"
+      ],
+      "Industry": [
+        "Arts"
+      ],
+      "Render On": "Both"
+    }
+  },
+  {
+    "_table": {
+      "_base": {
+        "_airtable": {},
+        "_id": "appvr5KrgKiJo1E7M"
+      },
+      "id": null,
+      "name": "Companies"
+    },
+    "id": "recBBFZoQoIDLoYKw",
+    "_rawJson": {
+      "id": "recBBFZoQoIDLoYKw",
+      "createdTime": "2020-06-11T20:11:22.000Z",
+      "fields": {
+        "Company Name": "Anne Arundel Dermatology",
+        "URL": "https://aadermatology.com",
+        "Project": [
+          "recff2IKTlQnD03Hu"
+        ],
+        "Industry": [
+          "Medical / Beauty "
+        ],
+        "Render On": "Both"
+      }
+    },
+    "fields": {
+      "Company Name": "Anne Arundel Dermatology",
+      "URL": "https://aadermatology.com",
+      "Project": [
+        "recff2IKTlQnD03Hu"
+      ],
+      "Industry": [
+        "Medical / Beauty "
+      ],
+      "Render On": "Both"
+    }
+  },
+  {
+    "_table": {
+      "_base": {
+        "_airtable": {},
+        "_id": "appvr5KrgKiJo1E7M"
+      },
+      "id": null,
+      "name": "Companies"
+    },
+    "id": "recDv0lrxfKlbejws",
+    "_rawJson": {
+      "id": "recDv0lrxfKlbejws",
+      "createdTime": "2020-10-07T19:54:31.000Z",
+      "fields": {
+        "Company Name": "Udemy: Modern React with Redux 2020",
+        "URL": "https://www.udemy.com/course/react-redux/",
+        "Project": [
+          "recQch6kyHX4nnhTg",
+          "rect0iDLLGEDVzZhD"
+        ],
+        "Industry": [
+          "DID NOT DO WORK FOR"
+        ],
+        "Render On": "billymitchell.dev"
+      }
+    },
+    "fields": {
+      "Company Name": "Udemy: Modern React with Redux 2020",
+      "URL": "https://www.udemy.com/course/react-redux/",
+      "Project": [
+        "recQch6kyHX4nnhTg",
+        "rect0iDLLGEDVzZhD"
+      ],
+      "Industry": [
+        "DID NOT DO WORK FOR"
+      ],
+      "Render On": "billymitchell.dev"
     }
   },
   {
@@ -106,7 +419,8 @@
           "Technology "
         ],
         "Company Logo": "companies/intel",
-        "Display Order": 1
+        "Display Order": 1,
+        "Render On": "Both"
       }
     },
     "fields": {
@@ -119,7 +433,8 @@
         "Technology "
       ],
       "Company Logo": "companies/intel",
-      "Display Order": 1
+      "Display Order": 1,
+      "Render On": "Both"
     }
   },
   {
@@ -131,36 +446,55 @@
       "id": null,
       "name": "Companies"
     },
-    "id": "recUtgxPsOFLXUjLU",
+    "id": "recGBJY5xFTd4djRM",
     "_rawJson": {
-      "id": "recUtgxPsOFLXUjLU",
-      "createdTime": "2020-09-30T19:57:52.000Z",
+      "id": "recGBJY5xFTd4djRM",
+      "createdTime": "2020-06-11T20:27:54.000Z",
       "fields": {
-        "Company Name": "Chesapeake Bay Trust",
-        "URL": "https://cbtrust.org/",
+        "Company Name": "Art By Barton",
+        "URL": "https://www.artbybarton.com/",
+        "Industry": [
+          "Arts"
+        ],
+        "Render On": "billymitchell.dev"
+      }
+    },
+    "fields": {
+      "Company Name": "Art By Barton",
+      "URL": "https://www.artbybarton.com/",
+      "Industry": [
+        "Arts"
+      ],
+      "Render On": "billymitchell.dev"
+    }
+  },
+  {
+    "_table": {
+      "_base": {
+        "_airtable": {},
+        "_id": "appvr5KrgKiJo1E7M"
+      },
+      "id": null,
+      "name": "Companies"
+    },
+    "id": "recNLSlZkV4o2fGQy",
+    "_rawJson": {
+      "id": "recNLSlZkV4o2fGQy",
+      "createdTime": "2025-06-26T17:36:22.000Z",
+      "fields": {
+        "Company Name": "Christina Tonkin Interiors",
         "Project": [
-          "recvG7ZowdlArIO3G"
+          "recSsmhmQqSUG2yKm"
         ],
-        "Feature": true,
-        "Industry": [
-          "Association "
-        ],
-        "Company Logo": "companies/cbt",
-        "Display Order": 6
+        "Render On": "billymitchell.dev"
       }
     },
     "fields": {
-      "Company Name": "Chesapeake Bay Trust",
-      "URL": "https://cbtrust.org/",
+      "Company Name": "Christina Tonkin Interiors",
       "Project": [
-        "recvG7ZowdlArIO3G"
+        "recSsmhmQqSUG2yKm"
       ],
-      "Feature": true,
-      "Industry": [
-        "Association "
-      ],
-      "Company Logo": "companies/cbt",
-      "Display Order": 6
+      "Render On": "billymitchell.dev"
     }
   },
   {
@@ -172,38 +506,26 @@
       "id": null,
       "name": "Companies"
     },
-    "id": "recaUyv7SDVzBS3VX",
+    "id": "recOv8bCoaf7feEiN",
     "_rawJson": {
-      "id": "recaUyv7SDVzBS3VX",
-      "createdTime": "2020-06-11T20:28:46.000Z",
+      "id": "recOv8bCoaf7feEiN",
+      "createdTime": "2021-02-15T19:11:26.000Z",
       "fields": {
-        "Company Name": "Taylor Bank",
-        "URL": "https://www.taylorbank.com/",
+        "Company Name": "Sendwyre",
+        "URL": "https://www.sendwyre.com/",
         "Project": [
-          "recaBUxW3eNROwbn9",
-          "rec3Sh8vWvpjyQ6nA"
+          "rec28CIwQYrKcTIFD"
         ],
-        "Feature": true,
-        "Industry": [
-          "Finance"
-        ],
-        "Company Logo": "companies/taylor-bank-stacked",
-        "Display Order": 4
+        "Render On": "billymitchell.dev"
       }
     },
     "fields": {
-      "Company Name": "Taylor Bank",
-      "URL": "https://www.taylorbank.com/",
+      "Company Name": "Sendwyre",
+      "URL": "https://www.sendwyre.com/",
       "Project": [
-        "recaBUxW3eNROwbn9",
-        "rec3Sh8vWvpjyQ6nA"
+        "rec28CIwQYrKcTIFD"
       ],
-      "Feature": true,
-      "Industry": [
-        "Finance"
-      ],
-      "Company Logo": "companies/taylor-bank-stacked",
-      "Display Order": 4
+      "Render On": "billymitchell.dev"
     }
   },
   {
@@ -215,30 +537,157 @@
       "id": null,
       "name": "Companies"
     },
-    "id": "recajXOXbm3QpuwP7",
+    "id": "recPO3Q68JfpY7tds",
     "_rawJson": {
-      "id": "recajXOXbm3QpuwP7",
-      "createdTime": "2020-08-24T23:33:46.000Z",
+      "id": "recPO3Q68JfpY7tds",
+      "createdTime": "2020-08-25T02:13:19.000Z",
       "fields": {
-        "Company Name": "Hilton",
-        "URL": "https://www.hilton.com",
-        "Feature": true,
-        "Industry": [
-          "Travel"
+        "Company Name": "SuperHi",
+        "URL": "https://www.superhi.com/",
+        "Project": [
+          "recfahloo5208nKte",
+          "recoXXXQwI9TROmV4",
+          "rece4aONunGbVHkHM",
+          "recG3W8euQ422jnUa",
+          "recOJTSXXgfrwnQU3"
         ],
-        "Company Logo": "companies/Hilton_International",
-        "Display Order": 3
+        "Industry": [
+          "DID NOT DO WORK FOR"
+        ],
+        "Render On": "billymitchell.dev"
       }
     },
     "fields": {
-      "Company Name": "Hilton",
-      "URL": "https://www.hilton.com",
-      "Feature": true,
-      "Industry": [
-        "Travel"
+      "Company Name": "SuperHi",
+      "URL": "https://www.superhi.com/",
+      "Project": [
+        "recfahloo5208nKte",
+        "recoXXXQwI9TROmV4",
+        "rece4aONunGbVHkHM",
+        "recG3W8euQ422jnUa",
+        "recOJTSXXgfrwnQU3"
       ],
-      "Company Logo": "companies/Hilton_International",
-      "Display Order": 3
+      "Industry": [
+        "DID NOT DO WORK FOR"
+      ],
+      "Render On": "billymitchell.dev"
+    }
+  },
+  {
+    "_table": {
+      "_base": {
+        "_airtable": {},
+        "_id": "appvr5KrgKiJo1E7M"
+      },
+      "id": null,
+      "name": "Companies"
+    },
+    "id": "recVE5w73dYNuC6SP",
+    "_rawJson": {
+      "id": "recVE5w73dYNuC6SP",
+      "createdTime": "2020-08-13T17:45:01.000Z",
+      "fields": {
+        "Company Name": "Habitude Studio",
+        "Project": [
+          "recT1GzsXgLLsS3Xy"
+        ],
+        "Industry": [
+          "Technology "
+        ],
+        "Render On": "billymitchell.dev"
+      }
+    },
+    "fields": {
+      "Company Name": "Habitude Studio",
+      "Project": [
+        "recT1GzsXgLLsS3Xy"
+      ],
+      "Industry": [
+        "Technology "
+      ],
+      "Render On": "billymitchell.dev"
+    }
+  },
+  {
+    "_table": {
+      "_base": {
+        "_airtable": {},
+        "_id": "appvr5KrgKiJo1E7M"
+      },
+      "id": null,
+      "name": "Companies"
+    },
+    "id": "recWW9QdxRSeiZcdS",
+    "_rawJson": {
+      "id": "recWW9QdxRSeiZcdS",
+      "createdTime": "2025-06-06T22:37:09.000Z",
+      "fields": {
+        "Company Name": "DJ Nerva",
+        "Project": [
+          "recEa0W5nr2AyspPv",
+          "recXAw9aGamywDeqD",
+          "reccmuaK5r8no0nKx",
+          "recvuCYRLVdNmVBCc",
+          "recRhujK9rfXaKZMW",
+          "recNQMxROWNj0QCHx",
+          "rec1MZu7qmroqXCIu",
+          "recMFb4unNNh0fkGM",
+          "rec9G4XxvSecXaT5z"
+        ],
+        "Render On": "Both"
+      }
+    },
+    "fields": {
+      "Company Name": "DJ Nerva",
+      "Project": [
+        "recEa0W5nr2AyspPv",
+        "recXAw9aGamywDeqD",
+        "reccmuaK5r8no0nKx",
+        "recvuCYRLVdNmVBCc",
+        "recRhujK9rfXaKZMW",
+        "recNQMxROWNj0QCHx",
+        "rec1MZu7qmroqXCIu",
+        "recMFb4unNNh0fkGM",
+        "rec9G4XxvSecXaT5z"
+      ],
+      "Render On": "Both"
+    }
+  },
+  {
+    "_table": {
+      "_base": {
+        "_airtable": {},
+        "_id": "appvr5KrgKiJo1E7M"
+      },
+      "id": null,
+      "name": "Companies"
+    },
+    "id": "recZQdwffpaMjRjmu",
+    "_rawJson": {
+      "id": "recZQdwffpaMjRjmu",
+      "createdTime": "2020-06-11T20:28:17.000Z",
+      "fields": {
+        "Company Name": "I-Tech Integrated Technologies",
+        "URL": "https://itechllc.com/",
+        "Project": [
+          "recs7qnkIADDCnFXW"
+        ],
+        "Industry": [
+          "Technology "
+        ],
+        "Render On": "Both"
+      }
+    },
+    "fields": {
+      "Company Name": "I-Tech Integrated Technologies",
+      "URL": "https://itechllc.com/",
+      "Project": [
+        "recs7qnkIADDCnFXW"
+      ],
+      "Industry": [
+        "Technology "
+      ],
+      "Render On": "Both"
     }
   },
   {
@@ -275,7 +724,8 @@
           "E-commerce"
         ],
         "Company Logo": "companies/Centricity",
-        "Display Order": 7
+        "Display Order": 7,
+        "Render On": "billymitchell.dev"
       }
     },
     "fields": {
@@ -299,7 +749,148 @@
         "E-commerce"
       ],
       "Company Logo": "companies/Centricity",
-      "Display Order": 7
+      "Display Order": 7,
+      "Render On": "billymitchell.dev"
+    }
+  },
+  {
+    "_table": {
+      "_base": {
+        "_airtable": {},
+        "_id": "appvr5KrgKiJo1E7M"
+      },
+      "id": null,
+      "name": "Companies"
+    },
+    "id": "recc3EtYFawBKnOJU",
+    "_rawJson": {
+      "id": "recc3EtYFawBKnOJU",
+      "createdTime": "2021-02-15T18:46:11.000Z",
+      "fields": {
+        "Company Name": "Thesis ",
+        "URL": "https://www.thesistesting.com/",
+        "Project": [
+          "rec0wTaeeRmhwvlML",
+          "recAmUrDiSCQrZe0L"
+        ],
+        "Render On": "billymitchell.dev"
+      }
+    },
+    "fields": {
+      "Company Name": "Thesis ",
+      "URL": "https://www.thesistesting.com/",
+      "Project": [
+        "rec0wTaeeRmhwvlML",
+        "recAmUrDiSCQrZe0L"
+      ],
+      "Render On": "billymitchell.dev"
+    }
+  },
+  {
+    "_table": {
+      "_base": {
+        "_airtable": {},
+        "_id": "appvr5KrgKiJo1E7M"
+      },
+      "id": null,
+      "name": "Companies"
+    },
+    "id": "recf0LGEUUMi4JUBp",
+    "_rawJson": {
+      "id": "recf0LGEUUMi4JUBp",
+      "createdTime": "2020-06-11T20:28:53.000Z",
+      "fields": {
+        "Company Name": "Travel Leaders",
+        "URL": "https://www.travelleaders.com/",
+        "Project": [
+          "reciRAbtHO5ZV2967",
+          "recGE9j6WoFTvza8X"
+        ],
+        "Industry": [
+          "Travel"
+        ],
+        "Render On": "Both"
+      }
+    },
+    "fields": {
+      "Company Name": "Travel Leaders",
+      "URL": "https://www.travelleaders.com/",
+      "Project": [
+        "reciRAbtHO5ZV2967",
+        "recGE9j6WoFTvza8X"
+      ],
+      "Industry": [
+        "Travel"
+      ],
+      "Render On": "Both"
+    }
+  },
+  {
+    "_table": {
+      "_base": {
+        "_airtable": {},
+        "_id": "appvr5KrgKiJo1E7M"
+      },
+      "id": null,
+      "name": "Companies"
+    },
+    "id": "reciew7SANT8fYhGh",
+    "_rawJson": {
+      "id": "reciew7SANT8fYhGh",
+      "createdTime": "2020-06-11T20:28:43.000Z",
+      "fields": {
+        "Company Name": "Spectrum Studio",
+        "URL": "http://www.spectrumstudio.org/",
+        "Project": [
+          "rec0iwpellvroblNI"
+        ],
+        "Industry": [
+          "Arts"
+        ],
+        "Render On": "Both"
+      }
+    },
+    "fields": {
+      "Company Name": "Spectrum Studio",
+      "URL": "http://www.spectrumstudio.org/",
+      "Project": [
+        "rec0iwpellvroblNI"
+      ],
+      "Industry": [
+        "Arts"
+      ],
+      "Render On": "Both"
+    }
+  },
+  {
+    "_table": {
+      "_base": {
+        "_airtable": {},
+        "_id": "appvr5KrgKiJo1E7M"
+      },
+      "id": null,
+      "name": "Companies"
+    },
+    "id": "recjuzWmD0IMOixnh",
+    "_rawJson": {
+      "id": "recjuzWmD0IMOixnh",
+      "createdTime": "2021-03-16T17:18:22.000Z",
+      "fields": {
+        "Company Name": "Mission Media",
+        "URL": "https://www.missionmedia.com/",
+        "Project": [
+          "recz8LaZ3ffFN0SBj"
+        ],
+        "Render On": "billymitchell.dev"
+      }
+    },
+    "fields": {
+      "Company Name": "Mission Media",
+      "URL": "https://www.missionmedia.com/",
+      "Project": [
+        "recz8LaZ3ffFN0SBj"
+      ],
+      "Render On": "billymitchell.dev"
     }
   },
   {
@@ -327,7 +918,8 @@
           "E-commerce"
         ],
         "Company Logo": "companies/ase",
-        "Display Order": 9
+        "Display Order": 9,
+        "Render On": "billymitchell.dev"
       }
     },
     "fields": {
@@ -342,7 +934,8 @@
         "E-commerce"
       ],
       "Company Logo": "companies/ase",
-      "Display Order": 9
+      "Display Order": 9,
+      "Render On": "billymitchell.dev"
     }
   },
   {
@@ -370,7 +963,8 @@
           "Travel"
         ],
         "Company Logo": "companies/Royal_Caribbean_International",
-        "Display Order": 10
+        "Display Order": 10,
+        "Render On": "Both"
       }
     },
     "fields": {
@@ -385,7 +979,8 @@
         "Travel"
       ],
       "Company Logo": "companies/Royal_Caribbean_International",
-      "Display Order": 10
+      "Display Order": 10,
+      "Render On": "Both"
     }
   },
   {
@@ -397,38 +992,205 @@
       "id": null,
       "name": "Companies"
     },
-    "id": "recv6SUD6BamH2bB1",
+    "id": "recnn3LQpW4NhMIbd",
     "_rawJson": {
-      "id": "recv6SUD6BamH2bB1",
-      "createdTime": "2020-10-02T19:22:34.000Z",
+      "id": "recnn3LQpW4NhMIbd",
+      "createdTime": "2025-06-06T22:01:44.000Z",
       "fields": {
-        "Company Name": "American Express",
-        "URL": "https://www.americanexpress.com/",
+        "Company Name": "Vision House",
         "Project": [
-          "recQREeLxKOZLLR55"
+          "recxcIODVpDgaRkgZ",
+          "recilSoVqbhZXj10E"
         ],
-        "Feature": true,
-        "Industry": [
-          "Finance",
-          "Travel"
-        ],
-        "Company Logo": "companies/american-express-1",
-        "Display Order": 2
+        "Render On": "Both"
       }
     },
     "fields": {
-      "Company Name": "American Express",
-      "URL": "https://www.americanexpress.com/",
+      "Company Name": "Vision House",
       "Project": [
-        "recQREeLxKOZLLR55"
+        "recxcIODVpDgaRkgZ",
+        "recilSoVqbhZXj10E"
       ],
-      "Feature": true,
+      "Render On": "Both"
+    }
+  },
+  {
+    "_table": {
+      "_base": {
+        "_airtable": {},
+        "_id": "appvr5KrgKiJo1E7M"
+      },
+      "id": null,
+      "name": "Companies"
+    },
+    "id": "recodjd2jle250jmB",
+    "_rawJson": {
+      "id": "recodjd2jle250jmB",
+      "createdTime": "2020-06-11T20:27:51.000Z",
+      "fields": {
+        "Company Name": "Annapolis Design District",
+        "URL": "https://annapolisdesigndistrict.com/",
+        "Industry": [
+          "Association "
+        ],
+        "Render On": "billymitchell.dev"
+      }
+    },
+    "fields": {
+      "Company Name": "Annapolis Design District",
+      "URL": "https://annapolisdesigndistrict.com/",
       "Industry": [
-        "Finance",
+        "Association "
+      ],
+      "Render On": "billymitchell.dev"
+    }
+  },
+  {
+    "_table": {
+      "_base": {
+        "_airtable": {},
+        "_id": "appvr5KrgKiJo1E7M"
+      },
+      "id": null,
+      "name": "Companies"
+    },
+    "id": "recrxc97XpRuGeDmL",
+    "_rawJson": {
+      "id": "recrxc97XpRuGeDmL",
+      "createdTime": "2020-06-11T20:28:01.000Z",
+      "fields": {
+        "Company Name": "Black Wall Hitch",
+        "URL": "https://www.theblackwallhitch.com/",
+        "Industry": [
+          "Food"
+        ],
+        "Render On": "Both"
+      }
+    },
+    "fields": {
+      "Company Name": "Black Wall Hitch",
+      "URL": "https://www.theblackwallhitch.com/",
+      "Industry": [
+        "Food"
+      ],
+      "Render On": "Both"
+    }
+  },
+  {
+    "_table": {
+      "_base": {
+        "_airtable": {},
+        "_id": "appvr5KrgKiJo1E7M"
+      },
+      "id": null,
+      "name": "Companies"
+    },
+    "id": "recwezBDstyLcFx9Q",
+    "_rawJson": {
+      "id": "recwezBDstyLcFx9Q",
+      "createdTime": "2020-06-11T20:29:00.000Z",
+      "fields": {
+        "Company Name": "Travel Leaders Network",
+        "URL": "https://www.travelleadersnetwork.com/",
+        "Project": [
+          "recAIXLhPggTFyfqV",
+          "recYVdCFSbah6tJck",
+          "recb04FcNhCqSMpvj",
+          "recGE9j6WoFTvza8X",
+          "recQREeLxKOZLLR55",
+          "recTjnLKGU4V4M88Q",
+          "recaLRzbE4pzedXmI",
+          "reckbx1k6Kf9rRv5Q"
+        ],
+        "Industry": [
+          "Travel"
+        ],
+        "Render On": "Both"
+      }
+    },
+    "fields": {
+      "Company Name": "Travel Leaders Network",
+      "URL": "https://www.travelleadersnetwork.com/",
+      "Project": [
+        "recAIXLhPggTFyfqV",
+        "recYVdCFSbah6tJck",
+        "recb04FcNhCqSMpvj",
+        "recGE9j6WoFTvza8X",
+        "recQREeLxKOZLLR55",
+        "recTjnLKGU4V4M88Q",
+        "recaLRzbE4pzedXmI",
+        "reckbx1k6Kf9rRv5Q"
+      ],
+      "Industry": [
         "Travel"
       ],
-      "Company Logo": "companies/american-express-1",
-      "Display Order": 2
+      "Render On": "Both"
+    }
+  },
+  {
+    "_table": {
+      "_base": {
+        "_airtable": {},
+        "_id": "appvr5KrgKiJo1E7M"
+      },
+      "id": null,
+      "name": "Companies"
+    },
+    "id": "recxNK5x6oVOAAzRv",
+    "_rawJson": {
+      "id": "recxNK5x6oVOAAzRv",
+      "createdTime": "2025-06-06T22:03:18.000Z",
+      "fields": {
+        "Company Name": "Friends of the Web",
+        "Project": [
+          "recC9szhvgvELmoKF"
+        ],
+        "Render On": "billymitchell.dev"
+      }
+    },
+    "fields": {
+      "Company Name": "Friends of the Web",
+      "Project": [
+        "recC9szhvgvELmoKF"
+      ],
+      "Render On": "billymitchell.dev"
+    }
+  },
+  {
+    "_table": {
+      "_base": {
+        "_airtable": {},
+        "_id": "appvr5KrgKiJo1E7M"
+      },
+      "id": null,
+      "name": "Companies"
+    },
+    "id": "recy36YqwoJmUZNl5",
+    "_rawJson": {
+      "id": "recy36YqwoJmUZNl5",
+      "createdTime": "2020-06-11T20:28:04.000Z",
+      "fields": {
+        "Company Name": "Bodhi Corner Thai Food",
+        "URL": "https://bodhicorner.com/",
+        "Project": [
+          "recreGbxH8V9jI8kc"
+        ],
+        "Industry": [
+          "Food"
+        ],
+        "Render On": "Both"
+      }
+    },
+    "fields": {
+      "Company Name": "Bodhi Corner Thai Food",
+      "URL": "https://bodhicorner.com/",
+      "Project": [
+        "recreGbxH8V9jI8kc"
+      ],
+      "Industry": [
+        "Food"
+      ],
+      "Render On": "Both"
     }
   }
 ]

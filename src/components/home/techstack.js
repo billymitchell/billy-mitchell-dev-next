@@ -155,17 +155,7 @@ const TechStack = () => {
                     alt="Git Worflow"
                   />
                 </InViewAnimationTwo>
-                <InViewAnimationTwo
-                  rootMargin="-25% 0%"
-                  delay="delay-900ms"
-                  className="init-invisible"
-                >
-                  <Image
-                    src={creativeCloudLogo}
-                    alt="creativeCloudLogo"
-                    className="fluid"
-                  />
-                </InViewAnimationTwo>
+                
                 <InViewAnimationTwo
                   rootMargin="-25% 0%"
                   delay="delay-950ms"
@@ -177,18 +167,7 @@ const TechStack = () => {
                     className="fluid"
                   />
                 </InViewAnimationTwo>
-                {/* <InViewAnimationTwo
-
-                  rootMargin="-25% 0%"
-                  delay="delay-1000ms"
-                  className="init-invisible"
-                >
-                  <img
-                    className="fluid"
-                    src="https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/tech-stack/Figma-logo_hpsrgq"
-                    alt="Figma"
-                  />
-                </InViewAnimationTwo> */}
+                
                 <InViewAnimationTwo
                   // 
                   rootMargin="-25% 0%"
@@ -223,60 +202,3 @@ const TechStack = () => {
 }
 
 export default TechStack
-
-
-{/* <InViewAnimationTwo
-                  rootMargin="-25% 0%"
-                  delay="delay-850ms"
-                  className="init-invisible"
-                >
-                  <img
-                    className="fluid"
-                    src="https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/tech-stack/photoshop-cc_tudva9"
-                    alt="Adobe PS"
-                  />
-                </InViewAnimationTwo>
-                <InViewAnimationTwo
-                  rootMargin="-25% 0%"
-                  delay="delay-900ms"
-                  className="init-invisible"
-                >
-                  <img
-                    className="fluid"
-                    src="https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/tech-stack/Adobe_Illustrator_CC_icon_rp6dnl"
-                    alt="Adobe IL"
-                  />
-                </InViewAnimationTwo>
-                <InViewAnimationTwo
-                  rootMargin="-25% 0%"
-                  delay="delay-950ms"
-                  className="init-invisible"
-                >
-                  <img
-                    className="fluid"
-                    src="https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/tech-stack/Adobe_After_Effects_CC_icon_ej67ez"
-                    alt="Adobe AE"
-                  />
-                </InViewAnimationTwo>
-                <InViewAnimationTwo
-                  rootMargin="-25% 0%"
-                  delay="delay-1000ms"
-                  className="init-invisible"
-                >
-
-                  <img
-                    className="fluid"
-                    src="https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/tech-stack/Adobe_Premiere_Pro_Logo_ceowzq"
-                    alt="Adobe PP"
-                  />
-                </InViewAnimationTwo>
-                <InViewAnimationTwo
-                  rootMargin="-25% 0%"
-                  delay="delay-1050ms"
-                  className="init-invisible"
-                >
-                  <img
-                    className="fluid"
-                    src="https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/tech-stack/adobe-xd-logo-svg-vector-01_zw1khl"
-                    alt="Adobe XD"
-                  /></InViewAnimationTwo> */}

@@ -8,22 +8,70 @@
       "id": null,
       "name": "Services"
     },
-    "id": "rec0CeRAsbWQl74Tx",
+    "id": "rec1o91zCxkhUo4rn",
     "_rawJson": {
-      "id": "rec0CeRAsbWQl74Tx",
-      "createdTime": "2021-01-12T21:22:12.000Z",
+      "id": "rec1o91zCxkhUo4rn",
+      "createdTime": "2025-11-07T20:41:55.000Z",
       "fields": {
-        "Services Name": "Branding",
-        "Services Image": "services/stars-24px-w",
-        "Services Order": 4,
-        "Featured": true
+        "Services Name": "Wordpress Dev",
+        "Services Image": "services/wordpress",
+        "Render On": "billymitchell.dev"
       }
     },
     "fields": {
-      "Services Name": "Branding",
-      "Services Image": "services/stars-24px-w",
-      "Services Order": 4,
-      "Featured": true
+      "Services Name": "Wordpress Dev",
+      "Services Image": "services/wordpress",
+      "Render On": "billymitchell.dev"
+    }
+  },
+  {
+    "_table": {
+      "_base": {
+        "_airtable": {},
+        "_id": "appvr5KrgKiJo1E7M"
+      },
+      "id": null,
+      "name": "Services"
+    },
+    "id": "rec4nnpnsHE8FSkyW",
+    "_rawJson": {
+      "id": "rec4nnpnsHE8FSkyW",
+      "createdTime": "2021-01-12T21:24:33.000Z",
+      "fields": {
+        "Services Name": "SEO & Analytics",
+        "Services Image": "services/insights-24px-w",
+        "Render On": "billymitchell.dev"
+      }
+    },
+    "fields": {
+      "Services Name": "SEO & Analytics",
+      "Services Image": "services/insights-24px-w",
+      "Render On": "billymitchell.dev"
+    }
+  },
+  {
+    "_table": {
+      "_base": {
+        "_airtable": {},
+        "_id": "appvr5KrgKiJo1E7M"
+      },
+      "id": null,
+      "name": "Services"
+    },
+    "id": "rec7qra2e5aYrkBII",
+    "_rawJson": {
+      "id": "rec7qra2e5aYrkBII",
+      "createdTime": "2025-11-07T20:42:48.000Z",
+      "fields": {
+        "Services Name": "Website Optimization",
+        "Services Image": "services/cleaning",
+        "Render On": "billymitchell.dev"
+      }
+    },
+    "fields": {
+      "Services Name": "Website Optimization",
+      "Services Image": "services/cleaning",
+      "Render On": "billymitchell.dev"
     }
   },
   {
@@ -43,68 +91,16 @@
         "Services Name": "Consulting",
         "Services Image": "services/consulting-w",
         "Services Order": 5,
-        "Featured": true
+        "Featured": true,
+        "Render On": "Both"
       }
     },
     "fields": {
       "Services Name": "Consulting",
       "Services Image": "services/consulting-w",
       "Services Order": 5,
-      "Featured": true
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Services"
-    },
-    "id": "recD59aDmAbLTp1fC",
-    "_rawJson": {
-      "id": "recD59aDmAbLTp1fC",
-      "createdTime": "2021-01-12T21:28:03.000Z",
-      "fields": {
-        "Services Name": "Photography & Video",
-        "Services Image": "services/camera-24px-w",
-        "Services Order": 8,
-        "Featured": true
-      }
-    },
-    "fields": {
-      "Services Name": "Photography & Video",
-      "Services Image": "services/camera-24px-w",
-      "Services Order": 8,
-      "Featured": true
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Services"
-    },
-    "id": "recHqd3rcTcjICxC8",
-    "_rawJson": {
-      "id": "recHqd3rcTcjICxC8",
-      "createdTime": "2021-01-12T21:27:55.000Z",
-      "fields": {
-        "Services Name": "Illustration",
-        "Services Image": "services/gesture-24px-w",
-        "Services Order": 6,
-        "Featured": true
-      }
-    },
-    "fields": {
-      "Services Name": "Illustration",
-      "Services Image": "services/gesture-24px-w",
-      "Services Order": 6,
-      "Featured": true
+      "Featured": true,
+      "Render On": "Both"
     }
   },
   {
@@ -124,41 +120,16 @@
         "Services Name": "Development",
         "Services Image": "services/code-24px-w",
         "Services Order": 3,
-        "Featured": true
+        "Featured": true,
+        "Render On": "Both"
       }
     },
     "fields": {
       "Services Name": "Development",
       "Services Image": "services/code-24px-w",
       "Services Order": 3,
-      "Featured": true
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Services"
-    },
-    "id": "recgNQVWEnEDQTXat",
-    "_rawJson": {
-      "id": "recgNQVWEnEDQTXat",
-      "createdTime": "2021-01-12T21:24:16.000Z",
-      "fields": {
-        "Services Name": "Print Design",
-        "Services Image": "services/import_contacts-24px-w",
-        "Services Order": 7,
-        "Featured": true
-      }
-    },
-    "fields": {
-      "Services Name": "Print Design",
-      "Services Image": "services/import_contacts-24px-w",
-      "Services Order": 7,
-      "Featured": true
+      "Featured": true,
+      "Render On": "Both"
     }
   },
   {
@@ -178,14 +149,16 @@
         "Services Name": "Design",
         "Services Image": "services/design_services-24px-w",
         "Services Order": 2,
-        "Featured": true
+        "Featured": true,
+        "Render On": "Both"
       }
     },
     "fields": {
       "Services Name": "Design",
       "Services Image": "services/design_services-24px-w",
       "Services Order": 2,
-      "Featured": true
+      "Featured": true,
+      "Render On": "Both"
     }
   },
   {
@@ -197,22 +170,20 @@
       "id": null,
       "name": "Services"
     },
-    "id": "recjwhGBt8yg29STl",
+    "id": "recxPT0W17LpWc2Oi",
     "_rawJson": {
-      "id": "recjwhGBt8yg29STl",
-      "createdTime": "2024-12-31T22:51:25.000Z",
+      "id": "recxPT0W17LpWc2Oi",
+      "createdTime": "2025-11-07T20:42:24.000Z",
       "fields": {
-        "Services Name": "Automation",
-        "Services Image": "services/automation-w",
-        "Services Order": 1,
-        "Featured": true
+        "Services Name": "Ecommerce Dev",
+        "Services Image": "services/shopping-cart",
+        "Render On": "billymitchell.dev"
       }
     },
     "fields": {
-      "Services Name": "Automation",
-      "Services Image": "services/automation-w",
-      "Services Order": 1,
-      "Featured": true
+      "Services Name": "Ecommerce Dev",
+      "Services Image": "services/shopping-cart",
+      "Render On": "billymitchell.dev"
     }
   }
 ]

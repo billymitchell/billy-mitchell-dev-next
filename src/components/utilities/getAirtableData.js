@@ -20,17 +20,35 @@ const base = new Airtable({ apiKey }).base(baseId);
 
 const fetchAndSaveData = async () => {
   try {
-    const projectsData = await base('Projects').select({
-      filterByFormula: "{Published}",
-    }).all();
+    const projectsData = await base('Projects')
+      .select({
+        filterByFormula:
+          "AND({Published}, OR({Render On} = 'billymitchell.dev', {Render On} = 'Both'))",
+      })
+      .all();
+    if (!projectsData.length) {
+      throw new Error('No Projects returned for the current filter.');
+    }
     //console.log("projectsData", projectsData);
-    const companiesData = await base('Companies').select({
-        filterByFormula: "{Feature}",
-    }).all();
+    const companiesData = await base('Companies')
+      .select({
+        filterByFormula:
+          "OR({Render On} = 'billymitchell.dev', {Render On} = 'Both')",
+      })
+      .all();
+    if (!companiesData.length) {
+      throw new Error('No Companies returned for the current filter.');
+    }
     //console.log("companiesData", companiesData);
-    const servicesData = await base('Services').select({
-      filterByFormula: "{Featured}",
-    }).all();
+    const servicesData = await base('Services')
+      .select({
+        filterByFormula:
+          "OR({Render On} = 'billymitchell.dev', {Render On} = 'Both')",
+      })
+      .all();
+    if (!servicesData.length) {
+      throw new Error('No Services returned for the current filter.');
+    }
     //console.log("servicesData", servicesData);
     const projectsPath = path.join(
       __dirname,
@@ -48,7 +66,12 @@ const fetchAndSaveData = async () => {
     fs.writeFileSync(projectsPath, JSON.stringify(projectsData, null, 2));
     fs.writeFileSync(companiesPath, JSON.stringify(companiesData, null, 2));
     fs.writeFileSync(servicesPath, JSON.stringify(servicesData, null, 2));
-  } catch (error) {}
+  } catch (error) {
+    throw error;
+  }
 };
 
-fetchAndSaveData();
+fetchAndSaveData().catch((error) => {
+  console.error('Airtable fetch failed:', error);
+  process.exit(1);
+});

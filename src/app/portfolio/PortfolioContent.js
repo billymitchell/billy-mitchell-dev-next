@@ -115,9 +115,15 @@ const PortfolioContent = ({ selectedDiscipline }) => {
           className="my-masonry-grid"
           columnClassName="my-masonry-grid_column"
         >
-          {sortedPortfolioItems.map((portfolioItem, index) => (
+          {sortedPortfolioItems.map((portfolioItem, index) => {
+            const portfolioKey =
+              portfolioItem.id ||
+              portfolioItem._rawJson?.id ||
+              portfolioItem.fields?.['Project Title'] ||
+              index;
+            return (
             <InViewAnimationTwo
-              key={portfolioItem.id}
+              key={portfolioKey}
               delay={`delay-${index * 50 + 200}ms`}
               className="init-invisible"
             >
@@ -132,7 +138,8 @@ const PortfolioContent = ({ selectedDiscipline }) => {
                 </Link>
               </div>
             </InViewAnimationTwo>
-          ))}
+            );
+          })}
         </ClientMasonry>
       )}
     </div>

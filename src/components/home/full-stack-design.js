@@ -60,7 +60,7 @@ const FullStack = () => {
                 delay="delay-0ms"
               >
                 <p>
-                I have a breadth of design skills in many areas with a depth of skills in User Experience Design, User Interface Design, and Frontend Development. I also enjoy taking on projects in Branding, Illustration, Photography, and Motion Graphics. 
+                I have a breadth of skills in many areas with a depth of skills in Frontend Development and User Interface Design. I also have a background in Graphic Design. 
               </p>
               </InViewAnimationTwo>
 
@@ -82,7 +82,7 @@ const FullStack = () => {
                     delay="delay-0ms"
                   >
                     <h4>
-                      UX Design
+                      Backend Development
                     </h4>
                   </InViewAnimationTwo>
                   <InViewAnimationTwo
@@ -93,9 +93,9 @@ const FullStack = () => {
                     delay="delay-250ms"
                   >
                     <p>
-                      Strategy<br />
-                        Research<br />
-                        Testing
+                      APIs<br />
+                      Dev Ops<br />
+                      Data
                       </p>
                   </InViewAnimationTwo>
                   <InViewAnimationTwo
@@ -124,7 +124,7 @@ const FullStack = () => {
                     delay="delay-1000ms"
                   >
                     <h4>
-                      UI Design
+                      Frontend Development
                     </h4>
                   </InViewAnimationTwo>
                   <InViewAnimationTwo
@@ -135,9 +135,9 @@ const FullStack = () => {
                     delay="delay-1250ms"
                   >
                     <p>
-                      Visuals<br />
-                      Prototypes<br />
-                      Design Systems
+                      HTML & CSS<br />
+                      Javascript<br />
+                      User Interaction
                     </p>
                   </InViewAnimationTwo>
                   <InViewAnimationTwo
@@ -166,7 +166,7 @@ const FullStack = () => {
                     delay="delay-2000ms"
                   >
                     <h4>
-                      Frontend Development
+                      UI Design
                     </h4>
                   </InViewAnimationTwo>
                   <InViewAnimationTwo
@@ -177,9 +177,9 @@ const FullStack = () => {
                     delay="delay-2250ms"
                   >
                     <p>
-                      HTML<br />
-                      CSS<br />
-                      Javascript
+                      Wireframes<br />
+                      Prototypes<br />
+                      Design Systems
                     </p>
                   </InViewAnimationTwo>
                   <InViewAnimationTwo

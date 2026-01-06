@@ -14,23 +14,23 @@ import Header from '../components/header';
 
 export async function generateMetadata() {
   return {
-    title: 'Billy Mitchell Design & Development',
-    description: 'Creative web design, development, and digital solutions by Billy Mitchell. Specializing in front-end development, e-commerce, and graphic design.',
-    keywords: ['Billy Mitchell', 'Web Design', 'Web Development', 'E-commerce', 'Front-end Development', 'Graphic Design', 'Next.js'],
+    title: 'Billy Mitchell Development',
+    description: 'Creative development, and digital solutions by Billy Mitchell. Specializing in front-end development, e-commerce platforms, and more.',
+    keywords: ['Billy Mitchell', 'Web Development', 'E-commerce', 'Front-end Development', 'Next.js'],
     authors: [
-      { name: 'Billy Mitchell', url: 'https://billymitchell.design' },
+      { name: 'Billy Mitchell', url: 'https://billymitchell.dev' },
     ],
     openGraph: {
-      title: 'Billy Mitchell Design & Development',
-      description: 'Explore creative web design and development solutions by Billy Mitchell. Specializing in front-end development, e-commerce platforms, and more.',
-      url: 'https://billymitchell.design',
-      siteName: 'Billy Mitchell Design & Development',
+      title: 'Billy Mitchell Development',
+      description: 'Explore creative development solutions by Billy Mitchell. Specializing in front-end development, e-commerce platforms, and more.',
+      url: 'https://billymitchell.dev',
+      siteName: 'Billy Mitchell Development',
       images: [
         {
           url: '/files/open-graph.png', // Replace with your actual Open Graph image URL
           width: 1200,
           height: 630,
-          alt: 'Billy Mitchell Design & Development Open Graph Image',
+          alt: 'Billy Mitchell Development Open Graph Image',
         },
       ],
       locale: 'en_US',
@@ -38,8 +38,8 @@ export async function generateMetadata() {
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Billy Mitchell Design & Development',
-      description: 'Creative web design, development, and digital solutions by Billy Mitchell.',
+      title: 'Billy Mitchell Development',
+      description: 'Creative development solutions by Billy Mitchell.',
       images: ['/files/open-graph.png'], // Replace with your actual Twitter card image URL
     },
     icons: {
