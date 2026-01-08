@@ -9,17 +9,13 @@ const Footer = () => {
                 <div className="inner-width">
                     <div className="primary-contact-info">
                         <p>
-                            <i className="fas fa-paper-plane"></i><a href="mailto:hello@billymitchell.design">hello@billymitchell.design</a>
+                            <i className="fas fa-paper-plane"></i><a href="mailto:hello@billymitchell.dev">hello@billymitchell.dev</a>
                             <br></br>
                             <i className="fas fa-phone-alt"></i><a href="tell:4437658265">4437658265</a><br></br>
                             <i className="fas fa-file-alt"></i><Link href="/files/Billy-Mitchell-Resume-2024-one-page.pdf">Resume</Link>
                         </p>
                     </div>
                     <div className="external-social-links">
-
-                        <a target="_blank" href="https://twitter.com/designbilly" rel="noreferrer">
-                            <i className="fab fa-twitter"></i>
-                        </a>
                         <a
                             target="_blank"
                             href="https://www.linkedin.com/in/billymitchelldesign/"
@@ -38,12 +34,12 @@ const Footer = () => {
                             Made with <span style={{ color: "red" }}>♥</span> on a rock in
                             space
                             <br />
-                            Copyright © <GetCurrentDate /> Billy Mitchell Design LLC
+                            Copyright © <GetCurrentDate /> Billy Mitchell Development
                             <br />
                         </small>
                         <span className="block padding-5">
                             <small>
-                                <a href="https://github.com/billymitchell/main-website">
+                                <a href="https://github.com/billymitchell/billy-mitchell-dev-next">
                                     This website code is Open Source!
                                 </a>
                             </small>
