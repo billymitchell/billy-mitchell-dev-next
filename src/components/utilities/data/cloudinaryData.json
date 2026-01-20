@@ -35,6 +35,136 @@
       }
     }
   ],
+  "spectrum-studio": [
+    {
+      "asset_id": "6b19a2180771827135d9e2798ebdb8b5",
+      "public_id": "portfolio/spectrum-studio/Spectrum_Studio-940x539",
+      "folder": "portfolio/spectrum-studio",
+      "filename": "Spectrum_Studio-940x539",
+      "format": "png",
+      "version": 1600471093,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-09-18T23:18:13+00:00",
+      "uploaded_at": "2020-09-18T23:18:13+00:00",
+      "bytes": 568696,
+      "backup_bytes": 0,
+      "width": 940,
+      "height": 539,
+      "aspect_ratio": 1.74397,
+      "pixels": 506660,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1600471093/portfolio/spectrum-studio/Spectrum_Studio-940x539.png",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1600471093/portfolio/spectrum-studio/Spectrum_Studio-940x539.png",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "0adde5f61885edd885e946e1770dbd44",
+      "created_by": {
+        "access_key": "939412887323921"
+      },
+      "uploaded_by": {
+        "access_key": "939412887323921"
+      }
+    },
+    {
+      "asset_id": "edbadbc67866af2cf9623d30060d1f3d",
+      "public_id": "portfolio/spectrum-studio/Spectrum_Studio",
+      "folder": "portfolio/spectrum-studio",
+      "filename": "Spectrum_Studio",
+      "format": "png",
+      "version": 1600471114,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-09-18T23:18:34+00:00",
+      "uploaded_at": "2020-09-18T23:18:34+00:00",
+      "bytes": 590373,
+      "backup_bytes": 0,
+      "width": 1000,
+      "height": 573,
+      "aspect_ratio": 1.7452,
+      "pixels": 573000,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1600471114/portfolio/spectrum-studio/Spectrum_Studio.png",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1600471114/portfolio/spectrum-studio/Spectrum_Studio.png",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "aae9384ac6cce6f036e86f299b9a7a90",
+      "created_by": {
+        "access_key": "939412887323921"
+      },
+      "uploaded_by": {
+        "access_key": "939412887323921"
+      }
+    },
+    {
+      "asset_id": "3fd43379bc5a3b9f573a7ddca654e6ff",
+      "public_id": "portfolio/spectrum-studio/Screen-Shot-2016-10-12-at-2.18.46-PM-min",
+      "folder": "portfolio/spectrum-studio",
+      "filename": "Screen-Shot-2016-10-12-at-2.18.46-PM-min",
+      "format": "png",
+      "version": 1600471084,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-09-18T23:18:04+00:00",
+      "uploaded_at": "2020-09-18T23:18:04+00:00",
+      "bytes": 795203,
+      "backup_bytes": 0,
+      "width": 1926,
+      "height": 1282,
+      "aspect_ratio": 1.50234,
+      "pixels": 2469132,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1600471084/portfolio/spectrum-studio/Screen-Shot-2016-10-12-at-2.18.46-PM-min.png",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1600471084/portfolio/spectrum-studio/Screen-Shot-2016-10-12-at-2.18.46-PM-min.png",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "b35129b4eabc92be67d9455a15521ea5",
+      "created_by": {
+        "access_key": "939412887323921"
+      },
+      "uploaded_by": {
+        "access_key": "939412887323921"
+      }
+    }
+  ],
+  "inteon": [
+    {
+      "asset_id": "f8417c42ad56baea033e4bb6421706b4",
+      "public_id": "portfolio/inteon/inteon",
+      "folder": "portfolio/inteon",
+      "filename": "inteon",
+      "format": "mov",
+      "version": 1609448668,
+      "resource_type": "video",
+      "type": "upload",
+      "created_at": "2020-12-31T21:04:28+00:00",
+      "uploaded_at": "2020-12-31T21:04:28+00:00",
+      "bytes": 5831318,
+      "backup_bytes": 0,
+      "width": 2152,
+      "height": 1346,
+      "aspect_ratio": 1.59881,
+      "pixels": 2896592,
+      "duration": 3.479167,
+      "pages": 0,
+      "url": "http://res.cloudinary.com/billymitchell/video/upload/v1609448668/portfolio/inteon/inteon.mov",
+      "secure_url": "https://res.cloudinary.com/billymitchell/video/upload/v1609448668/portfolio/inteon/inteon.mov",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "db2f94b36ddf0cd55e5fa03e433a3c06",
+      "created_by": {
+        "access_key": "939412887323921",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "939412887323921",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      }
+    }
+  ],
   "sendwyre": [
     {
       "asset_id": "d3edb25efb16e38953b7c1ab16afbb7c",
@@ -66,6 +196,108 @@
       },
       "uploaded_by": {
         "access_key": "939412887323921",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      }
+    }
+  ],
+  "the-travel-authority": [
+    {
+      "asset_id": "ced6a12a633346d16bb76b89081e9524",
+      "public_id": "portfolio/the-travel-authority/3e722c9f",
+      "folder": "portfolio/the-travel-authority",
+      "filename": "3e722c9f",
+      "format": "png",
+      "version": 1600635417,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-09-20T20:56:57+00:00",
+      "uploaded_at": "2020-09-20T20:56:57+00:00",
+      "bytes": 3308414,
+      "backup_bytes": 0,
+      "width": 2552,
+      "height": 1612,
+      "aspect_ratio": 1.58313,
+      "pixels": 4113824,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1600635417/portfolio/the-travel-authority/3e722c9f.png",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1600635417/portfolio/the-travel-authority/3e722c9f.png",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "2a005cecda116182005eff27cf7030d3",
+      "created_by": {
+        "access_key": "939412887323921"
+      },
+      "uploaded_by": {
+        "access_key": "939412887323921"
+      }
+    }
+  ],
+  "Baltimore Dance Music": [
+    {
+      "asset_id": "5ca504c16aa283cc494d394327e7428a",
+      "public_id": "portfolio/Baltimore Dance Music/screencapture-baltimoredancemusic-2025-06-20-17_13_05",
+      "folder": "portfolio/Baltimore Dance Music",
+      "filename": "screencapture-baltimoredancemusic-2025-06-20-17_13_05",
+      "format": "png",
+      "version": 1750454107,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2025-06-20T21:15:07+00:00",
+      "uploaded_at": "2025-06-20T21:15:07+00:00",
+      "bytes": 653975,
+      "backup_bytes": 0,
+      "width": 1874,
+      "height": 17828,
+      "aspect_ratio": 0.10512,
+      "pixels": 33409672,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1750454107/portfolio/Baltimore%20Dance%20Music/screencapture-baltimoredancemusic-2025-06-20-17_13_05.png",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1750454107/portfolio/Baltimore%20Dance%20Music/screencapture-baltimoredancemusic-2025-06-20-17_13_05.png",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "2c2bc25f2bb28b3ae1624f1d262f7ef2",
+      "created_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      }
+    },
+    {
+      "asset_id": "c412e70a9074ffb2dea58f81f9ba0bef",
+      "public_id": "portfolio/Baltimore Dance Music/Screenshot_2025-06-20_at_5.13.40_PM",
+      "folder": "portfolio/Baltimore Dance Music",
+      "filename": "Screenshot_2025-06-20_at_5.13.40_PM",
+      "format": "png",
+      "version": 1750454048,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2025-06-20T21:14:08+00:00",
+      "uploaded_at": "2025-06-20T21:14:08+00:00",
+      "bytes": 121635,
+      "backup_bytes": 0,
+      "width": 2132,
+      "height": 962,
+      "aspect_ratio": 2.21622,
+      "pixels": 2050984,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1750454048/portfolio/Baltimore%20Dance%20Music/Screenshot_2025-06-20_at_5.13.40_PM.png",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1750454048/portfolio/Baltimore%20Dance%20Music/Screenshot_2025-06-20_at_5.13.40_PM.png",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "4af2a8d13647b7c1785d41a75688b581",
+      "created_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "969846763134947",
         "custom_id": "hello@billymitchell.design",
         "external_id": "84df9f6a307e712f6cfabba5eefe05"
       }
@@ -140,6 +372,214 @@
       }
     }
   ],
+  "peak-regionals-2020": [
+    {
+      "asset_id": "d033312d84197ec561a7b6383cd13ee2",
+      "public_id": "portfolio/peak-regionals-2020/screencapture-billymitchell-design-email-design-peak-regionals-2020-2020-10-01-16_37_04_tqzakd",
+      "folder": "portfolio/peak-regionals-2020",
+      "filename": "screencapture-billymitchell-design-email-design-peak-regionals-2020-2020-10-01-16_37_04_tqzakd",
+      "format": "png",
+      "version": 1601584832,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-10-01T20:40:32+00:00",
+      "uploaded_at": "2020-10-01T20:40:32+00:00",
+      "bytes": 3150910,
+      "backup_bytes": 0,
+      "width": 750,
+      "height": 9304,
+      "aspect_ratio": 0.08061,
+      "pixels": 6978000,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1601584832/portfolio/peak-regionals-2020/screencapture-billymitchell-design-email-design-peak-regionals-2020-2020-10-01-16_37_04_tqzakd.png",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1601584832/portfolio/peak-regionals-2020/screencapture-billymitchell-design-email-design-peak-regionals-2020-2020-10-01-16_37_04_tqzakd.png",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "5858526f8299eb120cd2a6fb542c0134",
+      "created_by": {
+        "access_key": "939412887323921",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "939412887323921",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      }
+    },
+    {
+      "asset_id": "9a9b6870110b4576102c926d560c4d91",
+      "public_id": "portfolio/peak-regionals-2020/screencapture-billymitchell-design-email-design-peak-regionals-2020-2020-10-01-16_36_43_fc6pt8",
+      "folder": "portfolio/peak-regionals-2020",
+      "filename": "screencapture-billymitchell-design-email-design-peak-regionals-2020-2020-10-01-16_36_43_fc6pt8",
+      "format": "png",
+      "version": 1601584825,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-10-01T20:40:25+00:00",
+      "uploaded_at": "2020-10-01T20:40:25+00:00",
+      "bytes": 2633516,
+      "backup_bytes": 0,
+      "width": 1660,
+      "height": 4930,
+      "aspect_ratio": 0.33671,
+      "pixels": 8183800,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1601584825/portfolio/peak-regionals-2020/screencapture-billymitchell-design-email-design-peak-regionals-2020-2020-10-01-16_36_43_fc6pt8.png",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1601584825/portfolio/peak-regionals-2020/screencapture-billymitchell-design-email-design-peak-regionals-2020-2020-10-01-16_36_43_fc6pt8.png",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "a23819b45d6cbb67b52e3d9c3b4d143d",
+      "created_by": {
+        "access_key": "939412887323921",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "939412887323921",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      }
+    },
+    {
+      "asset_id": "5dc4fa1b019afcb971995979cf3d76ea",
+      "public_id": "portfolio/peak-regionals-2020/Screen_Shot_2020-10-01_at_2.23.55_PM_o6ivrt",
+      "folder": "portfolio/peak-regionals-2020",
+      "filename": "Screen_Shot_2020-10-01_at_2.23.55_PM_o6ivrt",
+      "format": "png",
+      "version": 1601576694,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-10-01T18:24:54+00:00",
+      "uploaded_at": "2020-10-01T18:24:54+00:00",
+      "bytes": 788013,
+      "backup_bytes": 0,
+      "width": 1396,
+      "height": 940,
+      "aspect_ratio": 1.48511,
+      "pixels": 1312240,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1601576694/portfolio/peak-regionals-2020/Screen_Shot_2020-10-01_at_2.23.55_PM_o6ivrt.png",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1601576694/portfolio/peak-regionals-2020/Screen_Shot_2020-10-01_at_2.23.55_PM_o6ivrt.png",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "12d85c201d64ab2e97dc1eb5cb55a2bd",
+      "created_by": {
+        "access_key": "939412887323921",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "939412887323921",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      }
+    }
+  ],
+  "the-travel-collection": [
+    {
+      "asset_id": "c584ea4ee9000d7bb153abe8fc6df0bf",
+      "public_id": "portfolio/the-travel-collection/mobile_kfpn7l",
+      "folder": "portfolio/the-travel-collection",
+      "filename": "mobile_kfpn7l",
+      "format": "png",
+      "version": 1601665854,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-10-02T19:10:54+00:00",
+      "uploaded_at": "2020-10-02T19:10:54+00:00",
+      "bytes": 3864416,
+      "backup_bytes": 0,
+      "width": 750,
+      "height": 8848,
+      "aspect_ratio": 0.08476,
+      "pixels": 6636000,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1601665854/portfolio/the-travel-collection/mobile_kfpn7l.png",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1601665854/portfolio/the-travel-collection/mobile_kfpn7l.png",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "e11684defafd46bd7f5ef53b7a9eff83",
+      "created_by": {
+        "access_key": "939412887323921",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "939412887323921",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      }
+    },
+    {
+      "asset_id": "8ba8000aaea807d16bc19eab4eaa8b2b",
+      "public_id": "portfolio/the-travel-collection/desktop_iyuy8o",
+      "folder": "portfolio/the-travel-collection",
+      "filename": "desktop_iyuy8o",
+      "format": "png",
+      "version": 1601665860,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-10-02T19:11:00+00:00",
+      "uploaded_at": "2020-10-02T19:11:00+00:00",
+      "bytes": 5549456,
+      "backup_bytes": 0,
+      "width": 1152,
+      "height": 6189,
+      "aspect_ratio": 0.18614,
+      "pixels": 7129728,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1601665860/portfolio/the-travel-collection/desktop_iyuy8o.png",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1601665860/portfolio/the-travel-collection/desktop_iyuy8o.png",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "6f39de221304146d604456b2f595b082",
+      "created_by": {
+        "access_key": "939412887323921",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "939412887323921",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      }
+    },
+    {
+      "asset_id": "7a489dc55594f7a2bc8943932a2300b3",
+      "public_id": "portfolio/the-travel-collection/Screen_Shot_2020-10-02_at_3.08.59_PM_kwwsw1",
+      "folder": "portfolio/the-travel-collection",
+      "filename": "Screen_Shot_2020-10-02_at_3.08.59_PM_kwwsw1",
+      "format": "png",
+      "version": 1601665818,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-10-02T19:10:18+00:00",
+      "uploaded_at": "2020-10-02T19:10:18+00:00",
+      "bytes": 1883912,
+      "backup_bytes": 0,
+      "width": 1388,
+      "height": 1056,
+      "aspect_ratio": 1.31439,
+      "pixels": 1465728,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1601665818/portfolio/the-travel-collection/Screen_Shot_2020-10-02_at_3.08.59_PM_kwwsw1.png",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1601665818/portfolio/the-travel-collection/Screen_Shot_2020-10-02_at_3.08.59_PM_kwwsw1.png",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "e518bc9b67b4dd2702a3094f1d93ac43",
+      "created_by": {
+        "access_key": "939412887323921",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "939412887323921",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      }
+    }
+  ],
   "Hide Expedited Shipping Methods for Dropship Items": [
     {
       "asset_id": "ea2d9591a39c206969ed0fb73998cfe7",
@@ -171,6 +611,828 @@
       },
       "uploaded_by": {
         "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      }
+    }
+  ],
+  "Yuzu Ramen Website and Photography Videography": [
+    {
+      "asset_id": "83541fc7a5d7777d979cc2461705e475",
+      "public_id": "portfolio/Yuzu Ramen Website and Photography Videography/yuzu-ramen-reel-compress",
+      "folder": "portfolio/Yuzu Ramen Website and Photography Videography",
+      "filename": "yuzu-ramen-reel-compress",
+      "format": "mp4",
+      "version": 1750455409,
+      "resource_type": "video",
+      "type": "upload",
+      "created_at": "2025-06-20T21:36:49+00:00",
+      "uploaded_at": "2025-06-20T21:36:49+00:00",
+      "bytes": 47638768,
+      "backup_bytes": 0,
+      "width": 1080,
+      "height": 1920,
+      "aspect_ratio": 0.5625,
+      "pixels": 2073600,
+      "duration": 56.447,
+      "pages": 0,
+      "url": "http://res.cloudinary.com/billymitchell/video/upload/v1750455409/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/yuzu-ramen-reel-compress.mp4",
+      "secure_url": "https://res.cloudinary.com/billymitchell/video/upload/v1750455409/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/yuzu-ramen-reel-compress.mp4",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "683ab623a4a8979a1cc57f10ebcb5bba",
+      "created_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      }
+    },
+    {
+      "asset_id": "f0b41bf2c6f73b29ce6ee1628ab69125",
+      "public_id": "portfolio/Yuzu Ramen Website and Photography Videography/screencapture-yuzu-ramen-2025-06-20-17_27_49",
+      "folder": "portfolio/Yuzu Ramen Website and Photography Videography",
+      "filename": "screencapture-yuzu-ramen-2025-06-20-17_27_49",
+      "format": "png",
+      "version": 1750454908,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2025-06-20T21:28:28+00:00",
+      "uploaded_at": "2025-06-20T21:28:28+00:00",
+      "bytes": 9412911,
+      "backup_bytes": 0,
+      "width": 2508,
+      "height": 5992,
+      "aspect_ratio": 0.41856,
+      "pixels": 15027936,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1750454908/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/screencapture-yuzu-ramen-2025-06-20-17_27_49.png",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1750454908/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/screencapture-yuzu-ramen-2025-06-20-17_27_49.png",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "c148908f2430d7e49de6a7269af1b648",
+      "created_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      }
+    },
+    {
+      "asset_id": "ef1dd2a310a8f58e0d63d18611256d2b",
+      "public_id": "portfolio/Yuzu Ramen Website and Photography Videography/_DSC3164-edit-ig",
+      "folder": "portfolio/Yuzu Ramen Website and Photography Videography",
+      "filename": "_DSC3164-edit-ig",
+      "format": "jpg",
+      "version": 1750454949,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2025-06-20T21:29:09+00:00",
+      "uploaded_at": "2025-06-20T21:29:09+00:00",
+      "bytes": 508801,
+      "backup_bytes": 0,
+      "width": 1080,
+      "height": 1350,
+      "aspect_ratio": 0.8,
+      "pixels": 1458000,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1750454949/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/_DSC3164-edit-ig.jpg",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1750454949/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/_DSC3164-edit-ig.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "be14a96fab8931bed63751ea11809973",
+      "created_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      }
+    },
+    {
+      "asset_id": "37cb8128e450d2eaaa8cb022c16a4059",
+      "public_id": "portfolio/Yuzu Ramen Website and Photography Videography/_DSC3160-edit-ig",
+      "folder": "portfolio/Yuzu Ramen Website and Photography Videography",
+      "filename": "_DSC3160-edit-ig",
+      "format": "jpg",
+      "version": 1750454953,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2025-06-20T21:29:13+00:00",
+      "uploaded_at": "2025-06-20T21:29:13+00:00",
+      "bytes": 822094,
+      "backup_bytes": 0,
+      "width": 1080,
+      "height": 1350,
+      "aspect_ratio": 0.8,
+      "pixels": 1458000,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1750454953/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/_DSC3160-edit-ig.jpg",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1750454953/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/_DSC3160-edit-ig.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "79bd1e030fe99abddf724da9eb9840e1",
+      "created_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      }
+    },
+    {
+      "asset_id": "28b0f19c1f1dec94179e873b16eccb92",
+      "public_id": "portfolio/Yuzu Ramen Website and Photography Videography/_DSC3155-edit-ig",
+      "folder": "portfolio/Yuzu Ramen Website and Photography Videography",
+      "filename": "_DSC3155-edit-ig",
+      "format": "jpg",
+      "version": 1750454960,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2025-06-20T21:29:20+00:00",
+      "uploaded_at": "2025-06-20T21:29:20+00:00",
+      "bytes": 905872,
+      "backup_bytes": 0,
+      "width": 1080,
+      "height": 1350,
+      "aspect_ratio": 0.8,
+      "pixels": 1458000,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1750454960/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/_DSC3155-edit-ig.jpg",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1750454960/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/_DSC3155-edit-ig.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "fac8dfd6bdd7da0fa4031a0ffbfd5ac3",
+      "created_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      }
+    },
+    {
+      "asset_id": "a6c29c0cc2bb32e9e64ee16482e749fd",
+      "public_id": "portfolio/Yuzu Ramen Website and Photography Videography/_DSC3139-edit-ig",
+      "folder": "portfolio/Yuzu Ramen Website and Photography Videography",
+      "filename": "_DSC3139-edit-ig",
+      "format": "jpg",
+      "version": 1750455001,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2025-06-20T21:30:01+00:00",
+      "uploaded_at": "2025-06-20T21:30:01+00:00",
+      "bytes": 809986,
+      "backup_bytes": 0,
+      "width": 1080,
+      "height": 1080,
+      "aspect_ratio": 1,
+      "pixels": 1166400,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1750455001/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/_DSC3139-edit-ig.jpg",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1750455001/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/_DSC3139-edit-ig.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "04ca4047434b9653d554acf65b63fcc6",
+      "created_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      }
+    },
+    {
+      "asset_id": "8770bbb2bcee3cc92ad79ed0d49cc2ed",
+      "public_id": "portfolio/Yuzu Ramen Website and Photography Videography/_DSC3135-edit-ig",
+      "folder": "portfolio/Yuzu Ramen Website and Photography Videography",
+      "filename": "_DSC3135-edit-ig",
+      "format": "jpg",
+      "version": 1750454981,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2025-06-20T21:29:41+00:00",
+      "uploaded_at": "2025-06-20T21:29:41+00:00",
+      "bytes": 905027,
+      "backup_bytes": 0,
+      "width": 1080,
+      "height": 1350,
+      "aspect_ratio": 0.8,
+      "pixels": 1458000,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1750454981/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/_DSC3135-edit-ig.jpg",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1750454981/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/_DSC3135-edit-ig.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "205c5be5af6f998393a6a2da25bc6466",
+      "created_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      }
+    },
+    {
+      "asset_id": "98fb95fe7169535b2b7ed3aeae25c1d0",
+      "public_id": "portfolio/Yuzu Ramen Website and Photography Videography/_DSC3131-edit-ig",
+      "folder": "portfolio/Yuzu Ramen Website and Photography Videography",
+      "filename": "_DSC3131-edit-ig",
+      "format": "jpg",
+      "version": 1750454997,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2025-06-20T21:29:57+00:00",
+      "uploaded_at": "2025-06-20T21:29:57+00:00",
+      "bytes": 875064,
+      "backup_bytes": 0,
+      "width": 1080,
+      "height": 1080,
+      "aspect_ratio": 1,
+      "pixels": 1166400,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1750454997/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/_DSC3131-edit-ig.jpg",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1750454997/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/_DSC3131-edit-ig.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "aef93e24dabff38a90460766764cb905",
+      "created_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      }
+    },
+    {
+      "asset_id": "36d713b6926e881973f01c14d995cdf4",
+      "public_id": "portfolio/Yuzu Ramen Website and Photography Videography/_DSC3119-edit-ig",
+      "folder": "portfolio/Yuzu Ramen Website and Photography Videography",
+      "filename": "_DSC3119-edit-ig",
+      "format": "jpg",
+      "version": 1750454993,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2025-06-20T21:29:53+00:00",
+      "uploaded_at": "2025-06-20T21:29:53+00:00",
+      "bytes": 578750,
+      "backup_bytes": 0,
+      "width": 1080,
+      "height": 1080,
+      "aspect_ratio": 1,
+      "pixels": 1166400,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1750454993/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/_DSC3119-edit-ig.jpg",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1750454993/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/_DSC3119-edit-ig.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "199ee557aef5afcb7753a7260b7fe6d3",
+      "created_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      }
+    },
+    {
+      "asset_id": "5518544f9643a07c9451233655c5b9b6",
+      "public_id": "portfolio/Yuzu Ramen Website and Photography Videography/_DSC3112-edit-ig",
+      "folder": "portfolio/Yuzu Ramen Website and Photography Videography",
+      "filename": "_DSC3112-edit-ig",
+      "format": "jpg",
+      "version": 1750455013,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2025-06-20T21:30:13+00:00",
+      "uploaded_at": "2025-06-20T21:30:13+00:00",
+      "bytes": 804617,
+      "backup_bytes": 0,
+      "width": 1080,
+      "height": 1080,
+      "aspect_ratio": 1,
+      "pixels": 1166400,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1750455013/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/_DSC3112-edit-ig.jpg",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1750455013/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/_DSC3112-edit-ig.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "3439c9a023e71083d027b465d74eae8e",
+      "created_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      }
+    },
+    {
+      "asset_id": "2b4d69be747a46931f7985d2cfe2c7de",
+      "public_id": "portfolio/Yuzu Ramen Website and Photography Videography/_DSC3108-edit-ig",
+      "folder": "portfolio/Yuzu Ramen Website and Photography Videography",
+      "filename": "_DSC3108-edit-ig",
+      "format": "jpg",
+      "version": 1750454956,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2025-06-20T21:29:16+00:00",
+      "uploaded_at": "2025-06-20T21:29:16+00:00",
+      "bytes": 611223,
+      "backup_bytes": 0,
+      "width": 1080,
+      "height": 1350,
+      "aspect_ratio": 0.8,
+      "pixels": 1458000,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1750454956/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/_DSC3108-edit-ig.jpg",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1750454956/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/_DSC3108-edit-ig.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "d164de456bfd2d8da29c4c74ca64157f",
+      "created_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      }
+    },
+    {
+      "asset_id": "6d05fb0d8822fff5c622a785b2b5fe49",
+      "public_id": "portfolio/Yuzu Ramen Website and Photography Videography/_DSC3098-edit-ig",
+      "folder": "portfolio/Yuzu Ramen Website and Photography Videography",
+      "filename": "_DSC3098-edit-ig",
+      "format": "jpg",
+      "version": 1750455021,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2025-06-20T21:30:21+00:00",
+      "uploaded_at": "2025-06-20T21:30:21+00:00",
+      "bytes": 699793,
+      "backup_bytes": 0,
+      "width": 1080,
+      "height": 1080,
+      "aspect_ratio": 1,
+      "pixels": 1166400,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1750455021/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/_DSC3098-edit-ig.jpg",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1750455021/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/_DSC3098-edit-ig.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "8b8025b1f64d9b65dc0412f085e4c353",
+      "created_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      }
+    },
+    {
+      "asset_id": "be169590d5dcac5b24fcb9e08791a536",
+      "public_id": "portfolio/Yuzu Ramen Website and Photography Videography/_DSC3081-edit-ig",
+      "folder": "portfolio/Yuzu Ramen Website and Photography Videography",
+      "filename": "_DSC3081-edit-ig",
+      "format": "jpg",
+      "version": 1750455017,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2025-06-20T21:30:17+00:00",
+      "uploaded_at": "2025-06-20T21:30:17+00:00",
+      "bytes": 1085363,
+      "backup_bytes": 0,
+      "width": 1080,
+      "height": 1080,
+      "aspect_ratio": 1,
+      "pixels": 1166400,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1750455017/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/_DSC3081-edit-ig.jpg",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1750455017/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/_DSC3081-edit-ig.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "2bed01f3199fb765136a5628506d375a",
+      "created_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      }
+    },
+    {
+      "asset_id": "9f3e94feb5766636d5aa26bce1c7c4ff",
+      "public_id": "portfolio/Yuzu Ramen Website and Photography Videography/_DSC3069-edit-ig",
+      "folder": "portfolio/Yuzu Ramen Website and Photography Videography",
+      "filename": "_DSC3069-edit-ig",
+      "format": "jpg",
+      "version": 1750454978,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2025-06-20T21:29:38+00:00",
+      "uploaded_at": "2025-06-20T21:29:38+00:00",
+      "bytes": 881116,
+      "backup_bytes": 0,
+      "width": 1080,
+      "height": 1350,
+      "aspect_ratio": 0.8,
+      "pixels": 1458000,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1750454978/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/_DSC3069-edit-ig.jpg",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1750454978/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/_DSC3069-edit-ig.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "5a8e488040c6b2c947ea85ae3be82d5c",
+      "created_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      }
+    },
+    {
+      "asset_id": "3c7dc40e6b96adab4cbbca15b99d8643",
+      "public_id": "portfolio/Yuzu Ramen Website and Photography Videography/_DSC3067-edit-ig",
+      "folder": "portfolio/Yuzu Ramen Website and Photography Videography",
+      "filename": "_DSC3067-edit-ig",
+      "format": "jpg",
+      "version": 1750455025,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2025-06-20T21:30:25+00:00",
+      "uploaded_at": "2025-06-20T21:30:25+00:00",
+      "bytes": 1473051,
+      "backup_bytes": 0,
+      "width": 1080,
+      "height": 1080,
+      "aspect_ratio": 1,
+      "pixels": 1166400,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1750455025/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/_DSC3067-edit-ig.jpg",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1750455025/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/_DSC3067-edit-ig.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "ebd7bf13b2eecb52b968399075c33e51",
+      "created_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      }
+    },
+    {
+      "asset_id": "c112f8d94bca950d5bd50871b57a3a45",
+      "public_id": "portfolio/Yuzu Ramen Website and Photography Videography/_DSC3063-edit-sq-ig",
+      "folder": "portfolio/Yuzu Ramen Website and Photography Videography",
+      "filename": "_DSC3063-edit-sq-ig",
+      "format": "jpg",
+      "version": 1750455009,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2025-06-20T21:30:09+00:00",
+      "uploaded_at": "2025-06-20T21:30:09+00:00",
+      "bytes": 878102,
+      "backup_bytes": 0,
+      "width": 1080,
+      "height": 1080,
+      "aspect_ratio": 1,
+      "pixels": 1166400,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1750455009/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/_DSC3063-edit-sq-ig.jpg",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1750455009/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/_DSC3063-edit-sq-ig.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "66e671f9190f683b0920a16e2251487e",
+      "created_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      }
+    },
+    {
+      "asset_id": "bb348e77611f9526f061a0b272644746",
+      "public_id": "portfolio/Yuzu Ramen Website and Photography Videography/_DSC3063-edit-ig",
+      "folder": "portfolio/Yuzu Ramen Website and Photography Videography",
+      "filename": "_DSC3063-edit-ig",
+      "format": "jpg",
+      "version": 1750454970,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2025-06-20T21:29:30+00:00",
+      "uploaded_at": "2025-06-20T21:29:30+00:00",
+      "bytes": 970772,
+      "backup_bytes": 0,
+      "width": 1080,
+      "height": 1350,
+      "aspect_ratio": 0.8,
+      "pixels": 1458000,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1750454970/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/_DSC3063-edit-ig.jpg",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1750454970/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/_DSC3063-edit-ig.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "4607dadc30430e40ba4d031712b0bd8a",
+      "created_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      }
+    },
+    {
+      "asset_id": "eb1479eb95d5b431a96ba9f2d05f81f6",
+      "public_id": "portfolio/Yuzu Ramen Website and Photography Videography/_DSC3051-edit-ig",
+      "folder": "portfolio/Yuzu Ramen Website and Photography Videography",
+      "filename": "_DSC3051-edit-ig",
+      "format": "jpg",
+      "version": 1750455005,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2025-06-20T21:30:05+00:00",
+      "uploaded_at": "2025-06-20T21:30:05+00:00",
+      "bytes": 771485,
+      "backup_bytes": 0,
+      "width": 1080,
+      "height": 1080,
+      "aspect_ratio": 1,
+      "pixels": 1166400,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1750455005/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/_DSC3051-edit-ig.jpg",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1750455005/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/_DSC3051-edit-ig.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "472b77d4a702c1a064b5efae1fb9c9fa",
+      "created_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      }
+    },
+    {
+      "asset_id": "68f1c0fa38fe25fb52f153659ca5599a",
+      "public_id": "portfolio/Yuzu Ramen Website and Photography Videography/_DSC3045-edit-ig",
+      "folder": "portfolio/Yuzu Ramen Website and Photography Videography",
+      "filename": "_DSC3045-edit-ig",
+      "format": "jpg",
+      "version": 1750454989,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2025-06-20T21:29:49+00:00",
+      "uploaded_at": "2025-06-20T21:29:49+00:00",
+      "bytes": 735431,
+      "backup_bytes": 0,
+      "width": 1080,
+      "height": 1080,
+      "aspect_ratio": 1,
+      "pixels": 1166400,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1750454989/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/_DSC3045-edit-ig.jpg",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1750454989/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/_DSC3045-edit-ig.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "d903c3118356e7511eac76e714e4d5cb",
+      "created_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      }
+    },
+    {
+      "asset_id": "c359aabf338da9c28ef56fe64687299d",
+      "public_id": "portfolio/Yuzu Ramen Website and Photography Videography/_DSC3042-edit-ig",
+      "folder": "portfolio/Yuzu Ramen Website and Photography Videography",
+      "filename": "_DSC3042-edit-ig",
+      "format": "jpg",
+      "version": 1750454986,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2025-06-20T21:29:46+00:00",
+      "uploaded_at": "2025-06-20T21:29:46+00:00",
+      "bytes": 764590,
+      "backup_bytes": 0,
+      "width": 1080,
+      "height": 1080,
+      "aspect_ratio": 1,
+      "pixels": 1166400,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1750454986/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/_DSC3042-edit-ig.jpg",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1750454986/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/_DSC3042-edit-ig.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "518c73f0336d202272185cab166cd0f7",
+      "created_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      }
+    },
+    {
+      "asset_id": "be06f45cd54c7b6f740f41b59262d2fd",
+      "public_id": "portfolio/Yuzu Ramen Website and Photography Videography/_DSC3032-edit-ig",
+      "folder": "portfolio/Yuzu Ramen Website and Photography Videography",
+      "filename": "_DSC3032-edit-ig",
+      "format": "jpg",
+      "version": 1750454966,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2025-06-20T21:29:26+00:00",
+      "uploaded_at": "2025-06-20T21:29:26+00:00",
+      "bytes": 745064,
+      "backup_bytes": 0,
+      "width": 1080,
+      "height": 1350,
+      "aspect_ratio": 0.8,
+      "pixels": 1458000,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1750454966/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/_DSC3032-edit-ig.jpg",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1750454966/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/_DSC3032-edit-ig.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "7cd6df92de18faeed5fb09338475e634",
+      "created_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      }
+    },
+    {
+      "asset_id": "c6790b11895cff5e6582ef4a6f2480d0",
+      "public_id": "portfolio/Yuzu Ramen Website and Photography Videography/_DSC3028-edit-ig",
+      "folder": "portfolio/Yuzu Ramen Website and Photography Videography",
+      "filename": "_DSC3028-edit-ig",
+      "format": "jpg",
+      "version": 1750454974,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2025-06-20T21:29:34+00:00",
+      "uploaded_at": "2025-06-20T21:29:34+00:00",
+      "bytes": 978423,
+      "backup_bytes": 0,
+      "width": 1080,
+      "height": 1350,
+      "aspect_ratio": 0.8,
+      "pixels": 1458000,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1750454974/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/_DSC3028-edit-ig.jpg",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1750454974/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/_DSC3028-edit-ig.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "d2f02d2ea32c4e6ae00682bffe875cdf",
+      "created_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      }
+    },
+    {
+      "asset_id": "9afb9282902c3634ba237f825f9a0714",
+      "public_id": "portfolio/Yuzu Ramen Website and Photography Videography/_DSC3024-edit-ig",
+      "folder": "portfolio/Yuzu Ramen Website and Photography Videography",
+      "filename": "_DSC3024-edit-ig",
+      "format": "jpg",
+      "version": 1750454963,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2025-06-20T21:29:23+00:00",
+      "uploaded_at": "2025-06-20T21:29:23+00:00",
+      "bytes": 1075139,
+      "backup_bytes": 0,
+      "width": 1080,
+      "height": 1350,
+      "aspect_ratio": 0.8,
+      "pixels": 1458000,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1750454963/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/_DSC3024-edit-ig.jpg",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1750454963/portfolio/Yuzu%20Ramen%20Website%20and%20Photography%20Videography/_DSC3024-edit-ig.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "9b0f590785b0bff36590b7f41cf58510",
+      "created_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      }
+    }
+  ],
+  "billy-mitchell-website": [
+    {
+      "asset_id": "1f18be802871b56884ca39bb941ba437",
+      "public_id": "portfolio/billy-mitchell-website/billy-mitchell-website",
+      "folder": "portfolio/billy-mitchell-website",
+      "filename": "billy-mitchell-website",
+      "format": "png",
+      "version": 1609447905,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-12-31T20:51:45+00:00",
+      "uploaded_at": "2020-12-31T20:51:45+00:00",
+      "bytes": 1003867,
+      "backup_bytes": 0,
+      "width": 2128,
+      "height": 1344,
+      "aspect_ratio": 1.58333,
+      "pixels": 2860032,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1609447905/portfolio/billy-mitchell-website/billy-mitchell-website.png",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1609447905/portfolio/billy-mitchell-website/billy-mitchell-website.png",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "702883c2c2ed6f7ded65214d8deff880",
+      "created_by": {
+        "access_key": "939412887323921",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "939412887323921",
         "custom_id": "hello@billymitchell.design",
         "external_id": "84df9f6a307e712f6cfabba5eefe05"
       }
@@ -213,6 +1475,110 @@
       "last_updated": {
         "updated_at": "2025-06-20T18:34:40+00:00",
         "public_id_updated_at": "2025-06-20T18:34:40+00:00"
+      }
+    }
+  ],
+  "ama-waterways-email": [
+    {
+      "asset_id": "a3e3f6822d21430a7bcda4afc69be8b1",
+      "public_id": "portfolio/ama-waterways-email/mobile_hdxpsp",
+      "folder": "portfolio/ama-waterways-email",
+      "filename": "mobile_hdxpsp",
+      "format": "png",
+      "version": 1601670363,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-10-02T20:26:03+00:00",
+      "uploaded_at": "2020-10-02T20:26:03+00:00",
+      "bytes": 3995642,
+      "backup_bytes": 0,
+      "width": 750,
+      "height": 7256,
+      "aspect_ratio": 0.10336,
+      "pixels": 5442000,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1601670363/portfolio/ama-waterways-email/mobile_hdxpsp.png",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1601670363/portfolio/ama-waterways-email/mobile_hdxpsp.png",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "9cfa4db9a481298a0d5fe887b9f314bd",
+      "created_by": {
+        "access_key": "939412887323921",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "939412887323921",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      }
+    },
+    {
+      "asset_id": "23ca0b793cb0e956f79ed6f72a779936",
+      "public_id": "portfolio/ama-waterways-email/desktop_rtpu89",
+      "folder": "portfolio/ama-waterways-email",
+      "filename": "desktop_rtpu89",
+      "format": "png",
+      "version": 1601670366,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-10-02T20:26:06+00:00",
+      "uploaded_at": "2020-10-02T20:26:06+00:00",
+      "bytes": 5676726,
+      "backup_bytes": 0,
+      "width": 1618,
+      "height": 4500,
+      "aspect_ratio": 0.35956,
+      "pixels": 7281000,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1601670366/portfolio/ama-waterways-email/desktop_rtpu89.png",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1601670366/portfolio/ama-waterways-email/desktop_rtpu89.png",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "b40cd6449e95ae882891ba7af472e7df",
+      "created_by": {
+        "access_key": "939412887323921",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "939412887323921",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      }
+    },
+    {
+      "asset_id": "8fe00382b3c2c61da0d9be49fd2eff32",
+      "public_id": "portfolio/ama-waterways-email/Screen_Shot_2020-10-02_at_4.05.35_PM_gmofsf",
+      "folder": "portfolio/ama-waterways-email",
+      "filename": "Screen_Shot_2020-10-02_at_4.05.35_PM_gmofsf",
+      "format": "png",
+      "version": 1601669178,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-10-02T20:06:18+00:00",
+      "uploaded_at": "2020-10-02T20:06:18+00:00",
+      "bytes": 2609901,
+      "backup_bytes": 0,
+      "width": 1526,
+      "height": 1052,
+      "aspect_ratio": 1.45057,
+      "pixels": 1605352,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1601669178/portfolio/ama-waterways-email/Screen_Shot_2020-10-02_at_4.05.35_PM_gmofsf.png",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1601669178/portfolio/ama-waterways-email/Screen_Shot_2020-10-02_at_4.05.35_PM_gmofsf.png",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "85cde2e5a59ba4b83a19ad829df35437",
+      "created_by": {
+        "access_key": "939412887323921",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "939412887323921",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
       }
     }
   ],
@@ -383,6 +1749,42 @@
       },
       "uploaded_by": {
         "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      }
+    }
+  ],
+  "pro-tzell-altour": [
+    {
+      "asset_id": "3fe036162da11d9e59d11c90ec60c324",
+      "public_id": "portfolio/pro-tzell-altour/Pro-Tzell-Aultour_r6xr97",
+      "folder": "portfolio/pro-tzell-altour",
+      "filename": "Pro-Tzell-Aultour_r6xr97",
+      "format": "png",
+      "version": 1601675546,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-10-02T21:52:26+00:00",
+      "uploaded_at": "2020-10-02T21:52:26+00:00",
+      "bytes": 2182575,
+      "backup_bytes": 0,
+      "width": 2316,
+      "height": 4010,
+      "aspect_ratio": 0.57756,
+      "pixels": 9287160,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1601675546/portfolio/pro-tzell-altour/Pro-Tzell-Aultour_r6xr97.png",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1601675546/portfolio/pro-tzell-altour/Pro-Tzell-Aultour_r6xr97.png",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "a4286636a294288aa4c30c04cf65fa4c",
+      "created_by": {
+        "access_key": "939412887323921",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "939412887323921",
         "custom_id": "hello@billymitchell.design",
         "external_id": "84df9f6a307e712f6cfabba5eefe05"
       }
@@ -782,6 +2184,111 @@
       }
     }
   ],
+  "rci-alaska-email": [
+    {
+      "asset_id": "f852f7d37d0188b9fda3e616be03f3b5",
+      "public_id": "portfolio/rci-alaska-email/mobile_idcwrf",
+      "folder": "portfolio/rci-alaska-email",
+      "filename": "mobile_idcwrf",
+      "format": "png",
+      "version": 1601674746,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-10-02T21:39:06+00:00",
+      "uploaded_at": "2020-10-02T21:39:06+00:00",
+      "bytes": 1218613,
+      "backup_bytes": 0,
+      "width": 750,
+      "height": 3884,
+      "aspect_ratio": 0.1931,
+      "pixels": 2913000,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1601674746/portfolio/rci-alaska-email/mobile_idcwrf.png",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1601674746/portfolio/rci-alaska-email/mobile_idcwrf.png",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "14c05544cb4d5cbbbd9ac0969a472cb9",
+      "created_by": {
+        "access_key": "939412887323921",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "939412887323921",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      }
+    },
+    {
+      "asset_id": "4b0c7f82f92fda097bf16441d48b70e3",
+      "public_id": "portfolio/rci-alaska-email/ezgif.com-optimize-min_ueewg2",
+      "folder": "portfolio/rci-alaska-email",
+      "filename": "ezgif.com-optimize-min_ueewg2",
+      "format": "gif",
+      "version": 1601671252,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-10-02T20:40:52+00:00",
+      "uploaded_at": "2020-10-02T20:40:52+00:00",
+      "bytes": 3733401,
+      "backup_bytes": 0,
+      "width": 700,
+      "height": 400,
+      "aspect_ratio": 1.75,
+      "pixels": 280000,
+      "pages": 104,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1601671252/portfolio/rci-alaska-email/ezgif.com-optimize-min_ueewg2.gif",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1601671252/portfolio/rci-alaska-email/ezgif.com-optimize-min_ueewg2.gif",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "c89593a5a73a9ba78e21a21895aebdbb",
+      "created_by": {
+        "access_key": "939412887323921",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "939412887323921",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      }
+    },
+    {
+      "asset_id": "ee8c0113c91b261329f8c5399d367e41",
+      "public_id": "portfolio/rci-alaska-email/desktop_ogfokd",
+      "folder": "portfolio/rci-alaska-email",
+      "filename": "desktop_ogfokd",
+      "format": "png",
+      "version": 1601674746,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-10-02T21:39:06+00:00",
+      "uploaded_at": "2020-10-02T21:39:06+00:00",
+      "bytes": 1798781,
+      "backup_bytes": 0,
+      "width": 1152,
+      "height": 2935,
+      "aspect_ratio": 0.3925,
+      "pixels": 3381120,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1601674746/portfolio/rci-alaska-email/desktop_ogfokd.png",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1601674746/portfolio/rci-alaska-email/desktop_ogfokd.png",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "eb295c037f7040da9646cc76f94dea4f",
+      "created_by": {
+        "access_key": "939412887323921",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "939412887323921",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      }
+    }
+  ],
   "Centricity Project Management Forms": [
     {
       "asset_id": "b4d5b7d781f26542e1795a9d2d74a01e",
@@ -874,6 +2381,178 @@
       "access_mode": "public",
       "access_control": null,
       "etag": "77c2a0e1c88d4bf8e985e9edcef10880",
+      "created_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      }
+    }
+  ],
+  "bodhi-corner": [
+    {
+      "asset_id": "90b4cb12d882095c09746d98cb0774cd",
+      "public_id": "portfolio/bodhi-corner/e7f34f15",
+      "folder": "portfolio/bodhi-corner",
+      "filename": "e7f34f15",
+      "format": "jpg",
+      "version": 1600635491,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-09-20T20:58:11+00:00",
+      "uploaded_at": "2020-09-20T20:58:11+00:00",
+      "bytes": 218243,
+      "backup_bytes": 0,
+      "width": 1000,
+      "height": 632,
+      "aspect_ratio": 1.58228,
+      "pixels": 632000,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1600635491/portfolio/bodhi-corner/e7f34f15.jpg",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1600635491/portfolio/bodhi-corner/e7f34f15.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "610d1e74de92706d49a57cabb29902e2",
+      "created_by": {
+        "access_key": "939412887323921"
+      },
+      "uploaded_by": {
+        "access_key": "939412887323921"
+      }
+    }
+  ],
+  "Vision House Website": [
+    {
+      "asset_id": "962d839bb250f7e7804a74a007a5107b",
+      "public_id": "portfolio/Vision House Website/Screenshot_2025-06-20_at_5.18.41_PM",
+      "folder": "portfolio/Vision House Website",
+      "filename": "Screenshot_2025-06-20_at_5.18.41_PM",
+      "format": "png",
+      "version": 1750454347,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2025-06-20T21:19:07+00:00",
+      "uploaded_at": "2025-06-20T21:19:07+00:00",
+      "bytes": 4970788,
+      "backup_bytes": 0,
+      "width": 2398,
+      "height": 2558,
+      "aspect_ratio": 0.93745,
+      "pixels": 6134084,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1750454347/portfolio/Vision%20House%20Website/Screenshot_2025-06-20_at_5.18.41_PM.png",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1750454347/portfolio/Vision%20House%20Website/Screenshot_2025-06-20_at_5.18.41_PM.png",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "ee3cc358883ebae6aee1f52bdca0da9d",
+      "created_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      }
+    }
+  ],
+  "DJ Nerva Website": [
+    {
+      "asset_id": "9a5a2093926d9e39d588d41a8f0f14db",
+      "public_id": "portfolio/DJ Nerva Website/screencapture-djnerva-2025-06-20-14_48_37",
+      "folder": "portfolio/DJ Nerva Website",
+      "filename": "screencapture-djnerva-2025-06-20-14_48_37",
+      "format": "png",
+      "version": 1750453717,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2025-06-20T21:08:37+00:00",
+      "uploaded_at": "2025-06-20T21:08:37+00:00",
+      "bytes": 6250852,
+      "backup_bytes": 0,
+      "width": 3604,
+      "height": 8474,
+      "aspect_ratio": 0.4253,
+      "pixels": 30540296,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1750453717/portfolio/DJ%20Nerva%20Website/screencapture-djnerva-2025-06-20-14_48_37.png",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1750453717/portfolio/DJ%20Nerva%20Website/screencapture-djnerva-2025-06-20-14_48_37.png",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "45ec9322952b17ee96ac0a2498b8e89a",
+      "created_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      }
+    },
+    {
+      "asset_id": "b9cff95cd48484e902b4a2411e55e636",
+      "public_id": "portfolio/DJ Nerva Website/screencapture-djnerva-2025-06-20-14_48_19",
+      "folder": "portfolio/DJ Nerva Website",
+      "filename": "screencapture-djnerva-2025-06-20-14_48_19",
+      "format": "png",
+      "version": 1750453714,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2025-06-20T21:08:34+00:00",
+      "uploaded_at": "2025-06-20T21:08:34+00:00",
+      "bytes": 6316587,
+      "backup_bytes": 0,
+      "width": 3604,
+      "height": 8474,
+      "aspect_ratio": 0.4253,
+      "pixels": 30540296,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1750453714/portfolio/DJ%20Nerva%20Website/screencapture-djnerva-2025-06-20-14_48_19.png",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1750453714/portfolio/DJ%20Nerva%20Website/screencapture-djnerva-2025-06-20-14_48_19.png",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "152002e753586a59c8d4551deae54d8f",
+      "created_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      },
+      "uploaded_by": {
+        "access_key": "969846763134947",
+        "custom_id": "hello@billymitchell.design",
+        "external_id": "84df9f6a307e712f6cfabba5eefe05"
+      }
+    },
+    {
+      "asset_id": "ca07ca3acddff7f5029707954a91c632",
+      "public_id": "portfolio/DJ Nerva Website/screencapture-djnerva-2025-06-20-14_47_52",
+      "folder": "portfolio/DJ Nerva Website",
+      "filename": "screencapture-djnerva-2025-06-20-14_47_52",
+      "format": "png",
+      "version": 1750453716,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2025-06-20T21:08:36+00:00",
+      "uploaded_at": "2025-06-20T21:08:36+00:00",
+      "bytes": 7044993,
+      "backup_bytes": 0,
+      "width": 3604,
+      "height": 8474,
+      "aspect_ratio": 0.4253,
+      "pixels": 30540296,
+      "url": "http://res.cloudinary.com/billymitchell/image/upload/v1750453716/portfolio/DJ%20Nerva%20Website/screencapture-djnerva-2025-06-20-14_47_52.png",
+      "secure_url": "https://res.cloudinary.com/billymitchell/image/upload/v1750453716/portfolio/DJ%20Nerva%20Website/screencapture-djnerva-2025-06-20-14_47_52.png",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "3b02a3aea0994edd79d9964d5fdd6893",
       "created_by": {
         "access_key": "969846763134947",
         "custom_id": "hello@billymitchell.design",
