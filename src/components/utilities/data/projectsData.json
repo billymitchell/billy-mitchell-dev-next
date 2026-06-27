@@ -13,59 +13,59 @@
       "id": "rec0QQmhoWuOb4XIW",
       "createdTime": "2024-12-31T22:46:26.000Z",
       "fields": {
+        "End Date": "2025-01-01",
+        "Featured Image URL": "Orderdesk/screencapture-app-orderdesk-me-rule-builder-2025-06-13-12_56_00.png",
+        "Position on Project": [
+          "Lead"
+        ],
+        "Job Type": [
+          "Full-Time"
+        ],
+        "Hide Featured Image In Body": true,
+        "Made For": [
+          "recbJpghbxReFGtRU"
+        ],
+        "Date Modified": "2025-11-07T20:25:12.000Z",
+        "Intro Text": "<h3>Goals</h3>\n<p>Create a flexible fulfillment routing and data manipulation system across 20–30 stores using OrderDesk, enabling seamless integration with multiple fulfillment partners and improving overall order flow and tracking.</p>\n\n<h3>Contributions</h3>\n<p>Configured complex OrderDesk rules to process and route orders from stores built on various e-commerce platforms. Developed workflows to transform order data for compatibility with primary and secondary warehouse partners, as well as dropship and made-to-order vendors. Implemented systems for passing shipping data back to storefronts and for triggering automated post-order notifications.</p>\n\n<h3>Outcomes</h3>\n<p>Streamlined fulfillment across a diverse ecosystem of partners and platforms. Improved data reliability and fulfillment partner compatibility. Enhanced customer experience with timely shipping updates and tailored post-purchase notifications.</p>",
+        "Published": true,
+        "Created": "2024-12-31T22:46:26.000Z",
+        "Render On": "billymitchell.dev",
+        "Made With": [
+          "Orderdesk"
+        ],
         "Project Title": "Orderdesk Fulfillment Rules",
         "Creative Discipline": [
           "Web Development"
         ],
-        "Made For": [
-          "recbJpghbxReFGtRU"
-        ],
-        "End Date": "2025-01-01",
-        "Job Type": [
-          "Full-Time"
-        ],
-        "Published": true,
-        "Position on Project": [
-          "Lead"
-        ],
-        "Featured Image URL": "Orderdesk/screencapture-app-orderdesk-me-rule-builder-2025-06-13-12_56_00.png",
-        "Hide Featured Image In Body": true,
-        "Made With": [
-          "Orderdesk"
-        ],
-        "Date Modified": "2025-11-07T20:25:12.000Z",
-        "Intro Text": "<h3>Goals</h3>\n<p>Create a flexible fulfillment routing and data manipulation system across 20–30 stores using OrderDesk, enabling seamless integration with multiple fulfillment partners and improving overall order flow and tracking.</p>\n\n<h3>Contributions</h3>\n<p>Configured complex OrderDesk rules to process and route orders from stores built on various e-commerce platforms. Developed workflows to transform order data for compatibility with primary and secondary warehouse partners, as well as dropship and made-to-order vendors. Implemented systems for passing shipping data back to storefronts and for triggering automated post-order notifications.</p>\n\n<h3>Outcomes</h3>\n<p>Streamlined fulfillment across a diverse ecosystem of partners and platforms. Improved data reliability and fulfillment partner compatibility. Enhanced customer experience with timely shipping updates and tailored post-purchase notifications.</p>",
-        "Gallery Folder Name": "Orderdesk",
-        "Created": "2024-12-31T22:46:26.000Z",
-        "Render On": "billymitchell.dev"
+        "Gallery Folder Name": "Orderdesk"
       }
     },
     "fields": {
+      "End Date": "2025-01-01",
+      "Featured Image URL": "Orderdesk/screencapture-app-orderdesk-me-rule-builder-2025-06-13-12_56_00.png",
+      "Position on Project": [
+        "Lead"
+      ],
+      "Job Type": [
+        "Full-Time"
+      ],
+      "Hide Featured Image In Body": true,
+      "Made For": [
+        "recbJpghbxReFGtRU"
+      ],
+      "Date Modified": "2025-11-07T20:25:12.000Z",
+      "Intro Text": "<h3>Goals</h3>\n<p>Create a flexible fulfillment routing and data manipulation system across 20–30 stores using OrderDesk, enabling seamless integration with multiple fulfillment partners and improving overall order flow and tracking.</p>\n\n<h3>Contributions</h3>\n<p>Configured complex OrderDesk rules to process and route orders from stores built on various e-commerce platforms. Developed workflows to transform order data for compatibility with primary and secondary warehouse partners, as well as dropship and made-to-order vendors. Implemented systems for passing shipping data back to storefronts and for triggering automated post-order notifications.</p>\n\n<h3>Outcomes</h3>\n<p>Streamlined fulfillment across a diverse ecosystem of partners and platforms. Improved data reliability and fulfillment partner compatibility. Enhanced customer experience with timely shipping updates and tailored post-purchase notifications.</p>",
+      "Published": true,
+      "Created": "2024-12-31T22:46:26.000Z",
+      "Render On": "billymitchell.dev",
+      "Made With": [
+        "Orderdesk"
+      ],
       "Project Title": "Orderdesk Fulfillment Rules",
       "Creative Discipline": [
         "Web Development"
       ],
-      "Made For": [
-        "recbJpghbxReFGtRU"
-      ],
-      "End Date": "2025-01-01",
-      "Job Type": [
-        "Full-Time"
-      ],
-      "Published": true,
-      "Position on Project": [
-        "Lead"
-      ],
-      "Featured Image URL": "Orderdesk/screencapture-app-orderdesk-me-rule-builder-2025-06-13-12_56_00.png",
-      "Hide Featured Image In Body": true,
-      "Made With": [
-        "Orderdesk"
-      ],
-      "Date Modified": "2025-11-07T20:25:12.000Z",
-      "Intro Text": "<h3>Goals</h3>\n<p>Create a flexible fulfillment routing and data manipulation system across 20–30 stores using OrderDesk, enabling seamless integration with multiple fulfillment partners and improving overall order flow and tracking.</p>\n\n<h3>Contributions</h3>\n<p>Configured complex OrderDesk rules to process and route orders from stores built on various e-commerce platforms. Developed workflows to transform order data for compatibility with primary and secondary warehouse partners, as well as dropship and made-to-order vendors. Implemented systems for passing shipping data back to storefronts and for triggering automated post-order notifications.</p>\n\n<h3>Outcomes</h3>\n<p>Streamlined fulfillment across a diverse ecosystem of partners and platforms. Improved data reliability and fulfillment partner compatibility. Enhanced customer experience with timely shipping updates and tailored post-purchase notifications.</p>",
-      "Gallery Folder Name": "Orderdesk",
-      "Created": "2024-12-31T22:46:26.000Z",
-      "Render On": "billymitchell.dev"
+      "Gallery Folder Name": "Orderdesk"
     }
   },
   {
@@ -82,63 +82,63 @@
       "id": "rec0iwpellvroblNI",
       "createdTime": "2020-06-21T22:24:43.000Z",
       "fields": {
+        "End Date": "2017-06-01",
+        "Featured Image URL": "spectrum-studio/Screen-Shot-2016-10-12-at-2.18.46-PM-min",
+        "Position on Project": [
+          "Lead"
+        ],
+        "Job Type": [
+          "Freelance"
+        ],
+        "Live Web Project URL": "http://www.spectrumstudio.org/",
+        "Hide Featured Image In Body": true,
+        "Made For": [
+          "reciew7SANT8fYhGh"
+        ],
+        "Date Modified": "2025-11-07T20:27:51.000Z",
+        "Published": true,
+        "Created": "2020-06-21T22:24:43.000Z",
+        "Render On": "Both",
+        "Made With": [
+          "Photoshop",
+          "Squarespace"
+        ],
         "Project Title": "Spectrum Studio Website",
         "Creative Discipline": [
           "Web Development",
           "Web Design"
         ],
-        "Made For": [
-          "reciew7SANT8fYhGh"
-        ],
-        "End Date": "2017-06-01",
-        "Job Type": [
-          "Freelance"
-        ],
-        "Live Web Project URL": "http://www.spectrumstudio.org/",
-        "Published": true,
-        "Position on Project": [
-          "Lead"
-        ],
-        "Featured Image URL": "spectrum-studio/Screen-Shot-2016-10-12-at-2.18.46-PM-min",
-        "Hide Featured Image In Body": true,
-        "Made With": [
-          "Photoshop",
-          "Squarespace"
-        ],
-        "Date Modified": "2025-11-07T20:27:51.000Z",
-        "Gallery Folder Name": "spectrum-studio",
-        "Created": "2020-06-21T22:24:43.000Z",
-        "Render On": "Both"
+        "Gallery Folder Name": "spectrum-studio"
       }
     },
     "fields": {
+      "End Date": "2017-06-01",
+      "Featured Image URL": "spectrum-studio/Screen-Shot-2016-10-12-at-2.18.46-PM-min",
+      "Position on Project": [
+        "Lead"
+      ],
+      "Job Type": [
+        "Freelance"
+      ],
+      "Live Web Project URL": "http://www.spectrumstudio.org/",
+      "Hide Featured Image In Body": true,
+      "Made For": [
+        "reciew7SANT8fYhGh"
+      ],
+      "Date Modified": "2025-11-07T20:27:51.000Z",
+      "Published": true,
+      "Created": "2020-06-21T22:24:43.000Z",
+      "Render On": "Both",
+      "Made With": [
+        "Photoshop",
+        "Squarespace"
+      ],
       "Project Title": "Spectrum Studio Website",
       "Creative Discipline": [
         "Web Development",
         "Web Design"
       ],
-      "Made For": [
-        "reciew7SANT8fYhGh"
-      ],
-      "End Date": "2017-06-01",
-      "Job Type": [
-        "Freelance"
-      ],
-      "Live Web Project URL": "http://www.spectrumstudio.org/",
-      "Published": true,
-      "Position on Project": [
-        "Lead"
-      ],
-      "Featured Image URL": "spectrum-studio/Screen-Shot-2016-10-12-at-2.18.46-PM-min",
-      "Hide Featured Image In Body": true,
-      "Made With": [
-        "Photoshop",
-        "Squarespace"
-      ],
-      "Date Modified": "2025-11-07T20:27:51.000Z",
-      "Gallery Folder Name": "spectrum-studio",
-      "Created": "2020-06-21T22:24:43.000Z",
-      "Render On": "Both"
+      "Gallery Folder Name": "spectrum-studio"
     }
   },
   {
@@ -155,29 +155,26 @@
       "id": "rec1ixvwwgaRg8UH8",
       "createdTime": "2020-12-31T20:57:32.000Z",
       "fields": {
-        "Project Title": "Inteon",
-        "Creative Discipline": [
-          "Motion Design",
-          "Web Development",
-          "Frontend Development",
-          "Web Design"
-        ],
-        "Made For": [
-          "recGAbxAQSmTj7nbg"
-        ],
+        "Custom HTML": "<video class=\"fluid\" crossorigin=\"anonymous\" autoplay loop playsinline muted><source src=\"https://res.cloudinary.com/billymitchell/video/upload/f_auto,vc_auto/portfolio/inteon/inteon\"></video>",
         "End Date": "2020-12-31",
+        "Featured Image URL": "inteon/inteon.mov",
+        "Position on Project": [
+          "Lead"
+        ],
         "Job Type": [
           "Contract",
           "Freelance"
         ],
         "Live Web Project URL": "https://intel.billymitchell.design/",
-        "Published": true,
-        "Position on Project": [
-          "Lead"
-        ],
-        "Custom HTML": "<video class=\"fluid\" crossorigin=\"anonymous\" autoplay loop playsinline muted><source src=\"https://res.cloudinary.com/billymitchell/video/upload/f_auto,vc_auto/portfolio/inteon/inteon\"></video>",
-        "Featured Image URL": "inteon/inteon.mov",
         "Hide Featured Image In Body": true,
+        "Made For": [
+          "recGAbxAQSmTj7nbg"
+        ],
+        "Date Modified": "2025-11-07T20:25:24.000Z",
+        "Intro Text": "<h3>Goals</h3>\nDesign and develop a website that matches the style of a PowerPoint presentation. Use a requested particular WordPress theme and page builder.<br>\n<br>\n<h3>Contributions</h3>\nI extracted brand assets from the PowerPoint and developed a site that matched it in style. I added additional flare by animating static assets. <br>\n<br>\n<h3>Outcomes</h3>\nThe project was delivered to Intel for review, refinements, and final development.",
+        "Published": true,
+        "Created": "2020-12-31T20:57:32.000Z",
+        "Render On": "Both",
         "Made With": [
           "Illustrator",
           "Adobe XD",
@@ -187,37 +184,37 @@
           "Javascript",
           "Wordpress"
         ],
-        "Date Modified": "2025-11-07T20:25:24.000Z",
-        "Intro Text": "<h3>Goals</h3>\nDesign and develop a website that matches the style of a PowerPoint presentation. Use a requested particular WordPress theme and page builder.<br>\n<br>\n<h3>Contributions</h3>\nI extracted brand assets from the PowerPoint and developed a site that matched it in style. I added additional flare by animating static assets. <br>\n<br>\n<h3>Outcomes</h3>\nThe project was delivered to Intel for review, refinements, and final development.",
-        "Gallery Folder Name": "inteon",
-        "Created": "2020-12-31T20:57:32.000Z",
-        "Render On": "Both"
+        "Project Title": "Inteon",
+        "Creative Discipline": [
+          "Motion Design",
+          "Web Development",
+          "Frontend Development",
+          "Web Design"
+        ],
+        "Gallery Folder Name": "inteon"
       }
     },
     "fields": {
-      "Project Title": "Inteon",
-      "Creative Discipline": [
-        "Motion Design",
-        "Web Development",
-        "Frontend Development",
-        "Web Design"
-      ],
-      "Made For": [
-        "recGAbxAQSmTj7nbg"
-      ],
+      "Custom HTML": "<video class=\"fluid\" crossorigin=\"anonymous\" autoplay loop playsinline muted><source src=\"https://res.cloudinary.com/billymitchell/video/upload/f_auto,vc_auto/portfolio/inteon/inteon\"></video>",
       "End Date": "2020-12-31",
+      "Featured Image URL": "inteon/inteon.mov",
+      "Position on Project": [
+        "Lead"
+      ],
       "Job Type": [
         "Contract",
         "Freelance"
       ],
       "Live Web Project URL": "https://intel.billymitchell.design/",
-      "Published": true,
-      "Position on Project": [
-        "Lead"
-      ],
-      "Custom HTML": "<video class=\"fluid\" crossorigin=\"anonymous\" autoplay loop playsinline muted><source src=\"https://res.cloudinary.com/billymitchell/video/upload/f_auto,vc_auto/portfolio/inteon/inteon\"></video>",
-      "Featured Image URL": "inteon/inteon.mov",
       "Hide Featured Image In Body": true,
+      "Made For": [
+        "recGAbxAQSmTj7nbg"
+      ],
+      "Date Modified": "2025-11-07T20:25:24.000Z",
+      "Intro Text": "<h3>Goals</h3>\nDesign and develop a website that matches the style of a PowerPoint presentation. Use a requested particular WordPress theme and page builder.<br>\n<br>\n<h3>Contributions</h3>\nI extracted brand assets from the PowerPoint and developed a site that matched it in style. I added additional flare by animating static assets. <br>\n<br>\n<h3>Outcomes</h3>\nThe project was delivered to Intel for review, refinements, and final development.",
+      "Published": true,
+      "Created": "2020-12-31T20:57:32.000Z",
+      "Render On": "Both",
       "Made With": [
         "Illustrator",
         "Adobe XD",
@@ -227,11 +224,14 @@
         "Javascript",
         "Wordpress"
       ],
-      "Date Modified": "2025-11-07T20:25:24.000Z",
-      "Intro Text": "<h3>Goals</h3>\nDesign and develop a website that matches the style of a PowerPoint presentation. Use a requested particular WordPress theme and page builder.<br>\n<br>\n<h3>Contributions</h3>\nI extracted brand assets from the PowerPoint and developed a site that matched it in style. I added additional flare by animating static assets. <br>\n<br>\n<h3>Outcomes</h3>\nThe project was delivered to Intel for review, refinements, and final development.",
-      "Gallery Folder Name": "inteon",
-      "Created": "2020-12-31T20:57:32.000Z",
-      "Render On": "Both"
+      "Project Title": "Inteon",
+      "Creative Discipline": [
+        "Motion Design",
+        "Web Development",
+        "Frontend Development",
+        "Web Design"
+      ],
+      "Gallery Folder Name": "inteon"
     }
   },
   {
@@ -248,73 +248,73 @@
       "id": "rec28CIwQYrKcTIFD",
       "createdTime": "2021-02-15T18:44:02.000Z",
       "fields": {
-        "Project Title": "Sendwyre",
-        "Creative Discipline": [
-          "Web Development",
-          "Frontend Development",
-          "Web Design"
-        ],
-        "Made For": [
-          "recOv8bCoaf7feEiN"
-        ],
         "End Date": "2021-02-01",
+        "Featured Image URL": "sendwyre/sendwyre",
+        "GitHub URL": "https://github.com/billymitchell/sendwyre",
+        "Position on Project": [
+          "Lead"
+        ],
         "Job Type": [
           "Assessment "
         ],
         "Live Web Project URL": "https://sendwyre.billymitchell.design/",
-        "Published": true,
-        "Position on Project": [
-          "Lead"
-        ],
-        "Featured Image URL": "sendwyre/sendwyre",
         "Hide Featured Image In Body": true,
+        "Made For": [
+          "recOv8bCoaf7feEiN"
+        ],
+        "Date Modified": "2025-11-07T20:25:21.000Z",
+        "Intro Text": "<h3>Goals</h3>\nRedesign and redevelop <a hreff=\"https://pay.sendwyre.com/\" traget=\"_blank\">https://pay.sendwyre.com/</a> in a week.<br>  \n<h3>Contributions</h3> \nBecause I needed to build this app quickly, I focused on utilizing Formik for validation and state management with Material IO as a base for form styling. \n<h3>Outcomes</h3>\nThe company went with the first person to turn in the assessment. I learned a lot about integrating from technology into a React application. ",
+        "Published": true,
+        "Created": "2021-02-15T18:44:02.000Z",
+        "Render On": "billymitchell.dev",
         "Made With": [
           "HTML",
           "CSS",
           "Javascript",
           "React"
         ],
-        "Date Modified": "2025-11-07T20:25:21.000Z",
-        "Intro Text": "<h3>Goals</h3>\nRedesign and redevelop <a hreff=\"https://pay.sendwyre.com/\" traget=\"_blank\">https://pay.sendwyre.com/</a> in a week.<br>  \n<h3>Contributions</h3> \nBecause I needed to build this app quickly, I focused on utilizing Formik for validation and state management with Material IO as a base for form styling. \n<h3>Outcomes</h3>\nThe company went with the first person to turn in the assessment. I learned a lot about integrating from technology into a React application. ",
-        "GitHub URL": "https://github.com/billymitchell/sendwyre",
-        "Gallery Folder Name": "sendwyre",
-        "Created": "2021-02-15T18:44:02.000Z",
-        "Render On": "billymitchell.dev"
+        "Project Title": "Sendwyre",
+        "Creative Discipline": [
+          "Web Development",
+          "Frontend Development",
+          "Web Design"
+        ],
+        "Gallery Folder Name": "sendwyre"
       }
     },
     "fields": {
-      "Project Title": "Sendwyre",
-      "Creative Discipline": [
-        "Web Development",
-        "Frontend Development",
-        "Web Design"
-      ],
-      "Made For": [
-        "recOv8bCoaf7feEiN"
-      ],
       "End Date": "2021-02-01",
+      "Featured Image URL": "sendwyre/sendwyre",
+      "GitHub URL": "https://github.com/billymitchell/sendwyre",
+      "Position on Project": [
+        "Lead"
+      ],
       "Job Type": [
         "Assessment "
       ],
       "Live Web Project URL": "https://sendwyre.billymitchell.design/",
-      "Published": true,
-      "Position on Project": [
-        "Lead"
-      ],
-      "Featured Image URL": "sendwyre/sendwyre",
       "Hide Featured Image In Body": true,
+      "Made For": [
+        "recOv8bCoaf7feEiN"
+      ],
+      "Date Modified": "2025-11-07T20:25:21.000Z",
+      "Intro Text": "<h3>Goals</h3>\nRedesign and redevelop <a hreff=\"https://pay.sendwyre.com/\" traget=\"_blank\">https://pay.sendwyre.com/</a> in a week.<br>  \n<h3>Contributions</h3> \nBecause I needed to build this app quickly, I focused on utilizing Formik for validation and state management with Material IO as a base for form styling. \n<h3>Outcomes</h3>\nThe company went with the first person to turn in the assessment. I learned a lot about integrating from technology into a React application. ",
+      "Published": true,
+      "Created": "2021-02-15T18:44:02.000Z",
+      "Render On": "billymitchell.dev",
       "Made With": [
         "HTML",
         "CSS",
         "Javascript",
         "React"
       ],
-      "Date Modified": "2025-11-07T20:25:21.000Z",
-      "Intro Text": "<h3>Goals</h3>\nRedesign and redevelop <a hreff=\"https://pay.sendwyre.com/\" traget=\"_blank\">https://pay.sendwyre.com/</a> in a week.<br>  \n<h3>Contributions</h3> \nBecause I needed to build this app quickly, I focused on utilizing Formik for validation and state management with Material IO as a base for form styling. \n<h3>Outcomes</h3>\nThe company went with the first person to turn in the assessment. I learned a lot about integrating from technology into a React application. ",
-      "GitHub URL": "https://github.com/billymitchell/sendwyre",
-      "Gallery Folder Name": "sendwyre",
-      "Created": "2021-02-15T18:44:02.000Z",
-      "Render On": "billymitchell.dev"
+      "Project Title": "Sendwyre",
+      "Creative Discipline": [
+        "Web Development",
+        "Frontend Development",
+        "Web Design"
+      ],
+      "Gallery Folder Name": "sendwyre"
     }
   },
   {
@@ -331,73 +331,73 @@
       "id": "recAIXLhPggTFyfqV",
       "createdTime": "2020-08-16T18:52:28.000Z",
       "fields": {
-        "Project Title": "The Travel Authority",
-        "Creative Discipline": [
-          "UI Design",
-          "Web Development",
-          "Web Design"
-        ],
-        "Made For": [
-          "recwezBDstyLcFx9Q",
-          "rec6iEXIiA7QLneDT"
-        ],
         "End Date": "2020-12-01",
+        "Featured Image URL": "the-travel-authority/3e722c9f",
+        "Position on Project": [
+          "Lead"
+        ],
         "Job Type": [
           "Full-Time"
         ],
         "Live Web Project URL": "https://www.thetravelauthority.com/",
-        "Published": true,
-        "Position on Project": [
-          "Lead"
-        ],
-        "Featured Image URL": "the-travel-authority/3e722c9f",
         "Hide Featured Image In Body": true,
+        "Made For": [
+          "recwezBDstyLcFx9Q",
+          "rec6iEXIiA7QLneDT"
+        ],
+        "Date Modified": "2025-11-07T20:26:42.000Z",
+        "Intro Text": "<h3>Goals</h3>\nRedesign an outdated website that reflects poorly on the brand of the company. Develop the website to include features; CMS, travel agent search, podcast integration, and more.<br>  \n<h3>Contributions</h3>\nI designed and <a href=\"https://xd.adobe.com/view/a421f863-3a02-4221-a107-b986c1c77644-f172/screen/5658bf7b-46c5-4fb2-9371-a30c4197316e\" target=\"_blank\">prototyped this website in Adobe XD first</a>. After client approval, I then developed the website with support from developer teams on agent search and blog content migration.<br>\n<h3>Outcomes</h3>\nWe created a website that met the goals and elevated the brand. New functionality and better presentation of current offers allow for higher sales. The design and development process sparked a shift in process thinking within the company.",
+        "Published": true,
+        "Created": "2020-08-16T18:52:28.000Z",
+        "Render On": "Both",
         "Made With": [
           "HTML",
           "CSS",
           "Adobe XD",
           "Wordpress"
         ],
-        "Date Modified": "2025-11-07T20:26:42.000Z",
-        "Intro Text": "<h3>Goals</h3>\nRedesign an outdated website that reflects poorly on the brand of the company. Develop the website to include features; CMS, travel agent search, podcast integration, and more.<br>  \n<h3>Contributions</h3>\nI designed and <a href=\"https://xd.adobe.com/view/a421f863-3a02-4221-a107-b986c1c77644-f172/screen/5658bf7b-46c5-4fb2-9371-a30c4197316e\" target=\"_blank\">prototyped this website in Adobe XD first</a>. After client approval, I then developed the website with support from developer teams on agent search and blog content migration.<br>\n<h3>Outcomes</h3>\nWe created a website that met the goals and elevated the brand. New functionality and better presentation of current offers allow for higher sales. The design and development process sparked a shift in process thinking within the company.",
-        "Gallery Folder Name": "the-travel-authority",
-        "Created": "2020-08-16T18:52:28.000Z",
-        "Render On": "Both"
+        "Project Title": "The Travel Authority",
+        "Creative Discipline": [
+          "UI Design",
+          "Web Development",
+          "Web Design"
+        ],
+        "Gallery Folder Name": "the-travel-authority"
       }
     },
     "fields": {
-      "Project Title": "The Travel Authority",
-      "Creative Discipline": [
-        "UI Design",
-        "Web Development",
-        "Web Design"
-      ],
-      "Made For": [
-        "recwezBDstyLcFx9Q",
-        "rec6iEXIiA7QLneDT"
-      ],
       "End Date": "2020-12-01",
+      "Featured Image URL": "the-travel-authority/3e722c9f",
+      "Position on Project": [
+        "Lead"
+      ],
       "Job Type": [
         "Full-Time"
       ],
       "Live Web Project URL": "https://www.thetravelauthority.com/",
-      "Published": true,
-      "Position on Project": [
-        "Lead"
-      ],
-      "Featured Image URL": "the-travel-authority/3e722c9f",
       "Hide Featured Image In Body": true,
+      "Made For": [
+        "recwezBDstyLcFx9Q",
+        "rec6iEXIiA7QLneDT"
+      ],
+      "Date Modified": "2025-11-07T20:26:42.000Z",
+      "Intro Text": "<h3>Goals</h3>\nRedesign an outdated website that reflects poorly on the brand of the company. Develop the website to include features; CMS, travel agent search, podcast integration, and more.<br>  \n<h3>Contributions</h3>\nI designed and <a href=\"https://xd.adobe.com/view/a421f863-3a02-4221-a107-b986c1c77644-f172/screen/5658bf7b-46c5-4fb2-9371-a30c4197316e\" target=\"_blank\">prototyped this website in Adobe XD first</a>. After client approval, I then developed the website with support from developer teams on agent search and blog content migration.<br>\n<h3>Outcomes</h3>\nWe created a website that met the goals and elevated the brand. New functionality and better presentation of current offers allow for higher sales. The design and development process sparked a shift in process thinking within the company.",
+      "Published": true,
+      "Created": "2020-08-16T18:52:28.000Z",
+      "Render On": "Both",
       "Made With": [
         "HTML",
         "CSS",
         "Adobe XD",
         "Wordpress"
       ],
-      "Date Modified": "2025-11-07T20:26:42.000Z",
-      "Intro Text": "<h3>Goals</h3>\nRedesign an outdated website that reflects poorly on the brand of the company. Develop the website to include features; CMS, travel agent search, podcast integration, and more.<br>  \n<h3>Contributions</h3>\nI designed and <a href=\"https://xd.adobe.com/view/a421f863-3a02-4221-a107-b986c1c77644-f172/screen/5658bf7b-46c5-4fb2-9371-a30c4197316e\" target=\"_blank\">prototyped this website in Adobe XD first</a>. After client approval, I then developed the website with support from developer teams on agent search and blog content migration.<br>\n<h3>Outcomes</h3>\nWe created a website that met the goals and elevated the brand. New functionality and better presentation of current offers allow for higher sales. The design and development process sparked a shift in process thinking within the company.",
-      "Gallery Folder Name": "the-travel-authority",
-      "Created": "2020-08-16T18:52:28.000Z",
-      "Render On": "Both"
+      "Project Title": "The Travel Authority",
+      "Creative Discipline": [
+        "UI Design",
+        "Web Development",
+        "Web Design"
+      ],
+      "Gallery Folder Name": "the-travel-authority"
     }
   },
   {
@@ -414,71 +414,71 @@
       "id": "recBZkJAqGBM8iJzh",
       "createdTime": "2025-06-06T21:46:32.000Z",
       "fields": {
-        "Project Title": "Baltimore Dance Music",
-        "Creative Discipline": [
-          "Web Development",
-          "Backend Development",
-          "Frontend Development"
-        ],
-        "Made For": [
-          "rec4UvnGnKwCs9agu"
+        "Featured Image URL": "Baltimore%20Dance%20Music/Screenshot_2025-06-20_at_5.13.40_PM.png",
+        "GitHub URL": "https://github.com/billymitchell/Baltimore-Dance-Music",
+        "Position on Project": [
+          "Lead"
         ],
         "Job Type": [
           "Pro Bono"
         ],
         "Live Web Project URL": "https://baltimoredancemusic.com/",
-        "Published": true,
-        "Position on Project": [
-          "Lead"
-        ],
-        "Featured Image URL": "Baltimore%20Dance%20Music/Screenshot_2025-06-20_at_5.13.40_PM.png",
         "Hide Featured Image In Body": true,
+        "Made For": [
+          "rec4UvnGnKwCs9agu"
+        ],
+        "Date Modified": "2025-11-07T20:24:43.000Z",
+        "Intro Text": "<h3>Goals</h3>\n<p>Create a community-driven digital archive to document and celebrate the history of dance music in Baltimore City, with the potential to evolve into a published book.</p>\n\n<h3>Contributions</h3>\n<p>Conceptualized and built a flexible, wiki-style website to host stories, imagery, and historical information about Baltimore’s dance music culture. Conducted interviews with key figures to gather first-hand insights. Developed a lightweight site architecture using Node and Airtable, with content served via JSON to reduce templating complexity. Designed the platform to encourage community contributions of flyers, photos, event histories, and personal stories.</p>\n\n<h3>Outcomes</h3>\n<p>Launched an evolving resource for documenting Baltimore’s dance music legacy. Fostered early community engagement and collaboration. Established a scalable, low-maintenance platform for ongoing growth and potential future publication.</p>",
+        "Published": true,
+        "Created": "2025-06-06T21:46:32.000Z",
+        "Render On": "Both",
         "Made With": [
           "HTML",
           "CSS",
           "Javascript",
           "Node.js"
         ],
-        "Date Modified": "2025-11-07T20:24:43.000Z",
-        "Intro Text": "<h3>Goals</h3>\n<p>Create a community-driven digital archive to document and celebrate the history of dance music in Baltimore City, with the potential to evolve into a published book.</p>\n\n<h3>Contributions</h3>\n<p>Conceptualized and built a flexible, wiki-style website to host stories, imagery, and historical information about Baltimore’s dance music culture. Conducted interviews with key figures to gather first-hand insights. Developed a lightweight site architecture using Node and Airtable, with content served via JSON to reduce templating complexity. Designed the platform to encourage community contributions of flyers, photos, event histories, and personal stories.</p>\n\n<h3>Outcomes</h3>\n<p>Launched an evolving resource for documenting Baltimore’s dance music legacy. Fostered early community engagement and collaboration. Established a scalable, low-maintenance platform for ongoing growth and potential future publication.</p>",
-        "GitHub URL": "https://github.com/billymitchell/Baltimore-Dance-Music",
-        "Gallery Folder Name": "Baltimore Dance Music",
-        "Created": "2025-06-06T21:46:32.000Z",
-        "Render On": "Both"
+        "Project Title": "Baltimore Dance Music",
+        "Creative Discipline": [
+          "Web Development",
+          "Backend Development",
+          "Frontend Development"
+        ],
+        "Gallery Folder Name": "Baltimore Dance Music"
       }
     },
     "fields": {
-      "Project Title": "Baltimore Dance Music",
-      "Creative Discipline": [
-        "Web Development",
-        "Backend Development",
-        "Frontend Development"
-      ],
-      "Made For": [
-        "rec4UvnGnKwCs9agu"
+      "Featured Image URL": "Baltimore%20Dance%20Music/Screenshot_2025-06-20_at_5.13.40_PM.png",
+      "GitHub URL": "https://github.com/billymitchell/Baltimore-Dance-Music",
+      "Position on Project": [
+        "Lead"
       ],
       "Job Type": [
         "Pro Bono"
       ],
       "Live Web Project URL": "https://baltimoredancemusic.com/",
-      "Published": true,
-      "Position on Project": [
-        "Lead"
-      ],
-      "Featured Image URL": "Baltimore%20Dance%20Music/Screenshot_2025-06-20_at_5.13.40_PM.png",
       "Hide Featured Image In Body": true,
+      "Made For": [
+        "rec4UvnGnKwCs9agu"
+      ],
+      "Date Modified": "2025-11-07T20:24:43.000Z",
+      "Intro Text": "<h3>Goals</h3>\n<p>Create a community-driven digital archive to document and celebrate the history of dance music in Baltimore City, with the potential to evolve into a published book.</p>\n\n<h3>Contributions</h3>\n<p>Conceptualized and built a flexible, wiki-style website to host stories, imagery, and historical information about Baltimore’s dance music culture. Conducted interviews with key figures to gather first-hand insights. Developed a lightweight site architecture using Node and Airtable, with content served via JSON to reduce templating complexity. Designed the platform to encourage community contributions of flyers, photos, event histories, and personal stories.</p>\n\n<h3>Outcomes</h3>\n<p>Launched an evolving resource for documenting Baltimore’s dance music legacy. Fostered early community engagement and collaboration. Established a scalable, low-maintenance platform for ongoing growth and potential future publication.</p>",
+      "Published": true,
+      "Created": "2025-06-06T21:46:32.000Z",
+      "Render On": "Both",
       "Made With": [
         "HTML",
         "CSS",
         "Javascript",
         "Node.js"
       ],
-      "Date Modified": "2025-11-07T20:24:43.000Z",
-      "Intro Text": "<h3>Goals</h3>\n<p>Create a community-driven digital archive to document and celebrate the history of dance music in Baltimore City, with the potential to evolve into a published book.</p>\n\n<h3>Contributions</h3>\n<p>Conceptualized and built a flexible, wiki-style website to host stories, imagery, and historical information about Baltimore’s dance music culture. Conducted interviews with key figures to gather first-hand insights. Developed a lightweight site architecture using Node and Airtable, with content served via JSON to reduce templating complexity. Designed the platform to encourage community contributions of flyers, photos, event histories, and personal stories.</p>\n\n<h3>Outcomes</h3>\n<p>Launched an evolving resource for documenting Baltimore’s dance music legacy. Fostered early community engagement and collaboration. Established a scalable, low-maintenance platform for ongoing growth and potential future publication.</p>",
-      "GitHub URL": "https://github.com/billymitchell/Baltimore-Dance-Music",
-      "Gallery Folder Name": "Baltimore Dance Music",
-      "Created": "2025-06-06T21:46:32.000Z",
-      "Render On": "Both"
+      "Project Title": "Baltimore Dance Music",
+      "Creative Discipline": [
+        "Web Development",
+        "Backend Development",
+        "Frontend Development"
+      ],
+      "Gallery Folder Name": "Baltimore Dance Music"
     }
   },
   {
@@ -495,71 +495,71 @@
       "id": "recC9szhvgvELmoKF",
       "createdTime": "2025-06-06T21:50:09.000Z",
       "fields": {
-        "Project Title": "UC Merced Landing Page",
-        "Creative Discipline": [
-          "Web Development",
-          "Frontend Development"
-        ],
-        "Made For": [
-          "recxNK5x6oVOAAzRv"
-        ],
         "End Date": "2023-06-13",
+        "Featured Image URL": "UC%20Merced%20Landing%20Page/screencapture-127-0-0-1-5500-index-html-2025-06-20-17_20_34.png",
+        "GitHub URL": "https://github.com/billymitchell/uc-merced-idm-homepage-self",
+        "Position on Project": [
+          "Asistent"
+        ],
         "Job Type": [
           "Contract",
           "Freelance"
         ],
-        "Published": true,
-        "Position on Project": [
-          "Asistent"
-        ],
-        "Featured Image URL": "UC%20Merced%20Landing%20Page/screencapture-127-0-0-1-5500-index-html-2025-06-20-17_20_34.png",
         "Hide Featured Image In Body": true,
+        "Made For": [
+          "recxNK5x6oVOAAzRv"
+        ],
+        "Date Modified": "2025-11-07T20:23:49.000Z",
+        "Intro Text": "<h3>Goals</h3>\n<p>Contribute to the development of an interactive landing page for UC Merced, collaborating with Friends of the Web to bring advanced design concepts to life and expand experience with React and collaborative development workflows.</p>\n\n<h3>Contributions</h3>\n<p>Implemented a dynamic landing page based on provided design files, featuring interactive card elements with CSS 3D transforms to achieve depth and movement. Converted static HTML/CSS components into reusable React components within a Next.js framework. Integrated smoothly with an established codebase and contributed to the collaborative development process.</p>\n\n<h3>Outcomes</h3>\n<p>Delivered a visually engaging and technically dynamic landing page that met project design goals. Strengthened expertise in React and Next.js development and deepened experience working with modern, collaborative workflows. Helped establish a positive working relationship with the Friends of the Web team.</p>",
+        "Published": true,
+        "Created": "2025-06-06T21:50:09.000Z",
+        "Render On": "billymitchell.dev",
         "Made With": [
           "HTML",
           "CSS",
           "Javascript",
           "Next.js"
         ],
-        "Date Modified": "2025-11-07T20:23:49.000Z",
-        "Intro Text": "<h3>Goals</h3>\n<p>Contribute to the development of an interactive landing page for UC Merced, collaborating with Friends of the Web to bring advanced design concepts to life and expand experience with React and collaborative development workflows.</p>\n\n<h3>Contributions</h3>\n<p>Implemented a dynamic landing page based on provided design files, featuring interactive card elements with CSS 3D transforms to achieve depth and movement. Converted static HTML/CSS components into reusable React components within a Next.js framework. Integrated smoothly with an established codebase and contributed to the collaborative development process.</p>\n\n<h3>Outcomes</h3>\n<p>Delivered a visually engaging and technically dynamic landing page that met project design goals. Strengthened expertise in React and Next.js development and deepened experience working with modern, collaborative workflows. Helped establish a positive working relationship with the Friends of the Web team.</p>",
-        "GitHub URL": "https://github.com/billymitchell/uc-merced-idm-homepage-self",
-        "Gallery Folder Name": "UC Merced Landing Page",
-        "Created": "2025-06-06T21:50:09.000Z",
-        "Render On": "billymitchell.dev"
+        "Project Title": "UC Merced Landing Page",
+        "Creative Discipline": [
+          "Web Development",
+          "Frontend Development"
+        ],
+        "Gallery Folder Name": "UC Merced Landing Page"
       }
     },
     "fields": {
-      "Project Title": "UC Merced Landing Page",
-      "Creative Discipline": [
-        "Web Development",
-        "Frontend Development"
-      ],
-      "Made For": [
-        "recxNK5x6oVOAAzRv"
-      ],
       "End Date": "2023-06-13",
+      "Featured Image URL": "UC%20Merced%20Landing%20Page/screencapture-127-0-0-1-5500-index-html-2025-06-20-17_20_34.png",
+      "GitHub URL": "https://github.com/billymitchell/uc-merced-idm-homepage-self",
+      "Position on Project": [
+        "Asistent"
+      ],
       "Job Type": [
         "Contract",
         "Freelance"
       ],
-      "Published": true,
-      "Position on Project": [
-        "Asistent"
-      ],
-      "Featured Image URL": "UC%20Merced%20Landing%20Page/screencapture-127-0-0-1-5500-index-html-2025-06-20-17_20_34.png",
       "Hide Featured Image In Body": true,
+      "Made For": [
+        "recxNK5x6oVOAAzRv"
+      ],
+      "Date Modified": "2025-11-07T20:23:49.000Z",
+      "Intro Text": "<h3>Goals</h3>\n<p>Contribute to the development of an interactive landing page for UC Merced, collaborating with Friends of the Web to bring advanced design concepts to life and expand experience with React and collaborative development workflows.</p>\n\n<h3>Contributions</h3>\n<p>Implemented a dynamic landing page based on provided design files, featuring interactive card elements with CSS 3D transforms to achieve depth and movement. Converted static HTML/CSS components into reusable React components within a Next.js framework. Integrated smoothly with an established codebase and contributed to the collaborative development process.</p>\n\n<h3>Outcomes</h3>\n<p>Delivered a visually engaging and technically dynamic landing page that met project design goals. Strengthened expertise in React and Next.js development and deepened experience working with modern, collaborative workflows. Helped establish a positive working relationship with the Friends of the Web team.</p>",
+      "Published": true,
+      "Created": "2025-06-06T21:50:09.000Z",
+      "Render On": "billymitchell.dev",
       "Made With": [
         "HTML",
         "CSS",
         "Javascript",
         "Next.js"
       ],
-      "Date Modified": "2025-11-07T20:23:49.000Z",
-      "Intro Text": "<h3>Goals</h3>\n<p>Contribute to the development of an interactive landing page for UC Merced, collaborating with Friends of the Web to bring advanced design concepts to life and expand experience with React and collaborative development workflows.</p>\n\n<h3>Contributions</h3>\n<p>Implemented a dynamic landing page based on provided design files, featuring interactive card elements with CSS 3D transforms to achieve depth and movement. Converted static HTML/CSS components into reusable React components within a Next.js framework. Integrated smoothly with an established codebase and contributed to the collaborative development process.</p>\n\n<h3>Outcomes</h3>\n<p>Delivered a visually engaging and technically dynamic landing page that met project design goals. Strengthened expertise in React and Next.js development and deepened experience working with modern, collaborative workflows. Helped establish a positive working relationship with the Friends of the Web team.</p>",
-      "GitHub URL": "https://github.com/billymitchell/uc-merced-idm-homepage-self",
-      "Gallery Folder Name": "UC Merced Landing Page",
-      "Created": "2025-06-06T21:50:09.000Z",
-      "Render On": "billymitchell.dev"
+      "Project Title": "UC Merced Landing Page",
+      "Creative Discipline": [
+        "Web Development",
+        "Frontend Development"
+      ],
+      "Gallery Folder Name": "UC Merced Landing Page"
     }
   },
   {
@@ -576,67 +576,67 @@
       "id": "recG3W8euQ422jnUa",
       "createdTime": "2020-06-24T20:08:22.000Z",
       "fields": {
-        "Project Title": "Words of Womxn",
-        "Creative Discipline": [
-          "Web Development"
-        ],
-        "Made For": [
-          "recPO3Q68JfpY7tds"
-        ],
         "End Date": "2018-12-01",
+        "Featured Image URL": "words-of-womxn/ezgif.com-optimize",
+        "GitHub URL": "https://github.com/billymitchell/words-of-womxn",
+        "Position on Project": [
+          "Lead"
+        ],
         "Job Type": [
           "Educational"
         ],
         "Live Web Project URL": "https://words-of-womxn.billymitchell.design/",
-        "Published": true,
-        "Position on Project": [
-          "Lead"
-        ],
-        "Featured Image URL": "words-of-womxn/ezgif.com-optimize",
         "Hide Featured Image In Body": true,
+        "Made For": [
+          "recPO3Q68JfpY7tds"
+        ],
+        "Date Modified": "2025-11-07T20:27:34.000Z",
+        "Intro Text": "This project was part of an educational development class in advanced CSS and javascript. It demonstrated complex parallax scrolling interactions.",
+        "Published": true,
+        "Created": "2020-06-24T20:08:22.000Z",
+        "Render On": "billymitchell.dev",
         "Made With": [
           "HTML",
           "CSS",
           "Javascript"
         ],
-        "Date Modified": "2025-11-07T20:27:34.000Z",
-        "Intro Text": "This project was part of an educational development class in advanced CSS and javascript. It demonstrated complex parallax scrolling interactions.",
-        "GitHub URL": "https://github.com/billymitchell/words-of-womxn",
-        "Gallery Folder Name": "words-of-womxn",
-        "Created": "2020-06-24T20:08:22.000Z",
-        "Render On": "billymitchell.dev"
+        "Project Title": "Words of Womxn",
+        "Creative Discipline": [
+          "Web Development"
+        ],
+        "Gallery Folder Name": "words-of-womxn"
       }
     },
     "fields": {
-      "Project Title": "Words of Womxn",
-      "Creative Discipline": [
-        "Web Development"
-      ],
-      "Made For": [
-        "recPO3Q68JfpY7tds"
-      ],
       "End Date": "2018-12-01",
+      "Featured Image URL": "words-of-womxn/ezgif.com-optimize",
+      "GitHub URL": "https://github.com/billymitchell/words-of-womxn",
+      "Position on Project": [
+        "Lead"
+      ],
       "Job Type": [
         "Educational"
       ],
       "Live Web Project URL": "https://words-of-womxn.billymitchell.design/",
-      "Published": true,
-      "Position on Project": [
-        "Lead"
-      ],
-      "Featured Image URL": "words-of-womxn/ezgif.com-optimize",
       "Hide Featured Image In Body": true,
+      "Made For": [
+        "recPO3Q68JfpY7tds"
+      ],
+      "Date Modified": "2025-11-07T20:27:34.000Z",
+      "Intro Text": "This project was part of an educational development class in advanced CSS and javascript. It demonstrated complex parallax scrolling interactions.",
+      "Published": true,
+      "Created": "2020-06-24T20:08:22.000Z",
+      "Render On": "billymitchell.dev",
       "Made With": [
         "HTML",
         "CSS",
         "Javascript"
       ],
-      "Date Modified": "2025-11-07T20:27:34.000Z",
-      "Intro Text": "This project was part of an educational development class in advanced CSS and javascript. It demonstrated complex parallax scrolling interactions.",
-      "GitHub URL": "https://github.com/billymitchell/words-of-womxn",
-      "Gallery Folder Name": "words-of-womxn",
-      "Created": "2020-06-24T20:08:22.000Z",
-      "Render On": "billymitchell.dev"
+      "Project Title": "Words of Womxn",
+      "Creative Discipline": [
+        "Web Development"
+      ],
+      "Gallery Folder Name": "words-of-womxn"
     }
   },
   {
@@ -653,75 +653,75 @@
       "id": "recGE9j6WoFTvza8X",
       "createdTime": "2020-08-18T21:08:18.000Z",
       "fields": {
-        "Project Title": "Peak Regionals 2020 Email",
-        "Creative Discipline": [
-          "Email Development",
-          "Graphic Design"
+        "End Date": "2020-12-01",
+        "Featured Image URL": "peak-regionals-2020/Screen_Shot_2020-10-01_at_2.23.55_PM_o6ivrt",
+        "GitHub URL": "https://github.com/billymitchell/email-design/tree/master/peak-regionals-2020",
+        "Position on Project": [
+          "Lead"
         ],
+        "Job Type": [
+          "Full-Time"
+        ],
+        "Live Web Project URL": "https://email-design.billymitchell.design/peak-regionals-2020",
+        "Hide Featured Image In Body": true,
         "Made For": [
           "recwezBDstyLcFx9Q",
           "recf0LGEUUMi4JUBp",
           "recqb4ca8EMJFLfJf"
         ],
-        "End Date": "2020-12-01",
-        "Job Type": [
-          "Full-Time"
-        ],
-        "Live Web Project URL": "https://email-design.billymitchell.design/peak-regionals-2020",
+        "Date Modified": "2025-11-07T20:26:06.000Z",
+        "Intro Text": "<h3>Goals</h3>\nRedesign a national event announcement email to be more modern and represent the travel leader's brand better.<br>  \n<h3>Contributions</h3>\nI designed the email in adobe XD first before building it out in HTML/CSS. This allowed upper management to review and approve the design before investing in Development.<br> \n<h3>Outcomes</h3>\nThis email served as an updated brand guild for the event. It helped establish a baseline for quality for agent facing emails.\n",
         "Published": true,
-        "Position on Project": [
-          "Lead"
-        ],
-        "Featured Image URL": "peak-regionals-2020/Screen_Shot_2020-10-01_at_2.23.55_PM_o6ivrt",
-        "Hide Featured Image In Body": true,
+        "Created": "2020-08-18T21:08:18.000Z",
+        "Render On": "Both",
         "Made With": [
           "Adobe XD",
           "Photoshop",
           "HTML",
           "CSS"
         ],
-        "Date Modified": "2025-11-07T20:26:06.000Z",
-        "Intro Text": "<h3>Goals</h3>\nRedesign a national event announcement email to be more modern and represent the travel leader's brand better.<br>  \n<h3>Contributions</h3>\nI designed the email in adobe XD first before building it out in HTML/CSS. This allowed upper management to review and approve the design before investing in Development.<br> \n<h3>Outcomes</h3>\nThis email served as an updated brand guild for the event. It helped establish a baseline for quality for agent facing emails.\n",
-        "GitHub URL": "https://github.com/billymitchell/email-design/tree/master/peak-regionals-2020",
-        "Gallery Folder Name": "peak-regionals-2020",
-        "Created": "2020-08-18T21:08:18.000Z",
-        "Render On": "Both"
+        "Project Title": "Peak Regionals 2020 Email",
+        "Creative Discipline": [
+          "Email Development",
+          "Graphic Design"
+        ],
+        "Gallery Folder Name": "peak-regionals-2020"
       }
     },
     "fields": {
-      "Project Title": "Peak Regionals 2020 Email",
-      "Creative Discipline": [
-        "Email Development",
-        "Graphic Design"
+      "End Date": "2020-12-01",
+      "Featured Image URL": "peak-regionals-2020/Screen_Shot_2020-10-01_at_2.23.55_PM_o6ivrt",
+      "GitHub URL": "https://github.com/billymitchell/email-design/tree/master/peak-regionals-2020",
+      "Position on Project": [
+        "Lead"
       ],
+      "Job Type": [
+        "Full-Time"
+      ],
+      "Live Web Project URL": "https://email-design.billymitchell.design/peak-regionals-2020",
+      "Hide Featured Image In Body": true,
       "Made For": [
         "recwezBDstyLcFx9Q",
         "recf0LGEUUMi4JUBp",
         "recqb4ca8EMJFLfJf"
       ],
-      "End Date": "2020-12-01",
-      "Job Type": [
-        "Full-Time"
-      ],
-      "Live Web Project URL": "https://email-design.billymitchell.design/peak-regionals-2020",
+      "Date Modified": "2025-11-07T20:26:06.000Z",
+      "Intro Text": "<h3>Goals</h3>\nRedesign a national event announcement email to be more modern and represent the travel leader's brand better.<br>  \n<h3>Contributions</h3>\nI designed the email in adobe XD first before building it out in HTML/CSS. This allowed upper management to review and approve the design before investing in Development.<br> \n<h3>Outcomes</h3>\nThis email served as an updated brand guild for the event. It helped establish a baseline for quality for agent facing emails.\n",
       "Published": true,
-      "Position on Project": [
-        "Lead"
-      ],
-      "Featured Image URL": "peak-regionals-2020/Screen_Shot_2020-10-01_at_2.23.55_PM_o6ivrt",
-      "Hide Featured Image In Body": true,
+      "Created": "2020-08-18T21:08:18.000Z",
+      "Render On": "Both",
       "Made With": [
         "Adobe XD",
         "Photoshop",
         "HTML",
         "CSS"
       ],
-      "Date Modified": "2025-11-07T20:26:06.000Z",
-      "Intro Text": "<h3>Goals</h3>\nRedesign a national event announcement email to be more modern and represent the travel leader's brand better.<br>  \n<h3>Contributions</h3>\nI designed the email in adobe XD first before building it out in HTML/CSS. This allowed upper management to review and approve the design before investing in Development.<br> \n<h3>Outcomes</h3>\nThis email served as an updated brand guild for the event. It helped establish a baseline for quality for agent facing emails.\n",
-      "GitHub URL": "https://github.com/billymitchell/email-design/tree/master/peak-regionals-2020",
-      "Gallery Folder Name": "peak-regionals-2020",
-      "Created": "2020-08-18T21:08:18.000Z",
-      "Render On": "Both"
+      "Project Title": "Peak Regionals 2020 Email",
+      "Creative Discipline": [
+        "Email Development",
+        "Graphic Design"
+      ],
+      "Gallery Folder Name": "peak-regionals-2020"
     }
   },
   {
@@ -738,73 +738,73 @@
       "id": "recQREeLxKOZLLR55",
       "createdTime": "2020-10-02T19:07:51.000Z",
       "fields": {
-        "Project Title": "The Travel Collection Email",
-        "Creative Discipline": [
-          "Web Development",
-          "Frontend Development"
-        ],
-        "Made For": [
-          "recwezBDstyLcFx9Q",
-          "recv6SUD6BamH2bB1"
-        ],
         "End Date": "2020-01-01",
+        "Featured Image URL": "the-travel-collection/Screen_Shot_2020-10-02_at_3.08.59_PM_kwwsw1",
+        "GitHub URL": "https://github.com/billymitchell/email-design/tree/master/the-travel-collection",
+        "Position on Project": [
+          "Lead"
+        ],
         "Job Type": [
           "Full-Time"
         ],
         "Live Web Project URL": "https://email-design.billymitchell.design/the-travel-collection/",
-        "Published": true,
-        "Position on Project": [
-          "Lead"
-        ],
-        "Body Text": "<style>\n  .mobile {\n    display: none;\n  }\n  .desktop {\n    display: block;\n  }\n  @media only screen and (max-width: 700px) {\n    .desktop {\n      display: none;\n    }\n    .mobile {\n      display: block;\n    }\n  }\n</style>\n<img\n  class=\"desktop\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/the-travel-collection/desktop_iyuy8o\"\n/>\n<img\n  class=\"mobile\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/the-travel-collection/mobile_kfpn7l\"\n/>\n",
-        "Featured Image URL": "the-travel-collection/Screen_Shot_2020-10-02_at_3.08.59_PM_kwwsw1",
         "Hide Featured Image In Body": true,
+        "Made For": [
+          "recwezBDstyLcFx9Q",
+          "recv6SUD6BamH2bB1"
+        ],
+        "Date Modified": "2025-11-07T20:25:56.000Z",
+        "Intro Text": "This email design is an example of a unique approach within the company. To emphasize the premium nature of the program, I created a newly designed template. I included alternative layout options, including a mobile-friendly responsively header not previously available in the company.",
+        "Published": true,
+        "Created": "2020-10-02T19:07:51.000Z",
+        "Render On": "Both",
         "Made With": [
           "Photoshop",
           "HTML",
           "CSS"
         ],
-        "Date Modified": "2025-11-07T20:25:56.000Z",
-        "Intro Text": "This email design is an example of a unique approach within the company. To emphasize the premium nature of the program, I created a newly designed template. I included alternative layout options, including a mobile-friendly responsively header not previously available in the company.",
-        "GitHub URL": "https://github.com/billymitchell/email-design/tree/master/the-travel-collection",
+        "Project Title": "The Travel Collection Email",
+        "Creative Discipline": [
+          "Web Development",
+          "Frontend Development"
+        ],
         "Gallery Folder Name": "the-travel-collection",
-        "Created": "2020-10-02T19:07:51.000Z",
-        "Render On": "Both"
+        "Body Text": "<style>\n  .mobile {\n    display: none;\n  }\n  .desktop {\n    display: block;\n  }\n  @media only screen and (max-width: 700px) {\n    .desktop {\n      display: none;\n    }\n    .mobile {\n      display: block;\n    }\n  }\n</style>\n<img\n  class=\"desktop\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/the-travel-collection/desktop_iyuy8o\"\n/>\n<img\n  class=\"mobile\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/the-travel-collection/mobile_kfpn7l\"\n/>\n"
       }
     },
     "fields": {
-      "Project Title": "The Travel Collection Email",
-      "Creative Discipline": [
-        "Web Development",
-        "Frontend Development"
-      ],
-      "Made For": [
-        "recwezBDstyLcFx9Q",
-        "recv6SUD6BamH2bB1"
-      ],
       "End Date": "2020-01-01",
+      "Featured Image URL": "the-travel-collection/Screen_Shot_2020-10-02_at_3.08.59_PM_kwwsw1",
+      "GitHub URL": "https://github.com/billymitchell/email-design/tree/master/the-travel-collection",
+      "Position on Project": [
+        "Lead"
+      ],
       "Job Type": [
         "Full-Time"
       ],
       "Live Web Project URL": "https://email-design.billymitchell.design/the-travel-collection/",
-      "Published": true,
-      "Position on Project": [
-        "Lead"
-      ],
-      "Body Text": "<style>\n  .mobile {\n    display: none;\n  }\n  .desktop {\n    display: block;\n  }\n  @media only screen and (max-width: 700px) {\n    .desktop {\n      display: none;\n    }\n    .mobile {\n      display: block;\n    }\n  }\n</style>\n<img\n  class=\"desktop\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/the-travel-collection/desktop_iyuy8o\"\n/>\n<img\n  class=\"mobile\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/the-travel-collection/mobile_kfpn7l\"\n/>\n",
-      "Featured Image URL": "the-travel-collection/Screen_Shot_2020-10-02_at_3.08.59_PM_kwwsw1",
       "Hide Featured Image In Body": true,
+      "Made For": [
+        "recwezBDstyLcFx9Q",
+        "recv6SUD6BamH2bB1"
+      ],
+      "Date Modified": "2025-11-07T20:25:56.000Z",
+      "Intro Text": "This email design is an example of a unique approach within the company. To emphasize the premium nature of the program, I created a newly designed template. I included alternative layout options, including a mobile-friendly responsively header not previously available in the company.",
+      "Published": true,
+      "Created": "2020-10-02T19:07:51.000Z",
+      "Render On": "Both",
       "Made With": [
         "Photoshop",
         "HTML",
         "CSS"
       ],
-      "Date Modified": "2025-11-07T20:25:56.000Z",
-      "Intro Text": "This email design is an example of a unique approach within the company. To emphasize the premium nature of the program, I created a newly designed template. I included alternative layout options, including a mobile-friendly responsively header not previously available in the company.",
-      "GitHub URL": "https://github.com/billymitchell/email-design/tree/master/the-travel-collection",
+      "Project Title": "The Travel Collection Email",
+      "Creative Discipline": [
+        "Web Development",
+        "Frontend Development"
+      ],
       "Gallery Folder Name": "the-travel-collection",
-      "Created": "2020-10-02T19:07:51.000Z",
-      "Render On": "Both"
+      "Body Text": "<style>\n  .mobile {\n    display: none;\n  }\n  .desktop {\n    display: block;\n  }\n  @media only screen and (max-width: 700px) {\n    .desktop {\n      display: none;\n    }\n    .mobile {\n      display: block;\n    }\n  }\n</style>\n<img\n  class=\"desktop\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/the-travel-collection/desktop_iyuy8o\"\n/>\n<img\n  class=\"mobile\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/the-travel-collection/mobile_kfpn7l\"\n/>\n"
     }
   },
   {
@@ -821,65 +821,65 @@
       "id": "recQYg9T6O3ZFov3H",
       "createdTime": "2025-06-06T17:30:29.000Z",
       "fields": {
+        "End Date": "2025-05-31",
+        "Featured Image URL": "Hide%20Expedited%20Shipping%20Methods%20for%20Dropship%20Items/Screenshot_2025-06-02_at_1.40.48_PM.png",
+        "GitHub URL": "https://github.com/billymitchell/Limit-Ship-Methods-For-Dropship-Items",
+        "Position on Project": [
+          "Lead"
+        ],
+        "Job Type": [
+          "Full-Time"
+        ],
+        "Hide Featured Image In Body": true,
+        "Made For": [
+          "recbJpghbxReFGtRU"
+        ],
+        "Date Modified": "2025-11-07T20:25:07.000Z",
+        "Intro Text": "<h3>Goals</h3>\n<p>Improve customer experience and delivery accuracy by dynamically hiding unsupported shipping methods for specific drop ship items in the e-commerce cart.</p>\n\n<h3>Contributions</h3>\n<p>Developed a JavaScript application layered on top of the e-commerce platform. Built logic to parse the cart object, identify item vendors, and determine eligible shipping methods per vendor. Implemented dynamic hiding of unsupported shipping options and customer-facing alerts when restrictions apply.</p>\n\n<h3>Outcomes</h3>\n<p>Eliminated common fulfillment issues caused by incompatible shipping selections. Reduced customer dissatisfaction due to delayed shipments. Provided a more transparent and accurate checkout experience aligned with partner fulfillment capabilities.</p>",
+        "Published": true,
+        "Created": "2025-06-06T17:30:29.000Z",
+        "Render On": "billymitchell.dev",
+        "Made With": [
+          "Javascript",
+          "Liquid"
+        ],
         "Project Title": "Hide Expedited Shipping Methods for Dropship Items",
         "Creative Discipline": [
           "Web Development",
           "Frontend Development"
         ],
-        "Made For": [
-          "recbJpghbxReFGtRU"
-        ],
-        "End Date": "2025-05-31",
-        "Job Type": [
-          "Full-Time"
-        ],
-        "Published": true,
-        "Position on Project": [
-          "Lead"
-        ],
-        "Featured Image URL": "Hide%20Expedited%20Shipping%20Methods%20for%20Dropship%20Items/Screenshot_2025-06-02_at_1.40.48_PM.png",
-        "Hide Featured Image In Body": true,
-        "Made With": [
-          "Javascript",
-          "Liquid"
-        ],
-        "Date Modified": "2025-11-07T20:25:07.000Z",
-        "Intro Text": "<h3>Goals</h3>\n<p>Improve customer experience and delivery accuracy by dynamically hiding unsupported shipping methods for specific drop ship items in the e-commerce cart.</p>\n\n<h3>Contributions</h3>\n<p>Developed a JavaScript application layered on top of the e-commerce platform. Built logic to parse the cart object, identify item vendors, and determine eligible shipping methods per vendor. Implemented dynamic hiding of unsupported shipping options and customer-facing alerts when restrictions apply.</p>\n\n<h3>Outcomes</h3>\n<p>Eliminated common fulfillment issues caused by incompatible shipping selections. Reduced customer dissatisfaction due to delayed shipments. Provided a more transparent and accurate checkout experience aligned with partner fulfillment capabilities.</p>",
-        "GitHub URL": "https://github.com/billymitchell/Limit-Ship-Methods-For-Dropship-Items",
-        "Gallery Folder Name": "Hide Expedited Shipping Methods for Dropship Items",
-        "Created": "2025-06-06T17:30:29.000Z",
-        "Render On": "billymitchell.dev"
+        "Gallery Folder Name": "Hide Expedited Shipping Methods for Dropship Items"
       }
     },
     "fields": {
+      "End Date": "2025-05-31",
+      "Featured Image URL": "Hide%20Expedited%20Shipping%20Methods%20for%20Dropship%20Items/Screenshot_2025-06-02_at_1.40.48_PM.png",
+      "GitHub URL": "https://github.com/billymitchell/Limit-Ship-Methods-For-Dropship-Items",
+      "Position on Project": [
+        "Lead"
+      ],
+      "Job Type": [
+        "Full-Time"
+      ],
+      "Hide Featured Image In Body": true,
+      "Made For": [
+        "recbJpghbxReFGtRU"
+      ],
+      "Date Modified": "2025-11-07T20:25:07.000Z",
+      "Intro Text": "<h3>Goals</h3>\n<p>Improve customer experience and delivery accuracy by dynamically hiding unsupported shipping methods for specific drop ship items in the e-commerce cart.</p>\n\n<h3>Contributions</h3>\n<p>Developed a JavaScript application layered on top of the e-commerce platform. Built logic to parse the cart object, identify item vendors, and determine eligible shipping methods per vendor. Implemented dynamic hiding of unsupported shipping options and customer-facing alerts when restrictions apply.</p>\n\n<h3>Outcomes</h3>\n<p>Eliminated common fulfillment issues caused by incompatible shipping selections. Reduced customer dissatisfaction due to delayed shipments. Provided a more transparent and accurate checkout experience aligned with partner fulfillment capabilities.</p>",
+      "Published": true,
+      "Created": "2025-06-06T17:30:29.000Z",
+      "Render On": "billymitchell.dev",
+      "Made With": [
+        "Javascript",
+        "Liquid"
+      ],
       "Project Title": "Hide Expedited Shipping Methods for Dropship Items",
       "Creative Discipline": [
         "Web Development",
         "Frontend Development"
       ],
-      "Made For": [
-        "recbJpghbxReFGtRU"
-      ],
-      "End Date": "2025-05-31",
-      "Job Type": [
-        "Full-Time"
-      ],
-      "Published": true,
-      "Position on Project": [
-        "Lead"
-      ],
-      "Featured Image URL": "Hide%20Expedited%20Shipping%20Methods%20for%20Dropship%20Items/Screenshot_2025-06-02_at_1.40.48_PM.png",
-      "Hide Featured Image In Body": true,
-      "Made With": [
-        "Javascript",
-        "Liquid"
-      ],
-      "Date Modified": "2025-11-07T20:25:07.000Z",
-      "Intro Text": "<h3>Goals</h3>\n<p>Improve customer experience and delivery accuracy by dynamically hiding unsupported shipping methods for specific drop ship items in the e-commerce cart.</p>\n\n<h3>Contributions</h3>\n<p>Developed a JavaScript application layered on top of the e-commerce platform. Built logic to parse the cart object, identify item vendors, and determine eligible shipping methods per vendor. Implemented dynamic hiding of unsupported shipping options and customer-facing alerts when restrictions apply.</p>\n\n<h3>Outcomes</h3>\n<p>Eliminated common fulfillment issues caused by incompatible shipping selections. Reduced customer dissatisfaction due to delayed shipments. Provided a more transparent and accurate checkout experience aligned with partner fulfillment capabilities.</p>",
-      "GitHub URL": "https://github.com/billymitchell/Limit-Ship-Methods-For-Dropship-Items",
-      "Gallery Folder Name": "Hide Expedited Shipping Methods for Dropship Items",
-      "Created": "2025-06-06T17:30:29.000Z",
-      "Render On": "billymitchell.dev"
+      "Gallery Folder Name": "Hide Expedited Shipping Methods for Dropship Items"
     }
   },
   {
@@ -896,6 +896,31 @@
       "id": "recRJsXpQm3UHzwSg",
       "createdTime": "2025-06-06T22:07:24.000Z",
       "fields": {
+        "End Date": "2024-10-20",
+        "Featured Image URL": "Yuzu%20Ramen%20Website%20and%20Photography%20Videography/screencapture-yuzu-ramen-2025-06-20-17_27_49.png",
+        "Position on Project": [
+          "Lead"
+        ],
+        "Job Type": [
+          "Freelance",
+          "Contract"
+        ],
+        "Hide Featured Image in Gallery": true,
+        "Live Web Project URL": "https://yuzu-ramen.com/",
+        "Made For": [
+          "rec60rm0ahEEGqjOg"
+        ],
+        "Date Modified": "2025-11-07T20:23:34.000Z",
+        "Intro Text": "<h3>Goals</h3>\n<p>Design and develop a visually immersive website for Yuzu Ramen, a new Baltimore ramen restaurant, while supporting brand launch with photography and video content to enhance online and in-person presence.</p>\n\n<h3>Contributions</h3>\n<p>Developed a custom website that extends the restaurant’s bold branding into an interactive web experience. Designed a splash screen with liquid and noodle-inspired animations and Japanese lantern motifs. Integrated rotating photography on the homepage, along with location imagery highlighting Mount Vernon Marketplace. Embedded Instagram feed and implemented clean layouts for hours, contact info, and branded design elements. Additionally produced launch photography and video content, focusing on rich textures, depth of field, and dynamic food preparation moments—including detailed ramen shots and atmospheric video clips featuring fire and culinary action.</p>\n\n<h3>Outcomes</h3>\n<p>Delivered a cohesive visual identity across web and media channels, elevating the restaurant’s online presence and supporting initial marketing efforts. Helped position Yuzu Ramen as a distinctive, authentic addition to the local food scene. Created media assets that continue to drive engagement and interest both online and in-store.</p>",
+        "Published": true,
+        "Created": "2025-06-06T22:07:24.000Z",
+        "Render On": "Both",
+        "Made With": [
+          "Photoshop",
+          "Premiere Pro",
+          "Camera",
+          "Wordpress"
+        ],
         "Project Title": "Yuzu Ramen Website & Photography/Videography  ",
         "Creative Discipline": [
           "Photography",
@@ -904,35 +929,35 @@
           "Graphic Design",
           "Web Design"
         ],
-        "Made For": [
-          "rec60rm0ahEEGqjOg"
-        ],
-        "End Date": "2024-10-20",
-        "Job Type": [
-          "Freelance",
-          "Contract"
-        ],
-        "Live Web Project URL": "https://yuzu-ramen.com/",
-        "Published": true,
-        "Position on Project": [
-          "Lead"
-        ],
-        "Featured Image URL": "Yuzu%20Ramen%20Website%20and%20Photography%20Videography/screencapture-yuzu-ramen-2025-06-20-17_27_49.png",
-        "Made With": [
-          "Photoshop",
-          "Premiere Pro",
-          "Camera",
-          "Wordpress"
-        ],
-        "Date Modified": "2025-11-07T20:23:34.000Z",
-        "Intro Text": "<h3>Goals</h3>\n<p>Design and develop a visually immersive website for Yuzu Ramen, a new Baltimore ramen restaurant, while supporting brand launch with photography and video content to enhance online and in-person presence.</p>\n\n<h3>Contributions</h3>\n<p>Developed a custom website that extends the restaurant’s bold branding into an interactive web experience. Designed a splash screen with liquid and noodle-inspired animations and Japanese lantern motifs. Integrated rotating photography on the homepage, along with location imagery highlighting Mount Vernon Marketplace. Embedded Instagram feed and implemented clean layouts for hours, contact info, and branded design elements. Additionally produced launch photography and video content, focusing on rich textures, depth of field, and dynamic food preparation moments—including detailed ramen shots and atmospheric video clips featuring fire and culinary action.</p>\n\n<h3>Outcomes</h3>\n<p>Delivered a cohesive visual identity across web and media channels, elevating the restaurant’s online presence and supporting initial marketing efforts. Helped position Yuzu Ramen as a distinctive, authentic addition to the local food scene. Created media assets that continue to drive engagement and interest both online and in-store.</p>",
-        "Gallery Folder Name": "Yuzu Ramen Website and Photography Videography",
-        "Hide Featured Image in Gallery": true,
-        "Created": "2025-06-06T22:07:24.000Z",
-        "Render On": "Both"
+        "Gallery Folder Name": "Yuzu Ramen Website and Photography Videography"
       }
     },
     "fields": {
+      "End Date": "2024-10-20",
+      "Featured Image URL": "Yuzu%20Ramen%20Website%20and%20Photography%20Videography/screencapture-yuzu-ramen-2025-06-20-17_27_49.png",
+      "Position on Project": [
+        "Lead"
+      ],
+      "Job Type": [
+        "Freelance",
+        "Contract"
+      ],
+      "Hide Featured Image in Gallery": true,
+      "Live Web Project URL": "https://yuzu-ramen.com/",
+      "Made For": [
+        "rec60rm0ahEEGqjOg"
+      ],
+      "Date Modified": "2025-11-07T20:23:34.000Z",
+      "Intro Text": "<h3>Goals</h3>\n<p>Design and develop a visually immersive website for Yuzu Ramen, a new Baltimore ramen restaurant, while supporting brand launch with photography and video content to enhance online and in-person presence.</p>\n\n<h3>Contributions</h3>\n<p>Developed a custom website that extends the restaurant’s bold branding into an interactive web experience. Designed a splash screen with liquid and noodle-inspired animations and Japanese lantern motifs. Integrated rotating photography on the homepage, along with location imagery highlighting Mount Vernon Marketplace. Embedded Instagram feed and implemented clean layouts for hours, contact info, and branded design elements. Additionally produced launch photography and video content, focusing on rich textures, depth of field, and dynamic food preparation moments—including detailed ramen shots and atmospheric video clips featuring fire and culinary action.</p>\n\n<h3>Outcomes</h3>\n<p>Delivered a cohesive visual identity across web and media channels, elevating the restaurant’s online presence and supporting initial marketing efforts. Helped position Yuzu Ramen as a distinctive, authentic addition to the local food scene. Created media assets that continue to drive engagement and interest both online and in-store.</p>",
+      "Published": true,
+      "Created": "2025-06-06T22:07:24.000Z",
+      "Render On": "Both",
+      "Made With": [
+        "Photoshop",
+        "Premiere Pro",
+        "Camera",
+        "Wordpress"
+      ],
       "Project Title": "Yuzu Ramen Website & Photography/Videography  ",
       "Creative Discipline": [
         "Photography",
@@ -941,32 +966,7 @@
         "Graphic Design",
         "Web Design"
       ],
-      "Made For": [
-        "rec60rm0ahEEGqjOg"
-      ],
-      "End Date": "2024-10-20",
-      "Job Type": [
-        "Freelance",
-        "Contract"
-      ],
-      "Live Web Project URL": "https://yuzu-ramen.com/",
-      "Published": true,
-      "Position on Project": [
-        "Lead"
-      ],
-      "Featured Image URL": "Yuzu%20Ramen%20Website%20and%20Photography%20Videography/screencapture-yuzu-ramen-2025-06-20-17_27_49.png",
-      "Made With": [
-        "Photoshop",
-        "Premiere Pro",
-        "Camera",
-        "Wordpress"
-      ],
-      "Date Modified": "2025-11-07T20:23:34.000Z",
-      "Intro Text": "<h3>Goals</h3>\n<p>Design and develop a visually immersive website for Yuzu Ramen, a new Baltimore ramen restaurant, while supporting brand launch with photography and video content to enhance online and in-person presence.</p>\n\n<h3>Contributions</h3>\n<p>Developed a custom website that extends the restaurant’s bold branding into an interactive web experience. Designed a splash screen with liquid and noodle-inspired animations and Japanese lantern motifs. Integrated rotating photography on the homepage, along with location imagery highlighting Mount Vernon Marketplace. Embedded Instagram feed and implemented clean layouts for hours, contact info, and branded design elements. Additionally produced launch photography and video content, focusing on rich textures, depth of field, and dynamic food preparation moments—including detailed ramen shots and atmospheric video clips featuring fire and culinary action.</p>\n\n<h3>Outcomes</h3>\n<p>Delivered a cohesive visual identity across web and media channels, elevating the restaurant’s online presence and supporting initial marketing efforts. Helped position Yuzu Ramen as a distinctive, authentic addition to the local food scene. Created media assets that continue to drive engagement and interest both online and in-store.</p>",
-      "Gallery Folder Name": "Yuzu Ramen Website and Photography Videography",
-      "Hide Featured Image in Gallery": true,
-      "Created": "2025-06-06T22:07:24.000Z",
-      "Render On": "Both"
+      "Gallery Folder Name": "Yuzu Ramen Website and Photography Videography"
     }
   },
   {
@@ -983,28 +983,25 @@
       "id": "recVPk5TDt9F6jsht",
       "createdTime": "2020-12-31T20:47:34.000Z",
       "fields": {
-        "Project Title": "Billy Mitchell Design",
-        "Creative Discipline": [
-          "Web Development",
-          "Motion Design",
-          "Frontend Development",
-          "Backend Development",
-          "Web Design"
-        ],
-        "Made For": [
-          "rec4UvnGnKwCs9agu"
-        ],
         "End Date": "2020-10-30",
+        "Featured Image URL": "billy-mitchell-website/billy-mitchell-website",
+        "GitHub URL": "https://github.com/billymitchell/billy-mitchell-design-next",
+        "Position on Project": [
+          "Lead"
+        ],
         "Job Type": [
           "Part-Time"
         ],
         "Live Web Project URL": "https://billymitchell.design/",
-        "Published": true,
-        "Position on Project": [
-          "Lead"
-        ],
-        "Featured Image URL": "billy-mitchell-website/billy-mitchell-website",
         "Hide Featured Image In Body": true,
+        "Made For": [
+          "rec4UvnGnKwCs9agu"
+        ],
+        "Date Modified": "2025-11-07T20:25:43.000Z",
+        "Intro Text": "<h3>Goals</h3>\nMove personal website from inflexible WordPress CMS to custom-designed and developed React-based Gatsby site using a headless CMS.<br>\n<h3>Contributions</h3>\nWork on this project was produced independently. This resulted from multiple development classes and working in a framework with good documentation and support. <br>\n<h3>Outcomes</h3>\nLeveraged platforms to reduce hosting costs to $0. Faster website rendering and image delivery. Complete controls over design and functionality. Beter project metadata and more refined publishing controls.",
+        "Published": true,
+        "Created": "2020-12-31T20:47:34.000Z",
+        "Render On": "Both",
         "Made With": [
           "HTML",
           "CSS",
@@ -1017,37 +1014,37 @@
           "React",
           "Next.js"
         ],
-        "Date Modified": "2025-11-07T20:25:43.000Z",
-        "Intro Text": "<h3>Goals</h3>\nMove personal website from inflexible WordPress CMS to custom-designed and developed React-based Gatsby site using a headless CMS.<br>\n<h3>Contributions</h3>\nWork on this project was produced independently. This resulted from multiple development classes and working in a framework with good documentation and support. <br>\n<h3>Outcomes</h3>\nLeveraged platforms to reduce hosting costs to $0. Faster website rendering and image delivery. Complete controls over design and functionality. Beter project metadata and more refined publishing controls.",
-        "GitHub URL": "https://github.com/billymitchell/billy-mitchell-design-next",
-        "Gallery Folder Name": "billy-mitchell-website",
-        "Created": "2020-12-31T20:47:34.000Z",
-        "Render On": "Both"
+        "Project Title": "Billy Mitchell Design",
+        "Creative Discipline": [
+          "Web Development",
+          "Motion Design",
+          "Frontend Development",
+          "Backend Development",
+          "Web Design"
+        ],
+        "Gallery Folder Name": "billy-mitchell-website"
       }
     },
     "fields": {
-      "Project Title": "Billy Mitchell Design",
-      "Creative Discipline": [
-        "Web Development",
-        "Motion Design",
-        "Frontend Development",
-        "Backend Development",
-        "Web Design"
-      ],
-      "Made For": [
-        "rec4UvnGnKwCs9agu"
-      ],
       "End Date": "2020-10-30",
+      "Featured Image URL": "billy-mitchell-website/billy-mitchell-website",
+      "GitHub URL": "https://github.com/billymitchell/billy-mitchell-design-next",
+      "Position on Project": [
+        "Lead"
+      ],
       "Job Type": [
         "Part-Time"
       ],
       "Live Web Project URL": "https://billymitchell.design/",
-      "Published": true,
-      "Position on Project": [
-        "Lead"
-      ],
-      "Featured Image URL": "billy-mitchell-website/billy-mitchell-website",
       "Hide Featured Image In Body": true,
+      "Made For": [
+        "rec4UvnGnKwCs9agu"
+      ],
+      "Date Modified": "2025-11-07T20:25:43.000Z",
+      "Intro Text": "<h3>Goals</h3>\nMove personal website from inflexible WordPress CMS to custom-designed and developed React-based Gatsby site using a headless CMS.<br>\n<h3>Contributions</h3>\nWork on this project was produced independently. This resulted from multiple development classes and working in a framework with good documentation and support. <br>\n<h3>Outcomes</h3>\nLeveraged platforms to reduce hosting costs to $0. Faster website rendering and image delivery. Complete controls over design and functionality. Beter project metadata and more refined publishing controls.",
+      "Published": true,
+      "Created": "2020-12-31T20:47:34.000Z",
+      "Render On": "Both",
       "Made With": [
         "HTML",
         "CSS",
@@ -1060,12 +1057,15 @@
         "React",
         "Next.js"
       ],
-      "Date Modified": "2025-11-07T20:25:43.000Z",
-      "Intro Text": "<h3>Goals</h3>\nMove personal website from inflexible WordPress CMS to custom-designed and developed React-based Gatsby site using a headless CMS.<br>\n<h3>Contributions</h3>\nWork on this project was produced independently. This resulted from multiple development classes and working in a framework with good documentation and support. <br>\n<h3>Outcomes</h3>\nLeveraged platforms to reduce hosting costs to $0. Faster website rendering and image delivery. Complete controls over design and functionality. Beter project metadata and more refined publishing controls.",
-      "GitHub URL": "https://github.com/billymitchell/billy-mitchell-design-next",
-      "Gallery Folder Name": "billy-mitchell-website",
-      "Created": "2020-12-31T20:47:34.000Z",
-      "Render On": "Both"
+      "Project Title": "Billy Mitchell Design",
+      "Creative Discipline": [
+        "Web Development",
+        "Motion Design",
+        "Frontend Development",
+        "Backend Development",
+        "Web Design"
+      ],
+      "Gallery Folder Name": "billy-mitchell-website"
     }
   },
   {
@@ -1082,63 +1082,63 @@
       "id": "recXJpe1GpwfVmSwc",
       "createdTime": "2025-06-06T21:37:23.000Z",
       "fields": {
+        "End Date": "2025-05-31",
+        "Featured Image URL": "Auto%20Convert%20Order%20Status:%20New%20To%20In%20Progress/Screenshot_2025-06-20_at_2.33.48_PM.png",
+        "GitHub URL": "https://github.com/billymitchell/brightstores-omg-status-update-machine",
+        "Position on Project": [
+          "Lead"
+        ],
+        "Job Type": [
+          "Full-Time"
+        ],
+        "Hide Featured Image In Body": true,
+        "Made For": [
+          "recbJpghbxReFGtRU"
+        ],
+        "Date Modified": "2025-11-07T20:25:07.000Z",
+        "Intro Text": "<h3>Goals</h3>\n<p>Automate order status updates to reduce manual work, ensure billing accuracy, and streamline the sync between e-commerce and financial systems.</p>\n\n<h3>Contributions</h3>\n<p>Developed a Python-based automation tool to regularly fetch order data via the e-commerce platform API. Implemented logic to detect when orders had been imported into the fulfillment system and were older than two hours. Automated the status update from \"New\" to \"In-Progress,\" triggering necessary downstream processes including billing syncs. Leveraged AI tools to support the coding and deployment of this project.</p>\n\n<h3>Outcomes</h3>\n<p>Eliminated repetitive manual order status updates by customer service. Ensured timely and accurate status transitions required for billing processes. Improved operational efficiency across e-commerce, fulfillment, and finance workflows.</p>",
+        "Published": true,
+        "Created": "2025-06-06T21:37:23.000Z",
+        "Render On": "billymitchell.dev",
+        "Made With": [
+          "Python"
+        ],
         "Project Title": "Auto Convert Order Status: New To In Progress",
         "Creative Discipline": [
           "Web Development",
           "Backend Development"
         ],
-        "Made For": [
-          "recbJpghbxReFGtRU"
-        ],
-        "End Date": "2025-05-31",
-        "Job Type": [
-          "Full-Time"
-        ],
-        "Published": true,
-        "Position on Project": [
-          "Lead"
-        ],
-        "Featured Image URL": "Auto%20Convert%20Order%20Status:%20New%20To%20In%20Progress/Screenshot_2025-06-20_at_2.33.48_PM.png",
-        "Hide Featured Image In Body": true,
-        "Made With": [
-          "Python"
-        ],
-        "Date Modified": "2025-11-07T20:25:07.000Z",
-        "Intro Text": "<h3>Goals</h3>\n<p>Automate order status updates to reduce manual work, ensure billing accuracy, and streamline the sync between e-commerce and financial systems.</p>\n\n<h3>Contributions</h3>\n<p>Developed a Python-based automation tool to regularly fetch order data via the e-commerce platform API. Implemented logic to detect when orders had been imported into the fulfillment system and were older than two hours. Automated the status update from \"New\" to \"In-Progress,\" triggering necessary downstream processes including billing syncs. Leveraged AI tools to support the coding and deployment of this project.</p>\n\n<h3>Outcomes</h3>\n<p>Eliminated repetitive manual order status updates by customer service. Ensured timely and accurate status transitions required for billing processes. Improved operational efficiency across e-commerce, fulfillment, and finance workflows.</p>",
-        "GitHub URL": "https://github.com/billymitchell/brightstores-omg-status-update-machine",
-        "Gallery Folder Name": "Auto Convert Order Status: New To In Progress",
-        "Created": "2025-06-06T21:37:23.000Z",
-        "Render On": "billymitchell.dev"
+        "Gallery Folder Name": "Auto Convert Order Status: New To In Progress"
       }
     },
     "fields": {
+      "End Date": "2025-05-31",
+      "Featured Image URL": "Auto%20Convert%20Order%20Status:%20New%20To%20In%20Progress/Screenshot_2025-06-20_at_2.33.48_PM.png",
+      "GitHub URL": "https://github.com/billymitchell/brightstores-omg-status-update-machine",
+      "Position on Project": [
+        "Lead"
+      ],
+      "Job Type": [
+        "Full-Time"
+      ],
+      "Hide Featured Image In Body": true,
+      "Made For": [
+        "recbJpghbxReFGtRU"
+      ],
+      "Date Modified": "2025-11-07T20:25:07.000Z",
+      "Intro Text": "<h3>Goals</h3>\n<p>Automate order status updates to reduce manual work, ensure billing accuracy, and streamline the sync between e-commerce and financial systems.</p>\n\n<h3>Contributions</h3>\n<p>Developed a Python-based automation tool to regularly fetch order data via the e-commerce platform API. Implemented logic to detect when orders had been imported into the fulfillment system and were older than two hours. Automated the status update from \"New\" to \"In-Progress,\" triggering necessary downstream processes including billing syncs. Leveraged AI tools to support the coding and deployment of this project.</p>\n\n<h3>Outcomes</h3>\n<p>Eliminated repetitive manual order status updates by customer service. Ensured timely and accurate status transitions required for billing processes. Improved operational efficiency across e-commerce, fulfillment, and finance workflows.</p>",
+      "Published": true,
+      "Created": "2025-06-06T21:37:23.000Z",
+      "Render On": "billymitchell.dev",
+      "Made With": [
+        "Python"
+      ],
       "Project Title": "Auto Convert Order Status: New To In Progress",
       "Creative Discipline": [
         "Web Development",
         "Backend Development"
       ],
-      "Made For": [
-        "recbJpghbxReFGtRU"
-      ],
-      "End Date": "2025-05-31",
-      "Job Type": [
-        "Full-Time"
-      ],
-      "Published": true,
-      "Position on Project": [
-        "Lead"
-      ],
-      "Featured Image URL": "Auto%20Convert%20Order%20Status:%20New%20To%20In%20Progress/Screenshot_2025-06-20_at_2.33.48_PM.png",
-      "Hide Featured Image In Body": true,
-      "Made With": [
-        "Python"
-      ],
-      "Date Modified": "2025-11-07T20:25:07.000Z",
-      "Intro Text": "<h3>Goals</h3>\n<p>Automate order status updates to reduce manual work, ensure billing accuracy, and streamline the sync between e-commerce and financial systems.</p>\n\n<h3>Contributions</h3>\n<p>Developed a Python-based automation tool to regularly fetch order data via the e-commerce platform API. Implemented logic to detect when orders had been imported into the fulfillment system and were older than two hours. Automated the status update from \"New\" to \"In-Progress,\" triggering necessary downstream processes including billing syncs. Leveraged AI tools to support the coding and deployment of this project.</p>\n\n<h3>Outcomes</h3>\n<p>Eliminated repetitive manual order status updates by customer service. Ensured timely and accurate status transitions required for billing processes. Improved operational efficiency across e-commerce, fulfillment, and finance workflows.</p>",
-      "GitHub URL": "https://github.com/billymitchell/brightstores-omg-status-update-machine",
-      "Gallery Folder Name": "Auto Convert Order Status: New To In Progress",
-      "Created": "2025-06-06T21:37:23.000Z",
-      "Render On": "billymitchell.dev"
+      "Gallery Folder Name": "Auto Convert Order Status: New To In Progress"
     }
   },
   {
@@ -1155,69 +1155,69 @@
       "id": "recaLRzbE4pzedXmI",
       "createdTime": "2020-10-02T20:04:15.000Z",
       "fields": {
-        "Project Title": "AMA Waterways Email",
-        "Creative Discipline": [
-          "Web Development",
-          "Frontend Development"
-        ],
-        "Made For": [
-          "recyThM1vdKxzjIpr",
-          "recwezBDstyLcFx9Q"
-        ],
         "End Date": "2020-01-01",
+        "Featured Image URL": "ama-waterways-email/Screen_Shot_2020-10-02_at_4.05.35_PM_gmofsf",
+        "GitHub URL": "https://github.com/billymitchell/email-design/tree/master/ama-email",
+        "Position on Project": [
+          "Lead"
+        ],
         "Job Type": [
           "Full-Time"
         ],
         "Live Web Project URL": "https://email-design.billymitchell.design/ama-email/",
-        "Published": true,
-        "Position on Project": [
-          "Lead"
-        ],
-        "Featured Image URL": "ama-waterways-email/Screen_Shot_2020-10-02_at_4.05.35_PM_gmofsf",
         "Hide Featured Image In Body": true,
+        "Made For": [
+          "recyThM1vdKxzjIpr",
+          "recwezBDstyLcFx9Q"
+        ],
+        "Date Modified": "2025-11-07T20:25:52.000Z",
+        "Published": true,
+        "Created": "2020-10-02T20:04:15.000Z",
+        "Render On": "Both",
         "Made With": [
           "Photoshop",
           "HTML",
           "CSS"
         ],
-        "Date Modified": "2025-11-07T20:25:52.000Z",
-        "GitHub URL": "https://github.com/billymitchell/email-design/tree/master/ama-email",
-        "Gallery Folder Name": "ama-waterways-email",
-        "Created": "2020-10-02T20:04:15.000Z",
-        "Render On": "Both"
+        "Project Title": "AMA Waterways Email",
+        "Creative Discipline": [
+          "Web Development",
+          "Frontend Development"
+        ],
+        "Gallery Folder Name": "ama-waterways-email"
       }
     },
     "fields": {
-      "Project Title": "AMA Waterways Email",
-      "Creative Discipline": [
-        "Web Development",
-        "Frontend Development"
-      ],
-      "Made For": [
-        "recyThM1vdKxzjIpr",
-        "recwezBDstyLcFx9Q"
-      ],
       "End Date": "2020-01-01",
+      "Featured Image URL": "ama-waterways-email/Screen_Shot_2020-10-02_at_4.05.35_PM_gmofsf",
+      "GitHub URL": "https://github.com/billymitchell/email-design/tree/master/ama-email",
+      "Position on Project": [
+        "Lead"
+      ],
       "Job Type": [
         "Full-Time"
       ],
       "Live Web Project URL": "https://email-design.billymitchell.design/ama-email/",
-      "Published": true,
-      "Position on Project": [
-        "Lead"
-      ],
-      "Featured Image URL": "ama-waterways-email/Screen_Shot_2020-10-02_at_4.05.35_PM_gmofsf",
       "Hide Featured Image In Body": true,
+      "Made For": [
+        "recyThM1vdKxzjIpr",
+        "recwezBDstyLcFx9Q"
+      ],
+      "Date Modified": "2025-11-07T20:25:52.000Z",
+      "Published": true,
+      "Created": "2020-10-02T20:04:15.000Z",
+      "Render On": "Both",
       "Made With": [
         "Photoshop",
         "HTML",
         "CSS"
       ],
-      "Date Modified": "2025-11-07T20:25:52.000Z",
-      "GitHub URL": "https://github.com/billymitchell/email-design/tree/master/ama-email",
-      "Gallery Folder Name": "ama-waterways-email",
-      "Created": "2020-10-02T20:04:15.000Z",
-      "Render On": "Both"
+      "Project Title": "AMA Waterways Email",
+      "Creative Discipline": [
+        "Web Development",
+        "Frontend Development"
+      ],
+      "Gallery Folder Name": "ama-waterways-email"
     }
   },
   {
@@ -1234,24 +1234,23 @@
       "id": "recahbRWbun8jNdP3",
       "createdTime": "2025-06-06T21:42:58.000Z",
       "fields": {
-        "Project Title": "Shipping APIs",
-        "Creative Discipline": [
-          "Web Development",
-          "Backend Development"
-        ],
-        "Made For": [
-          "recbJpghbxReFGtRU"
+        "Featured Image URL": "Shipping%20APIs/Screenshot_2025-06-20_at_2.41.25_PM.png",
+        "GitHub URL": "https://github.com/billymitchell/Orderdesk-Single-Order-Shipment",
+        "Position on Project": [
+          "Lead"
         ],
         "Job Type": [
           "Full-Time"
         ],
-        "Published": true,
-        "Position on Project": [
-          "Lead"
-        ],
-        "Body Text": "https://github.com/billymitchell/Cannon-Hill-Shipping-API\n\nhttps://github.com/billymitchell/edwards-garment-shipping-api\n\nhttps://github.com/billymitchell/Larlu-Wincraft-Shipment-API\n\nhttps://github.com/billymitchell/Cawley-Shipment-API\n\nhttps://github.com/billymitchell/Vissions-Shipping-API\n\n\n",
-        "Featured Image URL": "Shipping%20APIs/Screenshot_2025-06-20_at_2.41.25_PM.png",
         "Hide Featured Image In Body": true,
+        "Made For": [
+          "recbJpghbxReFGtRU"
+        ],
+        "Date Modified": "2025-11-07T20:24:56.000Z",
+        "Intro Text": "<h3>Goals</h3>\n<p>Automate and standardize the flow of shipping data from diverse vendors back into the e-commerce platform to reduce manual work and improve customer-facing tracking updates.</p>\n\n<h3>Contributions</h3>\n<p>Developed a suite of APIs to process inconsistent shipping data from multiple fulfillment partners. Implemented workflows using MailParser to extract shipment details from email and feed them to custom API endpoints. Built logic for data validation, cleaning, and formatting across various shipment types (order-level, item-level). Integrated with OrderDesk to centralize shipping data and leverage its native sync with storefront systems. Additionally implemented direct API integrations for vendors providing compatible data formats.</p>\n\n<h3>Outcomes</h3>\n<p>Significantly reduced manual data entry and order tracking errors. Provided near real-time shipping status updates to customers, improving satisfaction and transparency. Established a scalable architecture for handling varied shipping data across multiple vendor relationships.</p>\n",
+        "Published": true,
+        "Created": "2025-06-06T21:42:58.000Z",
+        "Render On": "billymitchell.dev",
         "Made With": [
           "Javascript",
           "Node.js",
@@ -1259,34 +1258,34 @@
           "Zapier",
           "Orderdesk"
         ],
-        "Date Modified": "2025-11-07T20:24:56.000Z",
-        "Intro Text": "<h3>Goals</h3>\n<p>Automate and standardize the flow of shipping data from diverse vendors back into the e-commerce platform to reduce manual work and improve customer-facing tracking updates.</p>\n\n<h3>Contributions</h3>\n<p>Developed a suite of APIs to process inconsistent shipping data from multiple fulfillment partners. Implemented workflows using MailParser to extract shipment details from email and feed them to custom API endpoints. Built logic for data validation, cleaning, and formatting across various shipment types (order-level, item-level). Integrated with OrderDesk to centralize shipping data and leverage its native sync with storefront systems. Additionally implemented direct API integrations for vendors providing compatible data formats.</p>\n\n<h3>Outcomes</h3>\n<p>Significantly reduced manual data entry and order tracking errors. Provided near real-time shipping status updates to customers, improving satisfaction and transparency. Established a scalable architecture for handling varied shipping data across multiple vendor relationships.</p>\n",
-        "GitHub URL": "https://github.com/billymitchell/Orderdesk-Single-Order-Shipment",
+        "Project Title": "Shipping APIs",
         "2nd Github URL": "https://github.com/billymitchell/Cannon-Hill-Shipping-API",
+        "Creative Discipline": [
+          "Web Development",
+          "Backend Development"
+        ],
         "Gallery Folder Name": "Shipping APIs",
-        "Created": "2025-06-06T21:42:58.000Z",
-        "Render On": "billymitchell.dev"
+        "Body Text": "https://github.com/billymitchell/Cannon-Hill-Shipping-API\n\nhttps://github.com/billymitchell/edwards-garment-shipping-api\n\nhttps://github.com/billymitchell/Larlu-Wincraft-Shipment-API\n\nhttps://github.com/billymitchell/Cawley-Shipment-API\n\nhttps://github.com/billymitchell/Vissions-Shipping-API\n\n\n"
       }
     },
     "fields": {
-      "Project Title": "Shipping APIs",
-      "Creative Discipline": [
-        "Web Development",
-        "Backend Development"
-      ],
-      "Made For": [
-        "recbJpghbxReFGtRU"
+      "Featured Image URL": "Shipping%20APIs/Screenshot_2025-06-20_at_2.41.25_PM.png",
+      "GitHub URL": "https://github.com/billymitchell/Orderdesk-Single-Order-Shipment",
+      "Position on Project": [
+        "Lead"
       ],
       "Job Type": [
         "Full-Time"
       ],
-      "Published": true,
-      "Position on Project": [
-        "Lead"
-      ],
-      "Body Text": "https://github.com/billymitchell/Cannon-Hill-Shipping-API\n\nhttps://github.com/billymitchell/edwards-garment-shipping-api\n\nhttps://github.com/billymitchell/Larlu-Wincraft-Shipment-API\n\nhttps://github.com/billymitchell/Cawley-Shipment-API\n\nhttps://github.com/billymitchell/Vissions-Shipping-API\n\n\n",
-      "Featured Image URL": "Shipping%20APIs/Screenshot_2025-06-20_at_2.41.25_PM.png",
       "Hide Featured Image In Body": true,
+      "Made For": [
+        "recbJpghbxReFGtRU"
+      ],
+      "Date Modified": "2025-11-07T20:24:56.000Z",
+      "Intro Text": "<h3>Goals</h3>\n<p>Automate and standardize the flow of shipping data from diverse vendors back into the e-commerce platform to reduce manual work and improve customer-facing tracking updates.</p>\n\n<h3>Contributions</h3>\n<p>Developed a suite of APIs to process inconsistent shipping data from multiple fulfillment partners. Implemented workflows using MailParser to extract shipment details from email and feed them to custom API endpoints. Built logic for data validation, cleaning, and formatting across various shipment types (order-level, item-level). Integrated with OrderDesk to centralize shipping data and leverage its native sync with storefront systems. Additionally implemented direct API integrations for vendors providing compatible data formats.</p>\n\n<h3>Outcomes</h3>\n<p>Significantly reduced manual data entry and order tracking errors. Provided near real-time shipping status updates to customers, improving satisfaction and transparency. Established a scalable architecture for handling varied shipping data across multiple vendor relationships.</p>\n",
+      "Published": true,
+      "Created": "2025-06-06T21:42:58.000Z",
+      "Render On": "billymitchell.dev",
       "Made With": [
         "Javascript",
         "Node.js",
@@ -1294,13 +1293,14 @@
         "Zapier",
         "Orderdesk"
       ],
-      "Date Modified": "2025-11-07T20:24:56.000Z",
-      "Intro Text": "<h3>Goals</h3>\n<p>Automate and standardize the flow of shipping data from diverse vendors back into the e-commerce platform to reduce manual work and improve customer-facing tracking updates.</p>\n\n<h3>Contributions</h3>\n<p>Developed a suite of APIs to process inconsistent shipping data from multiple fulfillment partners. Implemented workflows using MailParser to extract shipment details from email and feed them to custom API endpoints. Built logic for data validation, cleaning, and formatting across various shipment types (order-level, item-level). Integrated with OrderDesk to centralize shipping data and leverage its native sync with storefront systems. Additionally implemented direct API integrations for vendors providing compatible data formats.</p>\n\n<h3>Outcomes</h3>\n<p>Significantly reduced manual data entry and order tracking errors. Provided near real-time shipping status updates to customers, improving satisfaction and transparency. Established a scalable architecture for handling varied shipping data across multiple vendor relationships.</p>\n",
-      "GitHub URL": "https://github.com/billymitchell/Orderdesk-Single-Order-Shipment",
+      "Project Title": "Shipping APIs",
       "2nd Github URL": "https://github.com/billymitchell/Cannon-Hill-Shipping-API",
+      "Creative Discipline": [
+        "Web Development",
+        "Backend Development"
+      ],
       "Gallery Folder Name": "Shipping APIs",
-      "Created": "2025-06-06T21:42:58.000Z",
-      "Render On": "billymitchell.dev"
+      "Body Text": "https://github.com/billymitchell/Cannon-Hill-Shipping-API\n\nhttps://github.com/billymitchell/edwards-garment-shipping-api\n\nhttps://github.com/billymitchell/Larlu-Wincraft-Shipment-API\n\nhttps://github.com/billymitchell/Cawley-Shipment-API\n\nhttps://github.com/billymitchell/Vissions-Shipping-API\n\n\n"
     }
   },
   {
@@ -1317,69 +1317,69 @@
       "id": "recb04FcNhCqSMpvj",
       "createdTime": "2020-08-18T20:35:49.000Z",
       "fields": {
-        "Project Title": "Altour, Pro & Tzell Email",
-        "Creative Discipline": [
-          "Email Development",
-          "Graphic Design"
+        "End Date": "2020-01-01",
+        "Featured Image URL": "pro-tzell-altour/Pro-Tzell-Aultour_r6xr97",
+        "Position on Project": [
+          "Lead"
         ],
+        "Job Type": [
+          "Full-Time"
+        ],
+        "Hide Featured Image In Body": true,
         "Made For": [
           "recwezBDstyLcFx9Q",
           "recqb4ca8EMJFLfJf"
         ],
-        "End Date": "2020-01-01",
-        "Job Type": [
-          "Full-Time"
-        ],
+        "Date Modified": "2025-11-07T20:26:09.000Z",
+        "Intro Text": "This is a good example of a custom email template being applied across multiple brands.",
         "Published": true,
-        "Position on Project": [
-          "Lead"
-        ],
-        "Featured Image URL": "pro-tzell-altour/Pro-Tzell-Aultour_r6xr97",
-        "Hide Featured Image In Body": true,
+        "Created": "2020-08-18T20:35:49.000Z",
+        "Render On": "Both",
         "Made With": [
           "Adobe XD",
           "Illustrator",
           "HTML",
           "CSS"
         ],
-        "Date Modified": "2025-11-07T20:26:09.000Z",
-        "Intro Text": "This is a good example of a custom email template being applied across multiple brands.",
-        "Gallery Folder Name": "pro-tzell-altour",
-        "Created": "2020-08-18T20:35:49.000Z",
-        "Render On": "Both"
+        "Project Title": "Altour, Pro & Tzell Email",
+        "Creative Discipline": [
+          "Email Development",
+          "Graphic Design"
+        ],
+        "Gallery Folder Name": "pro-tzell-altour"
       }
     },
     "fields": {
-      "Project Title": "Altour, Pro & Tzell Email",
-      "Creative Discipline": [
-        "Email Development",
-        "Graphic Design"
+      "End Date": "2020-01-01",
+      "Featured Image URL": "pro-tzell-altour/Pro-Tzell-Aultour_r6xr97",
+      "Position on Project": [
+        "Lead"
       ],
+      "Job Type": [
+        "Full-Time"
+      ],
+      "Hide Featured Image In Body": true,
       "Made For": [
         "recwezBDstyLcFx9Q",
         "recqb4ca8EMJFLfJf"
       ],
-      "End Date": "2020-01-01",
-      "Job Type": [
-        "Full-Time"
-      ],
+      "Date Modified": "2025-11-07T20:26:09.000Z",
+      "Intro Text": "This is a good example of a custom email template being applied across multiple brands.",
       "Published": true,
-      "Position on Project": [
-        "Lead"
-      ],
-      "Featured Image URL": "pro-tzell-altour/Pro-Tzell-Aultour_r6xr97",
-      "Hide Featured Image In Body": true,
+      "Created": "2020-08-18T20:35:49.000Z",
+      "Render On": "Both",
       "Made With": [
         "Adobe XD",
         "Illustrator",
         "HTML",
         "CSS"
       ],
-      "Date Modified": "2025-11-07T20:26:09.000Z",
-      "Intro Text": "This is a good example of a custom email template being applied across multiple brands.",
-      "Gallery Folder Name": "pro-tzell-altour",
-      "Created": "2020-08-18T20:35:49.000Z",
-      "Render On": "Both"
+      "Project Title": "Altour, Pro & Tzell Email",
+      "Creative Discipline": [
+        "Email Development",
+        "Graphic Design"
+      ],
+      "Gallery Folder Name": "pro-tzell-altour"
     }
   },
   {
@@ -1396,63 +1396,63 @@
       "id": "recdEItiu6guC9MGo",
       "createdTime": "2025-06-06T21:39:28.000Z",
       "fields": {
+        "End Date": "2025-06-06",
+        "Featured Image URL": "Dynamic%20Popup%20Script/Screenshot_2025-06-20_at_2.37.32_PM.png",
+        "GitHub URL": "https://github.com/billymitchell/brightsites-popup",
+        "Position on Project": [
+          "Lead"
+        ],
+        "Job Type": [
+          "Full-Time"
+        ],
+        "Hide Featured Image In Body": true,
+        "Made For": [
+          "recbJpghbxReFGtRU"
+        ],
+        "Date Modified": "2025-11-07T20:25:00.000Z",
+        "Intro Text": "<h3>Goals</h3>\n<p>Develop a flexible, version-controlled pop-up system to promote free product add-ons without requiring frequent manual code updates in the e-commerce platform.</p>\n\n<h3>Contributions</h3>\n<p>Created a dynamic JavaScript-based pop-up script hosted on GitHub for version control and easy updates. Implemented cache-busting via timestamp injection. Designed the script to accept key content attributes (image URL, title text, destination URL) as inputs, enabling highly customizable pop-ups across different pages. Built the system to be lightweight and reusable across multiple store implementations.</p>\n\n<h3>Outcomes</h3>\n<p>Enabled fast deployment of promotional pop-ups with no need for manual front-end edits. Provided marketing and merchandising teams with a flexible tool to drive add-to-cart conversions. Improved maintainability and scalability of promotional UX elements across the e-commerce ecosystem.</p>",
+        "Published": true,
+        "Created": "2025-06-06T21:39:28.000Z",
+        "Render On": "billymitchell.dev",
+        "Made With": [
+          "Javascript"
+        ],
         "Project Title": "Dynamic Popup Script",
         "Creative Discipline": [
           "Web Development",
           "Frontend Development"
         ],
-        "Made For": [
-          "recbJpghbxReFGtRU"
-        ],
-        "End Date": "2025-06-06",
-        "Job Type": [
-          "Full-Time"
-        ],
-        "Published": true,
-        "Position on Project": [
-          "Lead"
-        ],
-        "Featured Image URL": "Dynamic%20Popup%20Script/Screenshot_2025-06-20_at_2.37.32_PM.png",
-        "Hide Featured Image In Body": true,
-        "Made With": [
-          "Javascript"
-        ],
-        "Date Modified": "2025-11-07T20:25:00.000Z",
-        "Intro Text": "<h3>Goals</h3>\n<p>Develop a flexible, version-controlled pop-up system to promote free product add-ons without requiring frequent manual code updates in the e-commerce platform.</p>\n\n<h3>Contributions</h3>\n<p>Created a dynamic JavaScript-based pop-up script hosted on GitHub for version control and easy updates. Implemented cache-busting via timestamp injection. Designed the script to accept key content attributes (image URL, title text, destination URL) as inputs, enabling highly customizable pop-ups across different pages. Built the system to be lightweight and reusable across multiple store implementations.</p>\n\n<h3>Outcomes</h3>\n<p>Enabled fast deployment of promotional pop-ups with no need for manual front-end edits. Provided marketing and merchandising teams with a flexible tool to drive add-to-cart conversions. Improved maintainability and scalability of promotional UX elements across the e-commerce ecosystem.</p>",
-        "GitHub URL": "https://github.com/billymitchell/brightsites-popup",
-        "Gallery Folder Name": "Dynamic Popup Script",
-        "Created": "2025-06-06T21:39:28.000Z",
-        "Render On": "billymitchell.dev"
+        "Gallery Folder Name": "Dynamic Popup Script"
       }
     },
     "fields": {
+      "End Date": "2025-06-06",
+      "Featured Image URL": "Dynamic%20Popup%20Script/Screenshot_2025-06-20_at_2.37.32_PM.png",
+      "GitHub URL": "https://github.com/billymitchell/brightsites-popup",
+      "Position on Project": [
+        "Lead"
+      ],
+      "Job Type": [
+        "Full-Time"
+      ],
+      "Hide Featured Image In Body": true,
+      "Made For": [
+        "recbJpghbxReFGtRU"
+      ],
+      "Date Modified": "2025-11-07T20:25:00.000Z",
+      "Intro Text": "<h3>Goals</h3>\n<p>Develop a flexible, version-controlled pop-up system to promote free product add-ons without requiring frequent manual code updates in the e-commerce platform.</p>\n\n<h3>Contributions</h3>\n<p>Created a dynamic JavaScript-based pop-up script hosted on GitHub for version control and easy updates. Implemented cache-busting via timestamp injection. Designed the script to accept key content attributes (image URL, title text, destination URL) as inputs, enabling highly customizable pop-ups across different pages. Built the system to be lightweight and reusable across multiple store implementations.</p>\n\n<h3>Outcomes</h3>\n<p>Enabled fast deployment of promotional pop-ups with no need for manual front-end edits. Provided marketing and merchandising teams with a flexible tool to drive add-to-cart conversions. Improved maintainability and scalability of promotional UX elements across the e-commerce ecosystem.</p>",
+      "Published": true,
+      "Created": "2025-06-06T21:39:28.000Z",
+      "Render On": "billymitchell.dev",
+      "Made With": [
+        "Javascript"
+      ],
       "Project Title": "Dynamic Popup Script",
       "Creative Discipline": [
         "Web Development",
         "Frontend Development"
       ],
-      "Made For": [
-        "recbJpghbxReFGtRU"
-      ],
-      "End Date": "2025-06-06",
-      "Job Type": [
-        "Full-Time"
-      ],
-      "Published": true,
-      "Position on Project": [
-        "Lead"
-      ],
-      "Featured Image URL": "Dynamic%20Popup%20Script/Screenshot_2025-06-20_at_2.37.32_PM.png",
-      "Hide Featured Image In Body": true,
-      "Made With": [
-        "Javascript"
-      ],
-      "Date Modified": "2025-11-07T20:25:00.000Z",
-      "Intro Text": "<h3>Goals</h3>\n<p>Develop a flexible, version-controlled pop-up system to promote free product add-ons without requiring frequent manual code updates in the e-commerce platform.</p>\n\n<h3>Contributions</h3>\n<p>Created a dynamic JavaScript-based pop-up script hosted on GitHub for version control and easy updates. Implemented cache-busting via timestamp injection. Designed the script to accept key content attributes (image URL, title text, destination URL) as inputs, enabling highly customizable pop-ups across different pages. Built the system to be lightweight and reusable across multiple store implementations.</p>\n\n<h3>Outcomes</h3>\n<p>Enabled fast deployment of promotional pop-ups with no need for manual front-end edits. Provided marketing and merchandising teams with a flexible tool to drive add-to-cart conversions. Improved maintainability and scalability of promotional UX elements across the e-commerce ecosystem.</p>",
-      "GitHub URL": "https://github.com/billymitchell/brightsites-popup",
-      "Gallery Folder Name": "Dynamic Popup Script",
-      "Created": "2025-06-06T21:39:28.000Z",
-      "Render On": "billymitchell.dev"
+      "Gallery Folder Name": "Dynamic Popup Script"
     }
   },
   {
@@ -1469,67 +1469,67 @@
       "id": "rece4aONunGbVHkHM",
       "createdTime": "2020-06-24T20:14:10.000Z",
       "fields": {
-        "Project Title": "Type Checker",
-        "Creative Discipline": [
-          "Web Development"
-        ],
-        "Made For": [
-          "recPO3Q68JfpY7tds"
-        ],
         "End Date": "2018-11-01",
+        "Featured Image URL": "type-checker/Feb-10-2019-12-17-34.mp4",
+        "GitHub URL": "https://github.com/billymitchell/type-checker",
+        "Position on Project": [
+          "Lead"
+        ],
         "Job Type": [
           "Educational"
         ],
         "Live Web Project URL": "https://type-checker.billymitchell.design/",
-        "Published": true,
-        "Position on Project": [
-          "Lead"
-        ],
-        "Featured Image URL": "type-checker/Feb-10-2019-12-17-34.mp4",
         "Hide Featured Image In Body": true,
+        "Made For": [
+          "recPO3Q68JfpY7tds"
+        ],
+        "Date Modified": "2025-11-07T20:27:32.000Z",
+        "Intro Text": "This project was part of an educational development class in advanced CSS and javascript. It demonstrates advanced input field controls using javascript.",
+        "Published": true,
+        "Created": "2020-06-24T20:14:10.000Z",
+        "Render On": "billymitchell.dev",
         "Made With": [
           "HTML",
           "CSS",
           "Javascript"
         ],
-        "Date Modified": "2025-11-07T20:27:32.000Z",
-        "Intro Text": "This project was part of an educational development class in advanced CSS and javascript. It demonstrates advanced input field controls using javascript.",
-        "GitHub URL": "https://github.com/billymitchell/type-checker",
-        "Gallery Folder Name": "type-checker",
-        "Created": "2020-06-24T20:14:10.000Z",
-        "Render On": "billymitchell.dev"
+        "Project Title": "Type Checker",
+        "Creative Discipline": [
+          "Web Development"
+        ],
+        "Gallery Folder Name": "type-checker"
       }
     },
     "fields": {
-      "Project Title": "Type Checker",
-      "Creative Discipline": [
-        "Web Development"
-      ],
-      "Made For": [
-        "recPO3Q68JfpY7tds"
-      ],
       "End Date": "2018-11-01",
+      "Featured Image URL": "type-checker/Feb-10-2019-12-17-34.mp4",
+      "GitHub URL": "https://github.com/billymitchell/type-checker",
+      "Position on Project": [
+        "Lead"
+      ],
       "Job Type": [
         "Educational"
       ],
       "Live Web Project URL": "https://type-checker.billymitchell.design/",
-      "Published": true,
-      "Position on Project": [
-        "Lead"
-      ],
-      "Featured Image URL": "type-checker/Feb-10-2019-12-17-34.mp4",
       "Hide Featured Image In Body": true,
+      "Made For": [
+        "recPO3Q68JfpY7tds"
+      ],
+      "Date Modified": "2025-11-07T20:27:32.000Z",
+      "Intro Text": "This project was part of an educational development class in advanced CSS and javascript. It demonstrates advanced input field controls using javascript.",
+      "Published": true,
+      "Created": "2020-06-24T20:14:10.000Z",
+      "Render On": "billymitchell.dev",
       "Made With": [
         "HTML",
         "CSS",
         "Javascript"
       ],
-      "Date Modified": "2025-11-07T20:27:32.000Z",
-      "Intro Text": "This project was part of an educational development class in advanced CSS and javascript. It demonstrates advanced input field controls using javascript.",
-      "GitHub URL": "https://github.com/billymitchell/type-checker",
-      "Gallery Folder Name": "type-checker",
-      "Created": "2020-06-24T20:14:10.000Z",
-      "Render On": "billymitchell.dev"
+      "Project Title": "Type Checker",
+      "Creative Discipline": [
+        "Web Development"
+      ],
+      "Gallery Folder Name": "type-checker"
     }
   },
   {
@@ -1546,27 +1546,26 @@
       "id": "receiaq2SyhlpCAts",
       "createdTime": "2024-12-31T22:45:01.000Z",
       "fields": {
-        "Project Title": "Forbes Travel Guide Award API",
-        "Creative Discipline": [
-          "Web Development",
-          "Backend Development",
-          "Frontend Development"
-        ],
-        "Made For": [
-          "recbJpghbxReFGtRU",
-          "rec2LPJTExlHPiePl"
-        ],
         "End Date": "2025-01-31",
+        "Featured Image URL": "forbes-travel-guide/ftg-main.png",
+        "GitHub URL": "https://github.com/billymitchell/ftg-proxy",
+        "Position on Project": [
+          "Lead"
+        ],
         "Job Type": [
           "Full-Time"
         ],
         "Live Web Project URL": "https://redeem.forbestravelguide.com/",
-        "Published": true,
-        "Position on Project": [
-          "Lead"
-        ],
-        "Featured Image URL": "forbes-travel-guide/ftg-main.png",
         "Hide Featured Image In Body": true,
+        "Made For": [
+          "recbJpghbxReFGtRU",
+          "rec2LPJTExlHPiePl"
+        ],
+        "Date Modified": "2025-11-07T20:25:16.000Z",
+        "Intro Text": "<h3>Goals</h3>\n<p>Build a dynamic API and front-end system to validate, display, and track Forbes Travel Guide Award redemptions — while also powering a flexible e-commerce experience for associated product sales with tiered restrictions.</p>\n\n<h3>Contributions</h3>\n<p>Architected API and UI to interface with award redemption and e-commerce flows. Designed Airtable-based database for ingesting and validating award data. Developed front-end logic to conditionally display and restrict options per property, award level, and product type. Built UI for pulling associated product data across multiple tiers (4-star, 5-star, unrestricted) with handling, airing, and lookup systems. Implemented post-checkout database updates to lock redemptions and sync product purchasing logic across store platforms.</p>\n\n<h3>Outcomes</h3>\n<p>Seamless redemption experience tailored to property type and award level. Unified interface for controlled product sales linked to award eligibility. Secure, automated validation and tracking across award and e-commerce systems. Scalable solution supporting multiple store platforms and future cycles.</p>",
+        "Published": true,
+        "Created": "2024-12-31T22:45:01.000Z",
+        "Render On": "billymitchell.dev",
         "Made With": [
           "Node.js",
           "Javascript",
@@ -1574,37 +1573,37 @@
           "HTML",
           "CSS"
         ],
-        "Date Modified": "2025-11-07T20:25:16.000Z",
-        "Intro Text": "<h3>Goals</h3>\n<p>Build a dynamic API and front-end system to validate, display, and track Forbes Travel Guide Award redemptions — while also powering a flexible e-commerce experience for associated product sales with tiered restrictions.</p>\n\n<h3>Contributions</h3>\n<p>Architected API and UI to interface with award redemption and e-commerce flows. Designed Airtable-based database for ingesting and validating award data. Developed front-end logic to conditionally display and restrict options per property, award level, and product type. Built UI for pulling associated product data across multiple tiers (4-star, 5-star, unrestricted) with handling, airing, and lookup systems. Implemented post-checkout database updates to lock redemptions and sync product purchasing logic across store platforms.</p>\n\n<h3>Outcomes</h3>\n<p>Seamless redemption experience tailored to property type and award level. Unified interface for controlled product sales linked to award eligibility. Secure, automated validation and tracking across award and e-commerce systems. Scalable solution supporting multiple store platforms and future cycles.</p>",
-        "GitHub URL": "https://github.com/billymitchell/ftg-proxy",
+        "Project Title": "Forbes Travel Guide Award API",
         "2nd Github URL": "https://github.com/billymitchell/ftg-redemption-clientside",
-        "Gallery Folder Name": "forbes-travel-guide",
-        "Created": "2024-12-31T22:45:01.000Z",
-        "Render On": "billymitchell.dev"
+        "Creative Discipline": [
+          "Web Development",
+          "Backend Development",
+          "Frontend Development"
+        ],
+        "Gallery Folder Name": "forbes-travel-guide"
       }
     },
     "fields": {
-      "Project Title": "Forbes Travel Guide Award API",
-      "Creative Discipline": [
-        "Web Development",
-        "Backend Development",
-        "Frontend Development"
-      ],
-      "Made For": [
-        "recbJpghbxReFGtRU",
-        "rec2LPJTExlHPiePl"
-      ],
       "End Date": "2025-01-31",
+      "Featured Image URL": "forbes-travel-guide/ftg-main.png",
+      "GitHub URL": "https://github.com/billymitchell/ftg-proxy",
+      "Position on Project": [
+        "Lead"
+      ],
       "Job Type": [
         "Full-Time"
       ],
       "Live Web Project URL": "https://redeem.forbestravelguide.com/",
-      "Published": true,
-      "Position on Project": [
-        "Lead"
-      ],
-      "Featured Image URL": "forbes-travel-guide/ftg-main.png",
       "Hide Featured Image In Body": true,
+      "Made For": [
+        "recbJpghbxReFGtRU",
+        "rec2LPJTExlHPiePl"
+      ],
+      "Date Modified": "2025-11-07T20:25:16.000Z",
+      "Intro Text": "<h3>Goals</h3>\n<p>Build a dynamic API and front-end system to validate, display, and track Forbes Travel Guide Award redemptions — while also powering a flexible e-commerce experience for associated product sales with tiered restrictions.</p>\n\n<h3>Contributions</h3>\n<p>Architected API and UI to interface with award redemption and e-commerce flows. Designed Airtable-based database for ingesting and validating award data. Developed front-end logic to conditionally display and restrict options per property, award level, and product type. Built UI for pulling associated product data across multiple tiers (4-star, 5-star, unrestricted) with handling, airing, and lookup systems. Implemented post-checkout database updates to lock redemptions and sync product purchasing logic across store platforms.</p>\n\n<h3>Outcomes</h3>\n<p>Seamless redemption experience tailored to property type and award level. Unified interface for controlled product sales linked to award eligibility. Secure, automated validation and tracking across award and e-commerce systems. Scalable solution supporting multiple store platforms and future cycles.</p>",
+      "Published": true,
+      "Created": "2024-12-31T22:45:01.000Z",
+      "Render On": "billymitchell.dev",
       "Made With": [
         "Node.js",
         "Javascript",
@@ -1612,13 +1611,14 @@
         "HTML",
         "CSS"
       ],
-      "Date Modified": "2025-11-07T20:25:16.000Z",
-      "Intro Text": "<h3>Goals</h3>\n<p>Build a dynamic API and front-end system to validate, display, and track Forbes Travel Guide Award redemptions — while also powering a flexible e-commerce experience for associated product sales with tiered restrictions.</p>\n\n<h3>Contributions</h3>\n<p>Architected API and UI to interface with award redemption and e-commerce flows. Designed Airtable-based database for ingesting and validating award data. Developed front-end logic to conditionally display and restrict options per property, award level, and product type. Built UI for pulling associated product data across multiple tiers (4-star, 5-star, unrestricted) with handling, airing, and lookup systems. Implemented post-checkout database updates to lock redemptions and sync product purchasing logic across store platforms.</p>\n\n<h3>Outcomes</h3>\n<p>Seamless redemption experience tailored to property type and award level. Unified interface for controlled product sales linked to award eligibility. Secure, automated validation and tracking across award and e-commerce systems. Scalable solution supporting multiple store platforms and future cycles.</p>",
-      "GitHub URL": "https://github.com/billymitchell/ftg-proxy",
+      "Project Title": "Forbes Travel Guide Award API",
       "2nd Github URL": "https://github.com/billymitchell/ftg-redemption-clientside",
-      "Gallery Folder Name": "forbes-travel-guide",
-      "Created": "2024-12-31T22:45:01.000Z",
-      "Render On": "billymitchell.dev"
+      "Creative Discipline": [
+        "Web Development",
+        "Backend Development",
+        "Frontend Development"
+      ],
+      "Gallery Folder Name": "forbes-travel-guide"
     }
   },
   {
@@ -1635,27 +1635,26 @@
       "id": "recgtaXV06KwtSQb4",
       "createdTime": "2024-12-31T22:45:47.000Z",
       "fields": {
-        "Project Title": "Automotive Service Excellence Technician Validation API",
-        "Creative Discipline": [
-          "Web Development",
-          "Backend Development",
-          "Frontend Development"
-        ],
-        "Made For": [
-          "reckfqhXeqxfSHSIu",
-          "recbJpghbxReFGtRU"
-        ],
         "End Date": "2025-01-01",
+        "Featured Image URL": "ASE/screencapture-ase-mybrightsites-products-1269468-2025-06-20-14_22_27.png",
+        "GitHub URL": "https://github.com/billymitchell/ase",
+        "Position on Project": [
+          "Lead"
+        ],
         "Job Type": [
           "Full-Time"
         ],
         "Live Web Project URL": "https://ase.mybrightsites.com/",
-        "Published": true,
-        "Position on Project": [
-          "Lead"
-        ],
-        "Featured Image URL": "ASE/screencapture-ase-mybrightsites-products-1269468-2025-06-20-14_22_27.png",
         "Hide Featured Image In Body": true,
+        "Made For": [
+          "reckfqhXeqxfSHSIu",
+          "recbJpghbxReFGtRU"
+        ],
+        "Date Modified": "2025-11-07T20:25:15.000Z",
+        "Intro Text": "<h3>Goals</h3>\n<p>Build a validation system within an e-commerce platform to verify buyer eligibility for products based on certified automotive technician credentials.</p>\n\n<h3>Contributions</h3>\n<p>Developed front-end interface that fetches technician certification data from an external ASC database. Implemented logic to match returned certifications with product eligibility requirements. Created dynamic messaging to block ineligible purchases and guide eligible users through checkout.</p>\n\n<h3>Outcomes</h3>\n<p>Enabled secure, automated validation of product eligibility based on technician certifications. Improved compliance with product distribution requirements. Provided clear user experience for both eligible and ineligible customers during purchase flow.</p>",
+        "Published": true,
+        "Created": "2024-12-31T22:45:47.000Z",
+        "Render On": "billymitchell.dev",
         "Made With": [
           "Node.js",
           "Javascript",
@@ -1663,36 +1662,36 @@
           "HTML",
           "CSS"
         ],
-        "Date Modified": "2025-11-07T20:25:15.000Z",
-        "Intro Text": "<h3>Goals</h3>\n<p>Build a validation system within an e-commerce platform to verify buyer eligibility for products based on certified automotive technician credentials.</p>\n\n<h3>Contributions</h3>\n<p>Developed front-end interface that fetches technician certification data from an external ASC database. Implemented logic to match returned certifications with product eligibility requirements. Created dynamic messaging to block ineligible purchases and guide eligible users through checkout.</p>\n\n<h3>Outcomes</h3>\n<p>Enabled secure, automated validation of product eligibility based on technician certifications. Improved compliance with product distribution requirements. Provided clear user experience for both eligible and ineligible customers during purchase flow.</p>",
-        "GitHub URL": "https://github.com/billymitchell/ase",
-        "Gallery Folder Name": "ASE",
-        "Created": "2024-12-31T22:45:47.000Z",
-        "Render On": "billymitchell.dev"
+        "Project Title": "Automotive Service Excellence Technician Validation API",
+        "Creative Discipline": [
+          "Web Development",
+          "Backend Development",
+          "Frontend Development"
+        ],
+        "Gallery Folder Name": "ASE"
       }
     },
     "fields": {
-      "Project Title": "Automotive Service Excellence Technician Validation API",
-      "Creative Discipline": [
-        "Web Development",
-        "Backend Development",
-        "Frontend Development"
-      ],
-      "Made For": [
-        "reckfqhXeqxfSHSIu",
-        "recbJpghbxReFGtRU"
-      ],
       "End Date": "2025-01-01",
+      "Featured Image URL": "ASE/screencapture-ase-mybrightsites-products-1269468-2025-06-20-14_22_27.png",
+      "GitHub URL": "https://github.com/billymitchell/ase",
+      "Position on Project": [
+        "Lead"
+      ],
       "Job Type": [
         "Full-Time"
       ],
       "Live Web Project URL": "https://ase.mybrightsites.com/",
-      "Published": true,
-      "Position on Project": [
-        "Lead"
-      ],
-      "Featured Image URL": "ASE/screencapture-ase-mybrightsites-products-1269468-2025-06-20-14_22_27.png",
       "Hide Featured Image In Body": true,
+      "Made For": [
+        "reckfqhXeqxfSHSIu",
+        "recbJpghbxReFGtRU"
+      ],
+      "Date Modified": "2025-11-07T20:25:15.000Z",
+      "Intro Text": "<h3>Goals</h3>\n<p>Build a validation system within an e-commerce platform to verify buyer eligibility for products based on certified automotive technician credentials.</p>\n\n<h3>Contributions</h3>\n<p>Developed front-end interface that fetches technician certification data from an external ASC database. Implemented logic to match returned certifications with product eligibility requirements. Created dynamic messaging to block ineligible purchases and guide eligible users through checkout.</p>\n\n<h3>Outcomes</h3>\n<p>Enabled secure, automated validation of product eligibility based on technician certifications. Improved compliance with product distribution requirements. Provided clear user experience for both eligible and ineligible customers during purchase flow.</p>",
+      "Published": true,
+      "Created": "2024-12-31T22:45:47.000Z",
+      "Render On": "billymitchell.dev",
       "Made With": [
         "Node.js",
         "Javascript",
@@ -1700,12 +1699,13 @@
         "HTML",
         "CSS"
       ],
-      "Date Modified": "2025-11-07T20:25:15.000Z",
-      "Intro Text": "<h3>Goals</h3>\n<p>Build a validation system within an e-commerce platform to verify buyer eligibility for products based on certified automotive technician credentials.</p>\n\n<h3>Contributions</h3>\n<p>Developed front-end interface that fetches technician certification data from an external ASC database. Implemented logic to match returned certifications with product eligibility requirements. Created dynamic messaging to block ineligible purchases and guide eligible users through checkout.</p>\n\n<h3>Outcomes</h3>\n<p>Enabled secure, automated validation of product eligibility based on technician certifications. Improved compliance with product distribution requirements. Provided clear user experience for both eligible and ineligible customers during purchase flow.</p>",
-      "GitHub URL": "https://github.com/billymitchell/ase",
-      "Gallery Folder Name": "ASE",
-      "Created": "2024-12-31T22:45:47.000Z",
-      "Render On": "billymitchell.dev"
+      "Project Title": "Automotive Service Excellence Technician Validation API",
+      "Creative Discipline": [
+        "Web Development",
+        "Backend Development",
+        "Frontend Development"
+      ],
+      "Gallery Folder Name": "ASE"
     }
   },
   {
@@ -1722,63 +1722,63 @@
       "id": "recjL6PJDm5Wa6kIK",
       "createdTime": "2025-06-06T21:45:54.000Z",
       "fields": {
+        "End Date": "2025-05-23",
+        "Featured Image URL": "Payment%20Type%20Acknowledgments/Screenshot_2025-06-20_at_5.11.40_PM.png",
+        "GitHub URL": "https://github.com/billymitchell/Payment-Type-Acknowledgement-",
+        "Position on Project": [
+          "Lead"
+        ],
+        "Job Type": [
+          "Full-Time"
+        ],
+        "Hide Featured Image In Body": true,
+        "Made For": [
+          "recbJpghbxReFGtRU"
+        ],
+        "Date Modified": "2025-11-07T20:24:50.000Z",
+        "Intro Text": "<h3>Goals</h3>\n<p>Improve payment clarity and reduce chargebacks and disputes by introducing dynamic acknowledgements during checkout for various payment types.</p>\n\n<h3>Contributions</h3>\n<p>Developed a front-end acknowledgement system integrated into the e-commerce payment flow. Implemented required checkboxes and messaging for credit card transactions to notify customers that charges will appear under a parent company name. Extended the system with custom acknowledgements for ACH payments, credit checks, balance fees, and purchase orders. Designed the flow to conditionally enable checkout progression only after appropriate acknowledgements are given.</p>\n\n<h3>Outcomes</h3>\n<p>Reduced chargebacks and post-order disputes related to payment naming discrepancies. Improved legal clarity and customer understanding of payment terms. Enabled greater flexibility in supporting varied payment types while protecting company financial processes.</p>",
+        "Published": true,
+        "Created": "2025-06-06T21:45:54.000Z",
+        "Render On": "billymitchell.dev",
+        "Made With": [
+          "Javascript"
+        ],
         "Project Title": "Payment Type Acknowledgments",
         "Creative Discipline": [
           "Web Development",
           "Frontend Development"
         ],
-        "Made For": [
-          "recbJpghbxReFGtRU"
-        ],
-        "End Date": "2025-05-23",
-        "Job Type": [
-          "Full-Time"
-        ],
-        "Published": true,
-        "Position on Project": [
-          "Lead"
-        ],
-        "Featured Image URL": "Payment%20Type%20Acknowledgments/Screenshot_2025-06-20_at_5.11.40_PM.png",
-        "Hide Featured Image In Body": true,
-        "Made With": [
-          "Javascript"
-        ],
-        "Date Modified": "2025-11-07T20:24:50.000Z",
-        "Intro Text": "<h3>Goals</h3>\n<p>Improve payment clarity and reduce chargebacks and disputes by introducing dynamic acknowledgements during checkout for various payment types.</p>\n\n<h3>Contributions</h3>\n<p>Developed a front-end acknowledgement system integrated into the e-commerce payment flow. Implemented required checkboxes and messaging for credit card transactions to notify customers that charges will appear under a parent company name. Extended the system with custom acknowledgements for ACH payments, credit checks, balance fees, and purchase orders. Designed the flow to conditionally enable checkout progression only after appropriate acknowledgements are given.</p>\n\n<h3>Outcomes</h3>\n<p>Reduced chargebacks and post-order disputes related to payment naming discrepancies. Improved legal clarity and customer understanding of payment terms. Enabled greater flexibility in supporting varied payment types while protecting company financial processes.</p>",
-        "GitHub URL": "https://github.com/billymitchell/Payment-Type-Acknowledgement-",
-        "Gallery Folder Name": "Payment Type Acknowledgments",
-        "Created": "2025-06-06T21:45:54.000Z",
-        "Render On": "billymitchell.dev"
+        "Gallery Folder Name": "Payment Type Acknowledgments"
       }
     },
     "fields": {
+      "End Date": "2025-05-23",
+      "Featured Image URL": "Payment%20Type%20Acknowledgments/Screenshot_2025-06-20_at_5.11.40_PM.png",
+      "GitHub URL": "https://github.com/billymitchell/Payment-Type-Acknowledgement-",
+      "Position on Project": [
+        "Lead"
+      ],
+      "Job Type": [
+        "Full-Time"
+      ],
+      "Hide Featured Image In Body": true,
+      "Made For": [
+        "recbJpghbxReFGtRU"
+      ],
+      "Date Modified": "2025-11-07T20:24:50.000Z",
+      "Intro Text": "<h3>Goals</h3>\n<p>Improve payment clarity and reduce chargebacks and disputes by introducing dynamic acknowledgements during checkout for various payment types.</p>\n\n<h3>Contributions</h3>\n<p>Developed a front-end acknowledgement system integrated into the e-commerce payment flow. Implemented required checkboxes and messaging for credit card transactions to notify customers that charges will appear under a parent company name. Extended the system with custom acknowledgements for ACH payments, credit checks, balance fees, and purchase orders. Designed the flow to conditionally enable checkout progression only after appropriate acknowledgements are given.</p>\n\n<h3>Outcomes</h3>\n<p>Reduced chargebacks and post-order disputes related to payment naming discrepancies. Improved legal clarity and customer understanding of payment terms. Enabled greater flexibility in supporting varied payment types while protecting company financial processes.</p>",
+      "Published": true,
+      "Created": "2025-06-06T21:45:54.000Z",
+      "Render On": "billymitchell.dev",
+      "Made With": [
+        "Javascript"
+      ],
       "Project Title": "Payment Type Acknowledgments",
       "Creative Discipline": [
         "Web Development",
         "Frontend Development"
       ],
-      "Made For": [
-        "recbJpghbxReFGtRU"
-      ],
-      "End Date": "2025-05-23",
-      "Job Type": [
-        "Full-Time"
-      ],
-      "Published": true,
-      "Position on Project": [
-        "Lead"
-      ],
-      "Featured Image URL": "Payment%20Type%20Acknowledgments/Screenshot_2025-06-20_at_5.11.40_PM.png",
-      "Hide Featured Image In Body": true,
-      "Made With": [
-        "Javascript"
-      ],
-      "Date Modified": "2025-11-07T20:24:50.000Z",
-      "Intro Text": "<h3>Goals</h3>\n<p>Improve payment clarity and reduce chargebacks and disputes by introducing dynamic acknowledgements during checkout for various payment types.</p>\n\n<h3>Contributions</h3>\n<p>Developed a front-end acknowledgement system integrated into the e-commerce payment flow. Implemented required checkboxes and messaging for credit card transactions to notify customers that charges will appear under a parent company name. Extended the system with custom acknowledgements for ACH payments, credit checks, balance fees, and purchase orders. Designed the flow to conditionally enable checkout progression only after appropriate acknowledgements are given.</p>\n\n<h3>Outcomes</h3>\n<p>Reduced chargebacks and post-order disputes related to payment naming discrepancies. Improved legal clarity and customer understanding of payment terms. Enabled greater flexibility in supporting varied payment types while protecting company financial processes.</p>",
-      "GitHub URL": "https://github.com/billymitchell/Payment-Type-Acknowledgement-",
-      "Gallery Folder Name": "Payment Type Acknowledgments",
-      "Created": "2025-06-06T21:45:54.000Z",
-      "Render On": "billymitchell.dev"
+      "Gallery Folder Name": "Payment Type Acknowledgments"
     }
   },
   {
@@ -1795,71 +1795,71 @@
       "id": "reckbx1k6Kf9rRv5Q",
       "createdTime": "2020-10-02T20:37:32.000Z",
       "fields": {
-        "Project Title": "Royal Caribbean Alaska Email",
-        "Creative Discipline": [
-          "Web Development",
-          "Frontend Development"
-        ],
-        "Made For": [
-          "recwezBDstyLcFx9Q",
-          "recnRzPHJH487g2DC"
-        ],
         "End Date": "2020-01-01",
+        "Featured Image URL": "rci-alaska-email/ezgif.com-optimize-min_ueewg2",
+        "GitHub URL": "https://github.com/billymitchell/email-design/tree/master/rci-alaska",
+        "Position on Project": [
+          "Lead"
+        ],
         "Job Type": [
           "Full-Time"
         ],
         "Live Web Project URL": "https://email-design.billymitchell.design/rci-alaska/",
-        "Published": true,
-        "Position on Project": [
-          "Lead"
-        ],
-        "Body Text": "<style>\n  .mobile {\n    display: none;\n  }\n  .desktop {\n    display: block;\n  }\n  @media only screen and (max-width: 700px) {\n    .desktop {\n      display: none;\n    }\n    .mobile {\n      display: block;\n    }\n  }\n</style>\n<img\n  class=\"desktop\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/rci-alaska-email/desktop_ogfokd\"\n/>\n<img\n  class=\"mobile\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/rci-alaska-email/mobile_idcwrf\"\n/>\n",
-        "Featured Image URL": "rci-alaska-email/ezgif.com-optimize-min_ueewg2",
         "Hide Featured Image In Body": true,
+        "Made For": [
+          "recwezBDstyLcFx9Q",
+          "recnRzPHJH487g2DC"
+        ],
+        "Date Modified": "2025-11-07T20:25:48.000Z",
+        "Published": true,
+        "Created": "2020-10-02T20:37:32.000Z",
+        "Render On": "Both",
         "Made With": [
           "HTML",
           "CSS",
           "Photoshop"
         ],
-        "Date Modified": "2025-11-07T20:25:48.000Z",
-        "GitHub URL": "https://github.com/billymitchell/email-design/tree/master/rci-alaska",
+        "Project Title": "Royal Caribbean Alaska Email",
+        "Creative Discipline": [
+          "Web Development",
+          "Frontend Development"
+        ],
         "Gallery Folder Name": "rci-alaska-email",
-        "Created": "2020-10-02T20:37:32.000Z",
-        "Render On": "Both"
+        "Body Text": "<style>\n  .mobile {\n    display: none;\n  }\n  .desktop {\n    display: block;\n  }\n  @media only screen and (max-width: 700px) {\n    .desktop {\n      display: none;\n    }\n    .mobile {\n      display: block;\n    }\n  }\n</style>\n<img\n  class=\"desktop\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/rci-alaska-email/desktop_ogfokd\"\n/>\n<img\n  class=\"mobile\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/rci-alaska-email/mobile_idcwrf\"\n/>\n"
       }
     },
     "fields": {
-      "Project Title": "Royal Caribbean Alaska Email",
-      "Creative Discipline": [
-        "Web Development",
-        "Frontend Development"
-      ],
-      "Made For": [
-        "recwezBDstyLcFx9Q",
-        "recnRzPHJH487g2DC"
-      ],
       "End Date": "2020-01-01",
+      "Featured Image URL": "rci-alaska-email/ezgif.com-optimize-min_ueewg2",
+      "GitHub URL": "https://github.com/billymitchell/email-design/tree/master/rci-alaska",
+      "Position on Project": [
+        "Lead"
+      ],
       "Job Type": [
         "Full-Time"
       ],
       "Live Web Project URL": "https://email-design.billymitchell.design/rci-alaska/",
-      "Published": true,
-      "Position on Project": [
-        "Lead"
-      ],
-      "Body Text": "<style>\n  .mobile {\n    display: none;\n  }\n  .desktop {\n    display: block;\n  }\n  @media only screen and (max-width: 700px) {\n    .desktop {\n      display: none;\n    }\n    .mobile {\n      display: block;\n    }\n  }\n</style>\n<img\n  class=\"desktop\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/rci-alaska-email/desktop_ogfokd\"\n/>\n<img\n  class=\"mobile\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/rci-alaska-email/mobile_idcwrf\"\n/>\n",
-      "Featured Image URL": "rci-alaska-email/ezgif.com-optimize-min_ueewg2",
       "Hide Featured Image In Body": true,
+      "Made For": [
+        "recwezBDstyLcFx9Q",
+        "recnRzPHJH487g2DC"
+      ],
+      "Date Modified": "2025-11-07T20:25:48.000Z",
+      "Published": true,
+      "Created": "2020-10-02T20:37:32.000Z",
+      "Render On": "Both",
       "Made With": [
         "HTML",
         "CSS",
         "Photoshop"
       ],
-      "Date Modified": "2025-11-07T20:25:48.000Z",
-      "GitHub URL": "https://github.com/billymitchell/email-design/tree/master/rci-alaska",
+      "Project Title": "Royal Caribbean Alaska Email",
+      "Creative Discipline": [
+        "Web Development",
+        "Frontend Development"
+      ],
       "Gallery Folder Name": "rci-alaska-email",
-      "Created": "2020-10-02T20:37:32.000Z",
-      "Render On": "Both"
+      "Body Text": "<style>\n  .mobile {\n    display: none;\n  }\n  .desktop {\n    display: block;\n  }\n  @media only screen and (max-width: 700px) {\n    .desktop {\n      display: none;\n    }\n    .mobile {\n      display: block;\n    }\n  }\n</style>\n<img\n  class=\"desktop\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/rci-alaska-email/desktop_ogfokd\"\n/>\n<img\n  class=\"mobile\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/rci-alaska-email/mobile_idcwrf\"\n/>\n"
     }
   },
   {
@@ -1876,67 +1876,67 @@
       "id": "recn2b3QgA55baChG",
       "createdTime": "2024-12-31T22:50:04.000Z",
       "fields": {
+        "End Date": "2024-08-01",
+        "Featured Image URL": "Centricity%20Project%20Management%20Forms/screencapture-centricitycustomerjourney-2025-06-13-12_58_12.png",
+        "Position on Project": [
+          "Lead"
+        ],
+        "Job Type": [
+          "Full-Time"
+        ],
+        "Hide Featured Image In Body": true,
+        "Made For": [
+          "recbJpghbxReFGtRU"
+        ],
+        "Date Modified": "2025-11-07T20:25:08.000Z",
+        "Intro Text": "<h3>Goals</h3>\n<p>Streamline internal operations and project intake by building a system to consistently collect and route key project information across the organization.</p>\n\n<h3>Contributions</h3>\n<p>Developed a custom WordPress-based forms system using Formidable to capture structured project data (creative briefs, website requests, project scoping forms, and more). Built an integration pipeline via Zapier to pass form data into monday.com, enabling automated task creation and assignment. Designed workflows to reduce miscommunication and improve project clarity across teams and leadership.</p>\n\n<h3>Outcomes</h3>\n<p>Improved consistency and quality of project intake. Enabled seamless transition from form submission to actionable tasks in monday.com. Reduced operational friction and communication gaps across creative, development, and management workflows.</p>",
+        "Published": true,
+        "Created": "2024-12-31T22:50:04.000Z",
+        "Render On": "billymitchell.dev",
+        "Made With": [
+          "Wordpress",
+          "Zapier",
+          "Monday.com"
+        ],
         "Project Title": "Centricity Project Management Forms",
         "Creative Discipline": [
           "Web Development",
           "Frontend Development",
           "Web Design"
         ],
-        "Made For": [
-          "recbJpghbxReFGtRU"
-        ],
-        "End Date": "2024-08-01",
-        "Job Type": [
-          "Full-Time"
-        ],
-        "Published": true,
-        "Position on Project": [
-          "Lead"
-        ],
-        "Featured Image URL": "Centricity%20Project%20Management%20Forms/screencapture-centricitycustomerjourney-2025-06-13-12_58_12.png",
-        "Hide Featured Image In Body": true,
-        "Made With": [
-          "Wordpress",
-          "Zapier",
-          "Monday.com"
-        ],
-        "Date Modified": "2025-11-07T20:25:08.000Z",
-        "Intro Text": "<h3>Goals</h3>\n<p>Streamline internal operations and project intake by building a system to consistently collect and route key project information across the organization.</p>\n\n<h3>Contributions</h3>\n<p>Developed a custom WordPress-based forms system using Formidable to capture structured project data (creative briefs, website requests, project scoping forms, and more). Built an integration pipeline via Zapier to pass form data into monday.com, enabling automated task creation and assignment. Designed workflows to reduce miscommunication and improve project clarity across teams and leadership.</p>\n\n<h3>Outcomes</h3>\n<p>Improved consistency and quality of project intake. Enabled seamless transition from form submission to actionable tasks in monday.com. Reduced operational friction and communication gaps across creative, development, and management workflows.</p>",
-        "Gallery Folder Name": "Centricity Project Management Forms",
-        "Created": "2024-12-31T22:50:04.000Z",
-        "Render On": "billymitchell.dev"
+        "Gallery Folder Name": "Centricity Project Management Forms"
       }
     },
     "fields": {
+      "End Date": "2024-08-01",
+      "Featured Image URL": "Centricity%20Project%20Management%20Forms/screencapture-centricitycustomerjourney-2025-06-13-12_58_12.png",
+      "Position on Project": [
+        "Lead"
+      ],
+      "Job Type": [
+        "Full-Time"
+      ],
+      "Hide Featured Image In Body": true,
+      "Made For": [
+        "recbJpghbxReFGtRU"
+      ],
+      "Date Modified": "2025-11-07T20:25:08.000Z",
+      "Intro Text": "<h3>Goals</h3>\n<p>Streamline internal operations and project intake by building a system to consistently collect and route key project information across the organization.</p>\n\n<h3>Contributions</h3>\n<p>Developed a custom WordPress-based forms system using Formidable to capture structured project data (creative briefs, website requests, project scoping forms, and more). Built an integration pipeline via Zapier to pass form data into monday.com, enabling automated task creation and assignment. Designed workflows to reduce miscommunication and improve project clarity across teams and leadership.</p>\n\n<h3>Outcomes</h3>\n<p>Improved consistency and quality of project intake. Enabled seamless transition from form submission to actionable tasks in monday.com. Reduced operational friction and communication gaps across creative, development, and management workflows.</p>",
+      "Published": true,
+      "Created": "2024-12-31T22:50:04.000Z",
+      "Render On": "billymitchell.dev",
+      "Made With": [
+        "Wordpress",
+        "Zapier",
+        "Monday.com"
+      ],
       "Project Title": "Centricity Project Management Forms",
       "Creative Discipline": [
         "Web Development",
         "Frontend Development",
         "Web Design"
       ],
-      "Made For": [
-        "recbJpghbxReFGtRU"
-      ],
-      "End Date": "2024-08-01",
-      "Job Type": [
-        "Full-Time"
-      ],
-      "Published": true,
-      "Position on Project": [
-        "Lead"
-      ],
-      "Featured Image URL": "Centricity%20Project%20Management%20Forms/screencapture-centricitycustomerjourney-2025-06-13-12_58_12.png",
-      "Hide Featured Image In Body": true,
-      "Made With": [
-        "Wordpress",
-        "Zapier",
-        "Monday.com"
-      ],
-      "Date Modified": "2025-11-07T20:25:08.000Z",
-      "Intro Text": "<h3>Goals</h3>\n<p>Streamline internal operations and project intake by building a system to consistently collect and route key project information across the organization.</p>\n\n<h3>Contributions</h3>\n<p>Developed a custom WordPress-based forms system using Formidable to capture structured project data (creative briefs, website requests, project scoping forms, and more). Built an integration pipeline via Zapier to pass form data into monday.com, enabling automated task creation and assignment. Designed workflows to reduce miscommunication and improve project clarity across teams and leadership.</p>\n\n<h3>Outcomes</h3>\n<p>Improved consistency and quality of project intake. Enabled seamless transition from form submission to actionable tasks in monday.com. Reduced operational friction and communication gaps across creative, development, and management workflows.</p>",
-      "Gallery Folder Name": "Centricity Project Management Forms",
-      "Created": "2024-12-31T22:50:04.000Z",
-      "Render On": "billymitchell.dev"
+      "Gallery Folder Name": "Centricity Project Management Forms"
     }
   },
   {
@@ -1953,27 +1953,25 @@
       "id": "recreGbxH8V9jI8kc",
       "createdTime": "2020-06-21T22:24:43.000Z",
       "fields": {
-        "Project Title": "Bodhi Thai Food Websites",
-        "Creative Discipline": [
-          "Branding",
-          "Web Development",
-          "Web Design"
-        ],
-        "Made For": [
-          "recy36YqwoJmUZNl5"
-        ],
         "End Date": "2018-11-01",
+        "Featured Image URL": "bodhi-corner/e7f34f15",
+        "Position on Project": [
+          "Lead"
+        ],
         "Job Type": [
           "Contract",
           "Freelance"
         ],
         "Live Web Project URL": "https://bodhicorner.com/",
-        "Published": true,
-        "Position on Project": [
-          "Lead"
-        ],
-        "Featured Image URL": "bodhi-corner/e7f34f15",
         "Hide Featured Image In Body": true,
+        "Made For": [
+          "recy36YqwoJmUZNl5"
+        ],
+        "Date Modified": "2025-11-07T20:27:43.000Z",
+        "Intro Text": "<h3>Goals</h3>\nDesign and build a website that acts as a digital hub for the restaurant's digital properties. Communicate a brand that matches the high-quality food and atmosphere of the in-store experience. Allow the owner to control content publishing through a CMS. <br>\n<h3>Contributions</h3>\nI designed and developed the website independently with some brand assets provided. I built the site using a multi-site WordPress instance that allows the restaurant to maintain multiple location properties under one URL. <br>\n<h3>Outcomes</h3>\nBodhicorner represents two of the most popular Thai restaurants in Baltimore city. Customers use the website to find important information like; the menu, the to-go ordering platform, updates to store hours.\n\n",
+        "Published": true,
+        "Created": "2020-06-21T22:24:43.000Z",
+        "Render On": "Both",
         "Made With": [
           "Adobe XD",
           "HTML",
@@ -1982,35 +1980,35 @@
           "PHP",
           "CSS"
         ],
-        "Date Modified": "2025-11-07T20:27:43.000Z",
-        "Intro Text": "<h3>Goals</h3>\nDesign and build a website that acts as a digital hub for the restaurant's digital properties. Communicate a brand that matches the high-quality food and atmosphere of the in-store experience. Allow the owner to control content publishing through a CMS. <br>\n<h3>Contributions</h3>\nI designed and developed the website independently with some brand assets provided. I built the site using a multi-site WordPress instance that allows the restaurant to maintain multiple location properties under one URL. <br>\n<h3>Outcomes</h3>\nBodhicorner represents two of the most popular Thai restaurants in Baltimore city. Customers use the website to find important information like; the menu, the to-go ordering platform, updates to store hours.\n\n",
-        "Gallery Folder Name": "bodhi-corner",
-        "Created": "2020-06-21T22:24:43.000Z",
-        "Render On": "Both"
+        "Project Title": "Bodhi Thai Food Websites",
+        "Creative Discipline": [
+          "Branding",
+          "Web Development",
+          "Web Design"
+        ],
+        "Gallery Folder Name": "bodhi-corner"
       }
     },
     "fields": {
-      "Project Title": "Bodhi Thai Food Websites",
-      "Creative Discipline": [
-        "Branding",
-        "Web Development",
-        "Web Design"
-      ],
-      "Made For": [
-        "recy36YqwoJmUZNl5"
-      ],
       "End Date": "2018-11-01",
+      "Featured Image URL": "bodhi-corner/e7f34f15",
+      "Position on Project": [
+        "Lead"
+      ],
       "Job Type": [
         "Contract",
         "Freelance"
       ],
       "Live Web Project URL": "https://bodhicorner.com/",
-      "Published": true,
-      "Position on Project": [
-        "Lead"
-      ],
-      "Featured Image URL": "bodhi-corner/e7f34f15",
       "Hide Featured Image In Body": true,
+      "Made For": [
+        "recy36YqwoJmUZNl5"
+      ],
+      "Date Modified": "2025-11-07T20:27:43.000Z",
+      "Intro Text": "<h3>Goals</h3>\nDesign and build a website that acts as a digital hub for the restaurant's digital properties. Communicate a brand that matches the high-quality food and atmosphere of the in-store experience. Allow the owner to control content publishing through a CMS. <br>\n<h3>Contributions</h3>\nI designed and developed the website independently with some brand assets provided. I built the site using a multi-site WordPress instance that allows the restaurant to maintain multiple location properties under one URL. <br>\n<h3>Outcomes</h3>\nBodhicorner represents two of the most popular Thai restaurants in Baltimore city. Customers use the website to find important information like; the menu, the to-go ordering platform, updates to store hours.\n\n",
+      "Published": true,
+      "Created": "2020-06-21T22:24:43.000Z",
+      "Render On": "Both",
       "Made With": [
         "Adobe XD",
         "HTML",
@@ -2019,11 +2017,13 @@
         "PHP",
         "CSS"
       ],
-      "Date Modified": "2025-11-07T20:27:43.000Z",
-      "Intro Text": "<h3>Goals</h3>\nDesign and build a website that acts as a digital hub for the restaurant's digital properties. Communicate a brand that matches the high-quality food and atmosphere of the in-store experience. Allow the owner to control content publishing through a CMS. <br>\n<h3>Contributions</h3>\nI designed and developed the website independently with some brand assets provided. I built the site using a multi-site WordPress instance that allows the restaurant to maintain multiple location properties under one URL. <br>\n<h3>Outcomes</h3>\nBodhicorner represents two of the most popular Thai restaurants in Baltimore city. Customers use the website to find important information like; the menu, the to-go ordering platform, updates to store hours.\n\n",
-      "Gallery Folder Name": "bodhi-corner",
-      "Created": "2020-06-21T22:24:43.000Z",
-      "Render On": "Both"
+      "Project Title": "Bodhi Thai Food Websites",
+      "Creative Discipline": [
+        "Branding",
+        "Web Development",
+        "Web Design"
+      ],
+      "Gallery Folder Name": "bodhi-corner"
     }
   },
   {
@@ -2040,69 +2040,69 @@
       "id": "recxcIODVpDgaRkgZ",
       "createdTime": "2025-06-06T21:48:11.000Z",
       "fields": {
+        "End Date": "2025-02-28",
+        "Featured Image URL": "Vision%20House%20Website/Screenshot_2025-06-20_at_5.18.41_PM.png",
+        "GitHub URL": "https://github.com/billymitchell/vision-house",
+        "Position on Project": [
+          "Lead"
+        ],
+        "Job Type": [
+          "Freelance"
+        ],
+        "Live Web Project URL": "https://0visionhouse0.com/",
+        "Hide Featured Image In Body": true,
+        "Made For": [
+          "recnn3LQpW4NhMIbd"
+        ],
+        "Date Modified": "2025-11-07T20:24:39.000Z",
+        "Intro Text": "<h3>Goals</h3>\n<p>Design and build a distinctive website for Vision House — a small, community-oriented bar — that reflects its experimental and organic ethos while serving as a simple, low-maintenance online presence.</p>\n\n<h3>Contributions</h3>\n<p>Collaborated with the founders to translate their vision into a web experience inspired by oscilloscope visuals and abstract sound wave aesthetics. Designed and developed a static site using HTML, CSS, JavaScript, and custom graphics created in Photoshop and Illustrator. Implemented an animated, glowing grid motif to evoke the desired feel. Focused on delivering an initial minimalist site with room for future dynamic expansion.</p>\n\n<h3>Outcomes</h3>\n<p>Created a unique and visually engaging site that mirrors the creative identity of Vision House. Provided the owners with a simple yet expressive platform to share their story and promote community events. Established a flexible design foundation for future enhancements and content growth.</p>",
+        "Published": true,
+        "Created": "2025-06-06T21:48:11.000Z",
+        "Render On": "Both",
+        "Made With": [
+          "HTML",
+          "CSS"
+        ],
         "Project Title": "Vision House Website",
         "Creative Discipline": [
           "Web Development",
           "Frontend Development",
           "Web Design"
         ],
-        "Made For": [
-          "recnn3LQpW4NhMIbd"
-        ],
-        "End Date": "2025-02-28",
-        "Job Type": [
-          "Freelance"
-        ],
-        "Live Web Project URL": "https://0visionhouse0.com/",
-        "Published": true,
-        "Position on Project": [
-          "Lead"
-        ],
-        "Featured Image URL": "Vision%20House%20Website/Screenshot_2025-06-20_at_5.18.41_PM.png",
-        "Hide Featured Image In Body": true,
-        "Made With": [
-          "HTML",
-          "CSS"
-        ],
-        "Date Modified": "2025-11-07T20:24:39.000Z",
-        "Intro Text": "<h3>Goals</h3>\n<p>Design and build a distinctive website for Vision House — a small, community-oriented bar — that reflects its experimental and organic ethos while serving as a simple, low-maintenance online presence.</p>\n\n<h3>Contributions</h3>\n<p>Collaborated with the founders to translate their vision into a web experience inspired by oscilloscope visuals and abstract sound wave aesthetics. Designed and developed a static site using HTML, CSS, JavaScript, and custom graphics created in Photoshop and Illustrator. Implemented an animated, glowing grid motif to evoke the desired feel. Focused on delivering an initial minimalist site with room for future dynamic expansion.</p>\n\n<h3>Outcomes</h3>\n<p>Created a unique and visually engaging site that mirrors the creative identity of Vision House. Provided the owners with a simple yet expressive platform to share their story and promote community events. Established a flexible design foundation for future enhancements and content growth.</p>",
-        "GitHub URL": "https://github.com/billymitchell/vision-house",
-        "Gallery Folder Name": "Vision House Website",
-        "Created": "2025-06-06T21:48:11.000Z",
-        "Render On": "Both"
+        "Gallery Folder Name": "Vision House Website"
       }
     },
     "fields": {
+      "End Date": "2025-02-28",
+      "Featured Image URL": "Vision%20House%20Website/Screenshot_2025-06-20_at_5.18.41_PM.png",
+      "GitHub URL": "https://github.com/billymitchell/vision-house",
+      "Position on Project": [
+        "Lead"
+      ],
+      "Job Type": [
+        "Freelance"
+      ],
+      "Live Web Project URL": "https://0visionhouse0.com/",
+      "Hide Featured Image In Body": true,
+      "Made For": [
+        "recnn3LQpW4NhMIbd"
+      ],
+      "Date Modified": "2025-11-07T20:24:39.000Z",
+      "Intro Text": "<h3>Goals</h3>\n<p>Design and build a distinctive website for Vision House — a small, community-oriented bar — that reflects its experimental and organic ethos while serving as a simple, low-maintenance online presence.</p>\n\n<h3>Contributions</h3>\n<p>Collaborated with the founders to translate their vision into a web experience inspired by oscilloscope visuals and abstract sound wave aesthetics. Designed and developed a static site using HTML, CSS, JavaScript, and custom graphics created in Photoshop and Illustrator. Implemented an animated, glowing grid motif to evoke the desired feel. Focused on delivering an initial minimalist site with room for future dynamic expansion.</p>\n\n<h3>Outcomes</h3>\n<p>Created a unique and visually engaging site that mirrors the creative identity of Vision House. Provided the owners with a simple yet expressive platform to share their story and promote community events. Established a flexible design foundation for future enhancements and content growth.</p>",
+      "Published": true,
+      "Created": "2025-06-06T21:48:11.000Z",
+      "Render On": "Both",
+      "Made With": [
+        "HTML",
+        "CSS"
+      ],
       "Project Title": "Vision House Website",
       "Creative Discipline": [
         "Web Development",
         "Frontend Development",
         "Web Design"
       ],
-      "Made For": [
-        "recnn3LQpW4NhMIbd"
-      ],
-      "End Date": "2025-02-28",
-      "Job Type": [
-        "Freelance"
-      ],
-      "Live Web Project URL": "https://0visionhouse0.com/",
-      "Published": true,
-      "Position on Project": [
-        "Lead"
-      ],
-      "Featured Image URL": "Vision%20House%20Website/Screenshot_2025-06-20_at_5.18.41_PM.png",
-      "Hide Featured Image In Body": true,
-      "Made With": [
-        "HTML",
-        "CSS"
-      ],
-      "Date Modified": "2025-11-07T20:24:39.000Z",
-      "Intro Text": "<h3>Goals</h3>\n<p>Design and build a distinctive website for Vision House — a small, community-oriented bar — that reflects its experimental and organic ethos while serving as a simple, low-maintenance online presence.</p>\n\n<h3>Contributions</h3>\n<p>Collaborated with the founders to translate their vision into a web experience inspired by oscilloscope visuals and abstract sound wave aesthetics. Designed and developed a static site using HTML, CSS, JavaScript, and custom graphics created in Photoshop and Illustrator. Implemented an animated, glowing grid motif to evoke the desired feel. Focused on delivering an initial minimalist site with room for future dynamic expansion.</p>\n\n<h3>Outcomes</h3>\n<p>Created a unique and visually engaging site that mirrors the creative identity of Vision House. Provided the owners with a simple yet expressive platform to share their story and promote community events. Established a flexible design foundation for future enhancements and content growth.</p>",
-      "GitHub URL": "https://github.com/billymitchell/vision-house",
-      "Gallery Folder Name": "Vision House Website",
-      "Created": "2025-06-06T21:48:11.000Z",
-      "Render On": "Both"
+      "Gallery Folder Name": "Vision House Website"
     }
   },
   {
@@ -2119,73 +2119,73 @@
       "id": "recy7MjP8cFGFY9bA",
       "createdTime": "2025-06-06T21:44:09.000Z",
       "fields": {
-        "Project Title": "DJ Nerva Website",
-        "Creative Discipline": [
-          "Web Development",
-          "Frontend Development",
-          "Web Design"
-        ],
-        "Made For": [
-          "rec4UvnGnKwCs9agu"
-        ],
         "End Date": "2025-05-31",
+        "Featured Image URL": "DJ%20Nerva%20Website/screencapture-djnerva-2025-06-20-14_48_37.png",
+        "GitHub URL": "https://github.com/billymitchell/DJ-Nerva",
+        "Position on Project": [
+          "Lead"
+        ],
         "Job Type": [
           "Pro Bono"
         ],
         "Live Web Project URL": "https://djnerva.com/",
-        "Published": true,
-        "Position on Project": [
-          "Lead"
-        ],
-        "Featured Image URL": "DJ%20Nerva%20Website/screencapture-djnerva-2025-06-20-14_48_37.png",
         "Hide Featured Image In Body": true,
+        "Made For": [
+          "rec4UvnGnKwCs9agu"
+        ],
+        "Date Modified": "2025-11-07T20:24:53.000Z",
+        "Intro Text": "<h3>Goals</h3>\n<p>Automate and standardize the flow of shipping data from diverse vendors back into the e-commerce platform to reduce manual work and improve customer-facing tracking updates.</p>\n\n<h3>Contributions</h3>\n<p>Developed a suite of APIs to process inconsistent shipping data from multiple fulfillment partners. Implemented workflows using MailParser to extract shipment details from email and feed them to custom API endpoints. Built logic for data validation, cleaning, and formatting across various shipment types (order-level, item-level). Integrated with OrderDesk to centralize shipping data and leverage its native sync with storefront systems. Additionally implemented direct API integrations for vendors providing compatible data formats.</p>\n\n<h3>Outcomes</h3>\n<p>Significantly reduced manual data entry and order tracking errors. Provided near real-time shipping status updates to customers, improving satisfaction and transparency. Established a scalable architecture for handling varied shipping data across multiple vendor relationships.</p>",
+        "Published": true,
+        "Created": "2025-06-06T21:44:09.000Z",
+        "Render On": "Both",
         "Made With": [
           "HTML",
           "CSS",
           "Javascript",
           "Node.js"
         ],
-        "Date Modified": "2025-11-07T20:24:53.000Z",
-        "Intro Text": "<h3>Goals</h3>\n<p>Automate and standardize the flow of shipping data from diverse vendors back into the e-commerce platform to reduce manual work and improve customer-facing tracking updates.</p>\n\n<h3>Contributions</h3>\n<p>Developed a suite of APIs to process inconsistent shipping data from multiple fulfillment partners. Implemented workflows using MailParser to extract shipment details from email and feed them to custom API endpoints. Built logic for data validation, cleaning, and formatting across various shipment types (order-level, item-level). Integrated with OrderDesk to centralize shipping data and leverage its native sync with storefront systems. Additionally implemented direct API integrations for vendors providing compatible data formats.</p>\n\n<h3>Outcomes</h3>\n<p>Significantly reduced manual data entry and order tracking errors. Provided near real-time shipping status updates to customers, improving satisfaction and transparency. Established a scalable architecture for handling varied shipping data across multiple vendor relationships.</p>",
-        "GitHub URL": "https://github.com/billymitchell/DJ-Nerva",
-        "Gallery Folder Name": "DJ Nerva Website",
-        "Created": "2025-06-06T21:44:09.000Z",
-        "Render On": "Both"
+        "Project Title": "DJ Nerva Website",
+        "Creative Discipline": [
+          "Web Development",
+          "Frontend Development",
+          "Web Design"
+        ],
+        "Gallery Folder Name": "DJ Nerva Website"
       }
     },
     "fields": {
-      "Project Title": "DJ Nerva Website",
-      "Creative Discipline": [
-        "Web Development",
-        "Frontend Development",
-        "Web Design"
-      ],
-      "Made For": [
-        "rec4UvnGnKwCs9agu"
-      ],
       "End Date": "2025-05-31",
+      "Featured Image URL": "DJ%20Nerva%20Website/screencapture-djnerva-2025-06-20-14_48_37.png",
+      "GitHub URL": "https://github.com/billymitchell/DJ-Nerva",
+      "Position on Project": [
+        "Lead"
+      ],
       "Job Type": [
         "Pro Bono"
       ],
       "Live Web Project URL": "https://djnerva.com/",
-      "Published": true,
-      "Position on Project": [
-        "Lead"
-      ],
-      "Featured Image URL": "DJ%20Nerva%20Website/screencapture-djnerva-2025-06-20-14_48_37.png",
       "Hide Featured Image In Body": true,
+      "Made For": [
+        "rec4UvnGnKwCs9agu"
+      ],
+      "Date Modified": "2025-11-07T20:24:53.000Z",
+      "Intro Text": "<h3>Goals</h3>\n<p>Automate and standardize the flow of shipping data from diverse vendors back into the e-commerce platform to reduce manual work and improve customer-facing tracking updates.</p>\n\n<h3>Contributions</h3>\n<p>Developed a suite of APIs to process inconsistent shipping data from multiple fulfillment partners. Implemented workflows using MailParser to extract shipment details from email and feed them to custom API endpoints. Built logic for data validation, cleaning, and formatting across various shipment types (order-level, item-level). Integrated with OrderDesk to centralize shipping data and leverage its native sync with storefront systems. Additionally implemented direct API integrations for vendors providing compatible data formats.</p>\n\n<h3>Outcomes</h3>\n<p>Significantly reduced manual data entry and order tracking errors. Provided near real-time shipping status updates to customers, improving satisfaction and transparency. Established a scalable architecture for handling varied shipping data across multiple vendor relationships.</p>",
+      "Published": true,
+      "Created": "2025-06-06T21:44:09.000Z",
+      "Render On": "Both",
       "Made With": [
         "HTML",
         "CSS",
         "Javascript",
         "Node.js"
       ],
-      "Date Modified": "2025-11-07T20:24:53.000Z",
-      "Intro Text": "<h3>Goals</h3>\n<p>Automate and standardize the flow of shipping data from diverse vendors back into the e-commerce platform to reduce manual work and improve customer-facing tracking updates.</p>\n\n<h3>Contributions</h3>\n<p>Developed a suite of APIs to process inconsistent shipping data from multiple fulfillment partners. Implemented workflows using MailParser to extract shipment details from email and feed them to custom API endpoints. Built logic for data validation, cleaning, and formatting across various shipment types (order-level, item-level). Integrated with OrderDesk to centralize shipping data and leverage its native sync with storefront systems. Additionally implemented direct API integrations for vendors providing compatible data formats.</p>\n\n<h3>Outcomes</h3>\n<p>Significantly reduced manual data entry and order tracking errors. Provided near real-time shipping status updates to customers, improving satisfaction and transparency. Established a scalable architecture for handling varied shipping data across multiple vendor relationships.</p>",
-      "GitHub URL": "https://github.com/billymitchell/DJ-Nerva",
-      "Gallery Folder Name": "DJ Nerva Website",
-      "Created": "2025-06-06T21:44:09.000Z",
-      "Render On": "Both"
+      "Project Title": "DJ Nerva Website",
+      "Creative Discipline": [
+        "Web Development",
+        "Frontend Development",
+        "Web Design"
+      ],
+      "Gallery Folder Name": "DJ Nerva Website"
     }
   },
   {
@@ -2202,69 +2202,69 @@
       "id": "recz8LaZ3ffFN0SBj",
       "createdTime": "2021-03-16T17:17:15.000Z",
       "fields": {
-        "Project Title": "STX",
-        "Creative Discipline": [
-          "Web Development",
-          "Frontend Development"
-        ],
-        "Made For": [
-          "recjuzWmD0IMOixnh"
-        ],
         "End Date": "2021-03-16",
+        "Featured Image URL": "STX/stx",
+        "GitHub URL": "https://github.com/billymitchell/mission-media-stx",
+        "Position on Project": [
+          "Lead"
+        ],
         "Job Type": [
           "Assessment "
         ],
         "Live Web Project URL": "https://stx.billymitchell.design/",
-        "Published": true,
-        "Position on Project": [
-          "Lead"
-        ],
-        "Featured Image URL": "STX/stx",
         "Hide Featured Image In Body": true,
+        "Made For": [
+          "recjuzWmD0IMOixnh"
+        ],
+        "Date Modified": "2025-11-07T20:25:18.000Z",
+        "Intro Text": "<h3>Goals</h3>\nConvert an existing design into functioning HTML, CSS & Javascript.<br> \n<h3>Contributions</h3> \nI developed this to be highly adaptable. Mobile responsive development considered and flexibility in terms of reusable javascript functions for optimized page load. \n<h3>Outcomes</h3>\nI refind my skills around writing functional javascript in a reusable way. The slideshow of images for each product can be imported with minimal code repetition. ",
+        "Published": true,
+        "Created": "2021-03-16T17:17:15.000Z",
+        "Render On": "billymitchell.dev",
         "Made With": [
           "HTML",
           "CSS",
           "Javascript"
         ],
-        "Date Modified": "2025-11-07T20:25:18.000Z",
-        "Intro Text": "<h3>Goals</h3>\nConvert an existing design into functioning HTML, CSS & Javascript.<br> \n<h3>Contributions</h3> \nI developed this to be highly adaptable. Mobile responsive development considered and flexibility in terms of reusable javascript functions for optimized page load. \n<h3>Outcomes</h3>\nI refind my skills around writing functional javascript in a reusable way. The slideshow of images for each product can be imported with minimal code repetition. ",
-        "GitHub URL": "https://github.com/billymitchell/mission-media-stx",
-        "Gallery Folder Name": "STX",
-        "Created": "2021-03-16T17:17:15.000Z",
-        "Render On": "billymitchell.dev"
+        "Project Title": "STX",
+        "Creative Discipline": [
+          "Web Development",
+          "Frontend Development"
+        ],
+        "Gallery Folder Name": "STX"
       }
     },
     "fields": {
-      "Project Title": "STX",
-      "Creative Discipline": [
-        "Web Development",
-        "Frontend Development"
-      ],
-      "Made For": [
-        "recjuzWmD0IMOixnh"
-      ],
       "End Date": "2021-03-16",
+      "Featured Image URL": "STX/stx",
+      "GitHub URL": "https://github.com/billymitchell/mission-media-stx",
+      "Position on Project": [
+        "Lead"
+      ],
       "Job Type": [
         "Assessment "
       ],
       "Live Web Project URL": "https://stx.billymitchell.design/",
-      "Published": true,
-      "Position on Project": [
-        "Lead"
-      ],
-      "Featured Image URL": "STX/stx",
       "Hide Featured Image In Body": true,
+      "Made For": [
+        "recjuzWmD0IMOixnh"
+      ],
+      "Date Modified": "2025-11-07T20:25:18.000Z",
+      "Intro Text": "<h3>Goals</h3>\nConvert an existing design into functioning HTML, CSS & Javascript.<br> \n<h3>Contributions</h3> \nI developed this to be highly adaptable. Mobile responsive development considered and flexibility in terms of reusable javascript functions for optimized page load. \n<h3>Outcomes</h3>\nI refind my skills around writing functional javascript in a reusable way. The slideshow of images for each product can be imported with minimal code repetition. ",
+      "Published": true,
+      "Created": "2021-03-16T17:17:15.000Z",
+      "Render On": "billymitchell.dev",
       "Made With": [
         "HTML",
         "CSS",
         "Javascript"
       ],
-      "Date Modified": "2025-11-07T20:25:18.000Z",
-      "Intro Text": "<h3>Goals</h3>\nConvert an existing design into functioning HTML, CSS & Javascript.<br> \n<h3>Contributions</h3> \nI developed this to be highly adaptable. Mobile responsive development considered and flexibility in terms of reusable javascript functions for optimized page load. \n<h3>Outcomes</h3>\nI refind my skills around writing functional javascript in a reusable way. The slideshow of images for each product can be imported with minimal code repetition. ",
-      "GitHub URL": "https://github.com/billymitchell/mission-media-stx",
-      "Gallery Folder Name": "STX",
-      "Created": "2021-03-16T17:17:15.000Z",
-      "Render On": "billymitchell.dev"
+      "Project Title": "STX",
+      "Creative Discipline": [
+        "Web Development",
+        "Frontend Development"
+      ],
+      "Gallery Folder Name": "STX"
     }
   }
 ]
