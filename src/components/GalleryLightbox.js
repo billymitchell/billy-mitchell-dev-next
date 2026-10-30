@@ -7,7 +7,7 @@ import Zoom from "yet-another-react-lightbox/plugins/zoom";
 import "yet-another-react-lightbox/styles.css";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 
-export default function GalleryLightbox({ assets }) {
+export default function GalleryLightbox({ assets, projectTitle }) {
   const [open, setOpen] = React.useState(false);
   const [index, setIndex] = React.useState(0);
 
@@ -29,7 +29,12 @@ export default function GalleryLightbox({ assets }) {
 
   if (!supportedAssets.length) return <div>No gallery assets found.</div>;
 
-  const slides = supportedAssets.map((asset) => {
+  const assetDescription = (asset, index) =>
+    asset.context?.custom?.alt?.trim() ||
+    asset.context?.custom?.caption?.trim() ||
+    `${projectTitle} - ${asset.resource_type === 'video' ? 'video' : 'image'} ${index + 1} of ${supportedAssets.length}`;
+
+  const slides = supportedAssets.map((asset, index) => {
     if (asset.resource_type === 'video') {
       return {
         type: 'video',
@@ -37,12 +42,13 @@ export default function GalleryLightbox({ assets }) {
         sources: [
           { src: asset.secure_url, type: `video/${asset.format}` }
         ],
-        description: asset.public_id,
+        description: assetDescription(asset, index),
       };
     }
     return {
       src: asset.secure_url,
-      description: asset.public_id,
+      alt: assetDescription(asset, index),
+      description: assetDescription(asset, index),
     };
   });
 
@@ -57,7 +63,7 @@ export default function GalleryLightbox({ assets }) {
 
   return (
     <div>
-      <h4>Gallery</h4>
+      <h2 className="gallery-title">Gallery</h2>
       <div
         className={`gallery-masonry${supportedAssets.length === 3 ? ' grid-layout' : ''}`}
         style={
@@ -69,9 +75,11 @@ export default function GalleryLightbox({ assets }) {
         }
       >
         {supportedAssets.map((asset, idx) => (
-          <div
+          <button
+            type="button"
             key={asset.asset_id || asset.public_id || idx}
             className={`gallery-thumb${asset.resource_type === 'video' ? ' video-thumb' : ''}`}
+            aria-label={`Open ${assetDescription(asset, idx)}`}
             onClick={() => { setIndex(idx); setOpen(true); }}
           >
             {asset.resource_type === 'video' ? (
@@ -100,11 +108,11 @@ export default function GalleryLightbox({ assets }) {
             ) : (
               <img
                 src={asset.secure_url}
-                alt={asset.public_id}
+                alt={assetDescription(asset, idx)}
                 className="gallery-thumb-media"
               />
             )}
-          </div>
+          </button>
         ))}
       </div>
       <Lightbox
@@ -137,6 +145,9 @@ export default function GalleryLightbox({ assets }) {
           margin-bottom: 0;
         }
         .gallery-thumb {
+          padding: 0;
+          border: 0;
+          color: inherit;
           break-inside: avoid;
           margin-bottom: 12px;
           cursor: pointer;
@@ -158,6 +169,10 @@ export default function GalleryLightbox({ assets }) {
         }
         .gallery-thumb:hover::after {
           opacity: 1;
+        }
+        .gallery-thumb:focus-visible {
+          outline: 2px solid white;
+          outline-offset: 3px;
         }
         .gallery-thumb-media {
           width: 100%;

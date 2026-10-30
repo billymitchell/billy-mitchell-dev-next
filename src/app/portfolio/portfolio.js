@@ -18,6 +18,7 @@ const Portfolio = () => {
   return (
     <div id="portfolio" className="bg-black">
       <Header />
+      <main>
       <div className="outer-container">
         <div className="inner-width">
           <h1>Featured Work</h1>
@@ -39,6 +40,7 @@ const Portfolio = () => {
           </div> */}
         </div>
       </div>
+      </main>
     </div>
   );
 };

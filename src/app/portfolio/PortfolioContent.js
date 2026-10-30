@@ -1,47 +1,32 @@
-import React, { useEffect, useState } from 'react';
 import ClientMasonry from '../../components/utilities/clientMasonry';
 import InViewAnimationTwo from '../../components/utilities/InViewAnimationTwo.js';
+import { projectSlug } from '../../components/utilities/projectSlug';
 import Link from 'next/link';
 import projectsData from '../../components/utilities/data/projectsData.json';
 
-const IfFeaturedMedia = ({ portfolioItem }) => {
-  const [imageSize, setImageSize] = useState(null);
+const IfFeaturedMedia = ({ portfolioItem, index }) => {
   const imageUrl = portfolioItem.fields['Featured Image URL'];
   const title = portfolioItem.fields['Project Title'] || 'Untitled Project';
   const isVideo = imageUrl
     ? /\.(mp4|webm|mov|gif)$/i.test(imageUrl)
     : false; // Include GIFs as videos
 
-  useEffect(() => {
-    if (!imageUrl || isVideo) return;
-
-    const img = new Image();
-    img.src = `https://res.cloudinary.com/billymitchell/image/upload/v1750459284/portfolio/${imageUrl}`;
-    img.onload = () => {
-      setImageSize({ width: img.naturalWidth, height: img.naturalHeight });
-    };
-  }, [imageUrl, isVideo]);
-
   if (!imageUrl) return null;
 
   if (isVideo) {
-    const webmUrl = `https://res.cloudinary.com/billymitchell/video/upload/f_webm,q_auto:low/v1750459284/portfolio/${imageUrl}`;
-    const mp4Url = `https://res.cloudinary.com/billymitchell/video/upload/f_mp4,q_auto:low/v1750459284/portfolio/${imageUrl}`;
+    const posterUrl = `https://res.cloudinary.com/billymitchell/video/upload/so_0,f_jpg,q_auto:low,w_800,c_limit/v1750459284/portfolio/${imageUrl}`;
 
     return (
       <>
-        <video
+        <img
           className="fluid"
           id={portfolioItem.id}
-          autoPlay
-          muted
-          loop
-          playsInline
-        >
-          <source src={webmUrl} type="video/webm" />
-          <source src={mp4Url} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+          src={posterUrl}
+          alt={title}
+          loading={index < 3 ? 'eager' : 'lazy'}
+          fetchPriority={index === 0 ? 'high' : 'auto'}
+          decoding="async"
+        />
         <p className="title">
           <strong>{title}</strong>
         </p>
@@ -49,18 +34,19 @@ const IfFeaturedMedia = ({ portfolioItem }) => {
     );
   }
 
-  if (!imageSize) return null;
-
-  const { width, height } = imageSize;
-  const isTallerThan916 = height / width > 16 / 9;
-
-  const transformedUrl = isTallerThan916
-    ? `https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,f_auto,q_auto:good,c_lfill,ar_9:16,g_auto/v1750459284/portfolio/${imageUrl}`
-    : `https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,f_auto,q_auto:good/v1750459284/portfolio/${imageUrl}`;
+  const transformedUrl = `https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,f_auto,q_auto:good,w_800,c_limit/v1750459284/portfolio/${imageUrl}`;
 
   return (
     <>
-      <img className="fluid" id={portfolioItem.id} src={transformedUrl} alt={title} />
+      <img
+        className="fluid"
+        id={portfolioItem.id}
+        src={transformedUrl}
+        alt={title}
+        loading={index < 3 ? 'eager' : 'lazy'}
+        fetchPriority={index === 0 ? 'high' : 'auto'}
+        decoding="async"
+      />
       <p className="title">
         <strong>{title}</strong>
       </p>
@@ -69,17 +55,6 @@ const IfFeaturedMedia = ({ portfolioItem }) => {
 };
 
 const PortfolioContent = ({ selectedDiscipline }) => {
-  const generatePortfolioUrl = (title) => {
-    return `/portfolio/${title
-      .toLowerCase()
-      .replace('&', 'and')
-      .replace('/', '')
-      .replace(',', '')
-      .replace(':', '')
-      .replace(/\s/gi, '-')
-      .trim()}`;
-  };
-
   const handleLinkClick = (item) => {
     // Only log critical errors or important events
     if (!item || !item.id) {
@@ -130,12 +105,12 @@ const PortfolioContent = ({ selectedDiscipline }) => {
             >
               <div id={portfolioItem.id} className="portfolio-item">
                 <Link
-                  href={generatePortfolioUrl(
+                  href={`/portfolio/${projectSlug(
                     portfolioItem.fields['Project Title']
-                  )}
+                  )}`}
                   onClick={() => handleLinkClick(portfolioItem)}
                 >
-                  <IfFeaturedMedia portfolioItem={portfolioItem} />
+                  <IfFeaturedMedia portfolioItem={portfolioItem} index={index} />
                 </Link>
               </div>
             </InViewAnimationTwo>

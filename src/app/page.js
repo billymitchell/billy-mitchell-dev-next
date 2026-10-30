@@ -11,19 +11,24 @@ import ParallaxProviderWrapper from '../components/utilities/ParallaxProviderWra
 // app/page.js
 import Header from '../components/header';
 
+const siteUrl = 'https://www.billymitchell.dev';
 
 export async function generateMetadata() {
   return {
+    metadataBase: new URL(siteUrl),
+    alternates: {
+      canonical: '/',
+    },
     title: 'Billy Mitchell Development',
     description: 'Creative development, and digital solutions by Billy Mitchell. Specializing in front-end development, e-commerce platforms, and more.',
     keywords: ['Billy Mitchell', 'Web Development', 'E-commerce', 'Front-end Development', 'Next.js'],
     authors: [
-      { name: 'Billy Mitchell', url: 'https://billymitchell.dev' },
+      { name: 'Billy Mitchell', url: siteUrl },
     ],
     openGraph: {
       title: 'Billy Mitchell Development',
       description: 'Explore creative development solutions by Billy Mitchell. Specializing in front-end development, e-commerce platforms, and more.',
-      url: 'https://billymitchell.dev',
+      url: siteUrl,
       siteName: 'Billy Mitchell Development',
       images: [
         {
@@ -111,7 +116,7 @@ export default function Home() {
     <>
     <Header page={"home"}/>
     <ParallaxProviderWrapper>
-      <div id="home">
+      <main id="home">
         <Homesplash />
         <FullStack />
         <TechStack />
@@ -123,7 +128,7 @@ export default function Home() {
         </Companies>
         <About />
         {/* <ContactSection /> */}
-      </div>
+      </main>
     </ParallaxProviderWrapper>
     </>
   );

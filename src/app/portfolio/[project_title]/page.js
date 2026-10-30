@@ -2,6 +2,7 @@
 import projectsData from '../../../components/utilities/data/projectsData.json';
 import companiesData from '../../../components/utilities/data/companiesData.json';
 import cloudinaryData from '../../../components/utilities/data/cloudinaryData.json';
+import { projectSlug } from '../../../components/utilities/projectSlug';
 import { log } from 'node:console';
 import Header from '../../../components/header';
 import { cleanURL } from '../../../components/utilities/cleanURL';
@@ -12,26 +13,23 @@ import "yet-another-react-lightbox/styles.css";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 import GalleryLightbox from '../../../components/GalleryLightbox';
 
+const siteUrl = 'https://www.billymitchell.dev';
 
 // Generate metadata dynamically and pass project data
 export async function generateMetadata({ params }) {
-
-  function normalizeTitle(title) {
-    return title.toLowerCase()
-    .replace('&', 'and')
-    .replace(/\s/gi, '-')
-    .replace('/', '')
-    .replace(' / ', '')
-    .replace(':', '')
-  }
+  const canonicalUrl = `${siteUrl}/portfolio/${params.project_title}`;
 
   // Find the project
   const project = projectsData.find((item) =>
-      normalizeTitle(item.fields['Project Title']) === params.project_title
+      projectSlug(item.fields['Project Title']) === params.project_title
   );
 
   if (!project) {
     return {
+      metadataBase: new URL(siteUrl),
+      alternates: {
+        canonical: canonicalUrl,
+      },
       title: 'Project Not Found - Billy Mitchell Portfolio',
       description: 'The requested project could not be found.',
     };
@@ -40,6 +38,10 @@ export async function generateMetadata({ params }) {
   const data = project.fields;
 
   return {
+    metadataBase: new URL(siteUrl),
+    alternates: {
+      canonical: canonicalUrl,
+    },
     title: `${data['Project Title']} - Billy Mitchell Portfolio`,
     description: `Explore the details of ${data['Project Title']}, a ${data['Job Type'].join(
       ', '
@@ -51,12 +53,12 @@ export async function generateMetadata({ params }) {
       description: `A showcase of ${data['Project Title']}, built using ${data['Made With'].join(
         ', '
       )}.`,
-      url: data['Live Web Project URL'] || 'https://billymitchell.design',
+      url: canonicalUrl,
       siteName: 'Billy Mitchell Portfolio',
       images: [
         {
           url: isVideoFile(data['Featured Image URL']) 
-            ? 'https://billymitchell.design/files/open-graph.png' // Fallback image for videos
+            ? `${siteUrl}/files/open-graph.png`
             : `https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/portfolio/${data['Featured Image URL']}`,
           width: 1200,
           height: 630,
@@ -74,7 +76,7 @@ export async function generateMetadata({ params }) {
       )}. Focused on ${data['Creative Discipline'].join(', ')}.`,
       images: [
         isVideoFile(data['Featured Image URL']) 
-          ? 'https://billymitchell.design/files/open-graph.png' // Fallback image for videos
+          ? `${siteUrl}/files/open-graph.png`
           : `https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/portfolio/${data['Featured Image URL']}`,
       ],
     },
@@ -87,9 +89,7 @@ export async function generateMetadata({ params }) {
 // Function to generate static paths for all projects
 export async function generateStaticParams() {
   return projectsData.map((project) => ({
-    project_title: String(project.fields['Project Title'])
-      .toLowerCase()
-      .replace(/[\s&/:]/g, '-'),
+    project_title: projectSlug(String(project.fields['Project Title'])),
   }));
 }
 
@@ -263,21 +263,9 @@ const ifIntroText = (data) => {
 
 // Server Component to render the project page
 export default function PortfolioContent({ params }) {
-
-  function normalizeTitle(title) {
-    return title
-    .toLowerCase()
-    .replace('&', 'and')
-    .replace('/', '')
-    .replace(',', '')
-    .replace(':', '')
-    .replace(/\s/gi, '-')
-    .trim()
-  }
-
   // Find the project
   const project = projectsData.find((item) =>
-      normalizeTitle(item.fields['Project Title']) === params.project_title
+      projectSlug(item.fields['Project Title']) === params.project_title
   );
 
   if (!project) {
@@ -297,6 +285,7 @@ export default function PortfolioContent({ params }) {
   return (
     <div id="portfolio-page" className="bg-black">
       <Header />
+      <main>
       <div className="portfolio-header-container">
         <div className="image-container">
           {isVideoFile(data['Featured Image URL']) ? (
@@ -324,7 +313,7 @@ export default function PortfolioContent({ params }) {
             />
           )}
         </div>
-        <h2>{String(data['Project Title'])}</h2>
+        <h1 className="project-title">{String(data['Project Title'])}</h1>
       </div>
       <div className="outer-container-body">
         <div className="inner-text-width">
@@ -383,10 +372,14 @@ export default function PortfolioContent({ params }) {
         </div>
         <div className="inner-width gallery-section">
           {data['Gallery Folder Name'] && (
-            <GalleryLightbox assets={cloudinaryData[data['Gallery Folder Name']] || []} />
+            <GalleryLightbox
+              assets={cloudinaryData[data['Gallery Folder Name']] || []}
+              projectTitle={data['Project Title']}
+            />
           )}
         </div>
       </div>
+      </main>
     </div>
   );
 }

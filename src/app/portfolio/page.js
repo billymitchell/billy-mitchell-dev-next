@@ -2,8 +2,14 @@
 
 import Portfolio from '../portfolio/portfolio.js';
 
+const siteUrl = 'https://www.billymitchell.dev';
+
 export async function generateMetadata() {
   return {
+    metadataBase: new URL(siteUrl),
+    alternates: {
+      canonical: '/portfolio',
+    },
     title: 'Billy Mitchell Portfolio - Design & Development',
     description: 'Explore the creative portfolio of Billy Mitchell, featuring work in Motion Design, UI Design, Web Development, UX Design, Branding, and Print Design.',
     keywords: [
@@ -19,12 +25,12 @@ export async function generateMetadata() {
       'Creative Solutions',
     ],
     authors: [
-      { name: 'Billy Mitchell', url: 'https://billymitchell.design' },
+      { name: 'Billy Mitchell', url: siteUrl },
     ],
     openGraph: {
       title: 'Billy Mitchell Portfolio - Design & Development',
       description: 'Dive into the portfolio of Billy Mitchell, showcasing expertise in Motion Design, UI/UX Design, Web Development, Branding, and Print Design.',
-      url: 'https://billymitchell.design/portfolio',
+      url: `${siteUrl}/portfolio`,
       siteName: 'Billy Mitchell Portfolio',
       images: [
         {
