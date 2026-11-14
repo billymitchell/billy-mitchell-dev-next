@@ -6,6 +6,12 @@ import Video from "yet-another-react-lightbox/plugins/video";
 import Zoom from "yet-another-react-lightbox/plugins/zoom";
 import "yet-another-react-lightbox/styles.css";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
+import { withTransforms, videoPoster } from "./utilities/cloudinary";
+
+// Grid thumbnails and lightbox slides are resized and served in a modern format
+// instead of loading the original multi-megabyte uploads.
+const THUMB = "f_auto,q_auto,w_800,c_limit";
+const FULL = "f_auto,q_auto,w_2400,c_limit";
 
 export default function GalleryLightbox({ assets, projectTitle }) {
   const [open, setOpen] = React.useState(false);
@@ -38,7 +44,7 @@ export default function GalleryLightbox({ assets, projectTitle }) {
     if (asset.resource_type === 'video') {
       return {
         type: 'video',
-        poster: asset.secure_url.replace(/\.(mp4|webm|ogg|mov|avi)$/i, '.jpg'),
+        poster: videoPoster(asset.secure_url, 'so_0,q_auto,w_1600,c_limit'),
         sources: [
           { src: asset.secure_url, type: `video/${asset.format}` }
         ],
@@ -46,7 +52,7 @@ export default function GalleryLightbox({ assets, projectTitle }) {
       };
     }
     return {
-      src: asset.secure_url,
+      src: withTransforms(asset.secure_url, FULL),
       alt: assetDescription(asset, index),
       description: assetDescription(asset, index),
     };
@@ -84,19 +90,16 @@ export default function GalleryLightbox({ assets, projectTitle }) {
           >
             {asset.resource_type === 'video' ? (
               <>
-                <video
+                {/* Still frame only: the video itself loads when the lightbox opens */}
+                <img
+                  src={videoPoster(asset.secure_url)}
+                  alt=""
                   className="gallery-thumb-media"
-                  poster={asset.secure_url.replace(/\.(mp4|webm|ogg|mov|avi)$/i, '.jpg')}
-                  muted
-                  playsInline
-                  tabIndex={-1}
-                  aria-hidden="true"
-                >
-                  {/* Try to serve webm if available */}
-                  <source src={asset.secure_url.replace(/\.mp4$/i, '.webm')} type="video/webm" />
-                  <source src={asset.secure_url} type={`video/${asset.format}`} />
-                  Your browser does not support the video tag.
-                </video>
+                  width={asset.width}
+                  height={asset.height}
+                  loading="lazy"
+                  decoding="async"
+                />
                 <div className="gallery-thumb-overlay" />
                 <div className="gallery-thumb-play">
                   <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
@@ -107,9 +110,13 @@ export default function GalleryLightbox({ assets, projectTitle }) {
               </>
             ) : (
               <img
-                src={asset.secure_url}
+                src={withTransforms(asset.secure_url, THUMB)}
                 alt={assetDescription(asset, idx)}
                 className="gallery-thumb-media"
+                width={asset.width}
+                height={asset.height}
+                loading="lazy"
+                decoding="async"
               />
             )}
           </button>

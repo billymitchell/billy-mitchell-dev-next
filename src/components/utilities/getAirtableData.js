@@ -11,7 +11,10 @@ const baseId = 'appvr5KrgKiJo1E7M';
 
 const fetchAndSaveData = async () => {
   try {
-    const apiKey = process.env.NEXT_PUBLIC_AIR_TABLE_TOKEN;
+    // AIRTABLE_TOKEN is preferred. The old NEXT_PUBLIC_ name still works, but that
+    // prefix tells Next.js a value is safe to ship to browsers, which a token is not.
+    const apiKey =
+      process.env.AIRTABLE_TOKEN || process.env.NEXT_PUBLIC_AIR_TABLE_TOKEN;
     if (!apiKey) {
       throw new Error(
         'Missing Airtable API key. Check your environment variables.'

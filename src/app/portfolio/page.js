@@ -1,60 +1,65 @@
-// app/portfolio/page.tsx (Server Component)
+// app/portfolio/page.js (Server Component)
 
 import Portfolio from '../portfolio/portfolio.js';
+import projectsData from '../../components/utilities/data/projectsData.json';
+import { projectSlug } from '../../components/utilities/projectSlug';
+import { siteUrl, siteName } from '../../components/utilities/site';
 
-const siteUrl = 'https://www.billymitchell.dev';
+const title = 'Full-Stack Development Portfolio';
+const description =
+  'Selected projects by Billy Mitchell, including e-commerce storefront features, REST API integrations, workflow automation, and front-end development.';
 
-export async function generateMetadata() {
-  return {
-    metadataBase: new URL(siteUrl),
-    alternates: {
-      canonical: '/portfolio',
-    },
-    title: 'Billy Mitchell Portfolio - Design & Development',
-    description: 'Explore the creative portfolio of Billy Mitchell, featuring work in Motion Design, UI Design, Web Development, UX Design, Branding, and Print Design.',
-    keywords: [
-      'Billy Mitchell',
-      'Portfolio',
-      'Motion Design',
-      'UI Design',
-      'Web Development',
-      'UX Design',
-      'Branding',
-      'Print Design',
-      'Graphic Design',
-      'Creative Solutions',
+export const metadata = {
+  title,
+  description,
+  alternates: {
+    canonical: '/portfolio',
+  },
+  openGraph: {
+    title: `${title} | Billy Mitchell`,
+    description,
+    url: `${siteUrl}/portfolio`,
+    siteName,
+    images: [
+      {
+        url: '/files/open-graph.png',
+        width: 1200,
+        height: 630,
+        alt: 'Billy Mitchell portfolio',
+      },
     ],
-    authors: [
-      { name: 'Billy Mitchell', url: siteUrl },
-    ],
-    openGraph: {
-      title: 'Billy Mitchell Portfolio - Design & Development',
-      description: 'Dive into the portfolio of Billy Mitchell, showcasing expertise in Motion Design, UI/UX Design, Web Development, Branding, and Print Design.',
-      url: `${siteUrl}/portfolio`,
-      siteName: 'Billy Mitchell Portfolio',
-      images: [
-        {
-          url: '/files/open-graph.png', // Replace with actual image URL
-          width: 1200,
-          height: 630,
-          alt: 'Billy Mitchell Portfolio Open Graph Image',
-        },
-      ],
-      locale: 'en_US',
-      type: 'website',
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title: 'Billy Mitchell Portfolio - Design & Development',
-      description: 'A creative portfolio featuring Motion Design, UI Design, Web Development, UX Design, Branding, and Print Design by Billy Mitchell.',
-      images: ['/files/open-graph.png'], // Replace with actual image URL
-    },
-    icons: {
-      icon: '/files/favicon.ico', // Path to your favicon
-    },
-  };
-}
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: `${title} | Billy Mitchell`,
+    description,
+    images: ['/files/open-graph.png'],
+  },
+};
+
+// Only the fields the grid needs are sent to the browser, instead of the whole
+// Airtable export (body HTML, metadata, etc.), sorted newest first.
+const projects = projectsData
+  .filter(({ fields }) => fields.Published)
+  .sort(
+    (a, b) =>
+      new Date(b.fields['End Date'] || '1970-01-01').getTime() -
+      new Date(a.fields['End Date'] || '1970-01-01').getTime()
+  )
+  .map(({ id, fields }) => ({
+    id,
+    title: fields['Project Title'] || 'Untitled Project',
+    slug: projectSlug(fields['Project Title'] || ''),
+    image: fields['Featured Image URL'] || null,
+    disciplines: fields['Creative Discipline'] || [],
+  }));
+
+const disciplines = Array.from(
+  new Set(projects.flatMap((project) => project.disciplines))
+);
 
 export default function PortfolioPage() {
-  return <Portfolio />;
+  return <Portfolio projects={projects} disciplines={disciplines} />;
 }

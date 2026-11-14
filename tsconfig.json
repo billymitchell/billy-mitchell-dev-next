@@ -49,7 +49,8 @@
     "src/components/utilities/ParallaxProviderWrapper.js",
     "src/components/header.js",
     "src/app/portfolio/all/[project_title]/page.js",
-    "src/app/portfolio/all/page.js"
+    "src/app/portfolio/all/page.js",
+    ".next-dev/types/**/*.ts"
   ],
   "exclude": [
     "node_modules"

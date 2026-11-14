@@ -1,57 +1,97 @@
 import Homesplash from '../components/home/homesplash';
-import FullStack from '../components/home/full-stack-design';
+import PortfolioReadout from '../components/home/PortfolioReadout';
+import Link from 'next/link';
+import { projectSlug } from '../components/utilities/projectSlug';
 import TechStack from '../components/home/techstack';
 import About from '../components/home/about';
 import Services from '../components/home/Services';
 import FetchServices from '../components/home/getServices';
-//import ContactSection from "../components/home/contact-section";
+import Contact from '../components/home/Contact';
+import { siteUrl, siteName, developerTitle, profileTitle as title, profileDescription as description, linkedInUrl, headshotPath } from '../components/utilities/site';
 import Companies from '../components/home/Companies';
 import FetchCompanies from '../components/home/getCompanies';
 import ParallaxProviderWrapper from '../components/utilities/ParallaxProviderWrapper';
 // app/page.js
 import Header from '../components/header';
 
-const siteUrl = 'https://www.billymitchell.dev';
-
-export async function generateMetadata() {
-  return {
-    metadataBase: new URL(siteUrl),
-    alternates: {
-      canonical: '/',
-    },
-    title: 'Billy Mitchell Development',
-    description: 'Creative development, and digital solutions by Billy Mitchell. Specializing in front-end development, e-commerce platforms, and more.',
-    keywords: ['Billy Mitchell', 'Web Development', 'E-commerce', 'Front-end Development', 'Next.js'],
-    authors: [
-      { name: 'Billy Mitchell', url: siteUrl },
+export const metadata = {
+  title: { absolute: title },
+  description,
+  alternates: {
+    canonical: '/',
+  },
+  openGraph: {
+    title,
+    description,
+    url: siteUrl,
+    siteName,
+    images: [
+      {
+        url: '/files/open-graph.png',
+        width: 1200,
+        height: 630,
+        alt: 'Billy Mitchell, full-stack product engineer',
+      },
     ],
-    openGraph: {
-      title: 'Billy Mitchell Development',
-      description: 'Explore creative development solutions by Billy Mitchell. Specializing in front-end development, e-commerce platforms, and more.',
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title,
+    description,
+    images: ['/files/open-graph.png'],
+  },
+};
+
+// Structured data so search engines can connect this site to Billy as a person
+const personJsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'WebSite',
+      '@id': `${siteUrl}/#website`,
       url: siteUrl,
-      siteName: 'Billy Mitchell Development',
-      images: [
-        {
-          url: '/files/open-graph.png', // Replace with your actual Open Graph image URL
-          width: 1200,
-          height: 630,
-          alt: 'Billy Mitchell Development Open Graph Image',
-        },
+      name: siteName,
+      publisher: { '@id': `${siteUrl}/#person` },
+    },
+    {
+      '@type': 'Person',
+      '@id': `${siteUrl}/#person`,
+      name: 'Billy Mitchell',
+      url: siteUrl,
+      image: `${siteUrl}${headshotPath}`,
+      jobTitle: developerTitle,
+      description,
+      email: 'mailto:hello@billymitchell.dev',
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: 'Baltimore',
+        addressRegion: 'MD',
+        addressCountry: 'US',
+      },
+      alumniOf: {
+        '@type': 'CollegeOrUniversity',
+        name: 'University of Maryland, Baltimore County',
+      },
+      knowsAbout: [
+        'E-commerce development',
+        'Front-end development',
+        'Shopify',
+        'REST API integrations',
+        'Microservices',
+        'Workflow automation',
+        'Liquid',
+        'React',
+        'JavaScript',
       ],
-      locale: 'en_US',
-      type: 'website',
+      sameAs: [
+        linkedInUrl,
+        'https://github.com/billymitchell',
+      ],
     },
-    twitter: {
-      card: 'summary_large_image',
-      title: 'Billy Mitchell Development',
-      description: 'Creative development solutions by Billy Mitchell.',
-      images: ['/files/open-graph.png'], // Replace with your actual Twitter card image URL
-    },
-    icons: {
-      icon: '/files/favicon.ico', // Path to your favicon
-    },
-  };
-}
+  ],
+};
 
 // Updates to content
   // consider switching images to local files / links vs cloudinary
@@ -114,11 +154,47 @@ export async function generateMetadata() {
 export default function Home() {
   return (
     <>
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
+    />
     <Header page={"home"}/>
     <ParallaxProviderWrapper>
       <main id="home">
         <Homesplash />
-        <FullStack />
+        <section id="featured-work" className="home-page-section outer-container">
+          <div className="inner-width-1000 featured-work-layout">
+            <div className="featured-work-list">
+              <h2 className="h3">Selected Development Projects</h2>
+              <ul className="featured-projects">
+                <li>
+                  <Link href={`/portfolio/${projectSlug('Forbes Travel Guide Award API')}`}>
+                    <strong>Forbes Travel Guide Award API</strong>
+                    <span>A custom API for an international award redemption program.</span>
+                    <span aria-hidden="true">↗</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link href={`/portfolio/${projectSlug('Automotive Service Excellence Technician Validation API')}`}>
+                    <strong>ASE Technician Validation API</strong>
+                    <span>A REST API integration for validating technician credentials across client stores.</span>
+                    <span aria-hidden="true">↗</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link href={`/portfolio/${projectSlug('Orderdesk Fulfillment Rules')}`}>
+                    <strong>Orderdesk Fulfillment Rules</strong>
+                    <span>E-commerce order and fulfillment automation.</span>
+                    <span aria-hidden="true">↗</span>
+                  </Link>
+                </li>
+              </ul>
+              <Link href="/portfolio" className="button portfolio-link">View full portfolio</Link>
+            </div>
+            <PortfolioReadout />
+          </div>
+        </section>
+        <About />
         <TechStack />
         <Services>
           <FetchServices />
@@ -126,8 +202,7 @@ export default function Home() {
         <Companies>
           <FetchCompanies />
         </Companies>
-        <About />
-        {/* <ContactSection /> */}
+        <Contact />
       </main>
     </ParallaxProviderWrapper>
     </>

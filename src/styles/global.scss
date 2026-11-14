@@ -17,6 +17,7 @@
 @import "../styles/scrollbar";
 @import "../styles/blog";
 @import "../styles/home-splash";
+@import "../styles/portfolio-readout";
 
 //Removes Scrollebar
 // ::-webkit-scrollbar {
@@ -28,6 +29,10 @@
 // }
 
 html {
+  --surface-grain: url("/paper-grain.png");
+  --dark-surface-grain: url("/paper-grain-dark.png");
+  --brand-gradient-start: #{$brand-gradient-start};
+  --brand-gradient-end: #{$brand-gradient-end};
   scroll-behavior: smooth;
 }
 
@@ -39,6 +44,7 @@ body {
   min-width: 100%;
   overflow-x: hidden;
   background-color: $black;
+  background-image: var(--dark-surface-grain);
 }
 
 #home {
@@ -103,16 +109,18 @@ section {
 section {
   //Called Mixin function in _colors
   @include set-background($black);
+  background-image: var(--dark-surface-grain);
 }
 
 .gradient-top {
   z-index: 100;
   position: fixed;
   top: 0px;
-  height: 4px;
+  height: 2px;
   width: 100%;
   overflow-x: hidden;
   background: $brand-gradient;
+  opacity: .65;
 }
 
 .border-box {
@@ -195,4 +203,247 @@ section {
 
 .american-express {
   max-width: 80%;
+}
+
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+#contact {
+  height: auto;
+  text-align: center;
+  color: $white;
+}
+
+#contact .contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+#home .home-page-section {
+  height: auto;
+  padding-block: clamp(3rem, 8vw, 6rem);
+  border-top: 1px solid #deded9;
+  scroll-margin-top: 70px;
+}
+
+#home #about,
+#home #tech-stack,
+#home #services,
+#home #companies {
+  background: $paper var(--surface-grain);
+  color: $paper-ink;
+}
+
+#home #featured-work,
+#home #contact,
+footer.site-footer {
+  background: #0b0b0b var(--dark-surface-grain);
+  color: #f7f7f5;
+  border-color: #363636;
+}
+
+#home section h2.h3 {
+  margin-top: 0;
+  letter-spacing: -.045em;
+}
+
+#contact p {
+  max-inline-size: 52ch;
+  margin-inline: auto;
+  text-wrap: balance;
+}
+
+#home .company-logos img {
+  filter: grayscale(1);
+}
+
+#home .company-logos {
+  margin-top: 1.75rem;
+}
+
+#home .services-container {
+  gap: 1rem;
+}
+
+#home .service {
+  background: $paper-raised var(--surface-grain);
+  color: inherit;
+  border: 1px solid #deded9;
+  padding: 1.4rem;
+}
+
+#home .service h3 {
+  margin-top: 0;
+  line-height: 1.15;
+}
+
+#home .service p {
+  margin-bottom: 0;
+}
+
+.featured-projects {
+  list-style: none;
+  margin: 1.75rem 0;
+  padding: 0;
+  border-top: 1px solid #363636;
+
+  a {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) auto;
+    gap: .5rem 1.5rem;
+    align-items: center;
+    padding: 1.35rem .25rem;
+    border-bottom: 1px solid #363636;
+    text-decoration: none;
+    color: inherit;
+    transition: background-color 180ms ease;
+
+    &:hover,
+    &:focus-visible {
+      background: #202020;
+    }
+  }
+
+  strong {
+    text-wrap: balance;
+    font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+    line-height: 1.2;
+  }
+
+  span {
+    text-wrap: pretty;
+    color: #b8b8b8;
+    line-height: 1.5;
+  }
+
+  @media (max-width: 767px) {
+    a {
+      grid-template-columns: minmax(0, 1fr) auto;
+    }
+
+    span:first-of-type {
+      grid-row: 2;
+    }
+
+    span:last-of-type {
+      grid-column: 2;
+      grid-row: 1;
+    }
+  }
+}
+
+#home a.portfolio-link {
+  display: inline-flex;
+}
+
+footer.site-footer a {
+  color: #c4c4c0;
+
+  &:hover,
+  &:focus-visible {
+    color: #f7f7f5;
+  }
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+}
+
+a.button-primary:focus-visible,
+button.active:focus-visible {
+  outline-color: #f7f7f5;
+}
+
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  #home .service {
+    transition: border-color 200ms ease, transform 200ms ease;
+
+    &:hover {
+      border-color: #aaa;
+      transform: translateY(-2px);
+    }
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .featured-projects [aria-hidden="true"] {
+    transition: transform 180ms ease;
+  }
+
+  .featured-projects a:hover [aria-hidden="true"],
+  .featured-projects a:focus-visible [aria-hidden="true"] {
+    transform: translate(2px, -2px);
+  }
+
+  .hero-copy {
+    animation: hero-copy-in 440ms ease-out backwards;
+  }
+}
+
+@keyframes hero-copy-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+}
+
+.skill-groups {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr));
+  gap: 1rem;
+  margin-top: 1.75rem;
+}
+
+.skill-group {
+  border-top: 1px solid #cfcfcb;
+  padding-top: 1rem;
+
+  h3 {
+    margin: 0 0 .75rem;
+    font-size: 1rem;
+    line-height: 1.35;
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: flex;
+    align-items: center;
+    gap: .45rem;
+    padding: .38rem .6rem;
+    border: 1px solid #deded9;
+    border-radius: 4px;
+    background: $paper-raised var(--surface-grain);
+    font-size: .85rem;
+    line-height: 1.3;
+  }
+
+  img,
+  svg {
+    flex: 0 0 20px;
+    object-fit: contain;
+    filter: grayscale(1);
+  }
 }

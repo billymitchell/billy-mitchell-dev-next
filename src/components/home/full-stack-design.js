@@ -1,5 +1,6 @@
 'use client';
-import React, { useEffect, useState } from "react"
+import React from "react"
+import useParallaxDisabled from "../utilities/useParallaxDisabled"
 import InViewAnimationTwo from "../utilities/InViewAnimationTwo.js"
 // import InViewAnimationThree from "../utilities/InViewAnimationThree"
 import { Parallax } from "react-scroll-parallax"
@@ -8,35 +9,7 @@ import SeparatorBottom from "../../components/separator-bottom"
 
 
 const FullStack = () => {
-  // Set default state of parallax to enabled / not disabled
-  const [parallaxDisabledState, setparallaxDisabledState] = useState(false);
-
-  // .window is not available until after the render - useEffect needed
-  useEffect(() => {
-
-    function handleResize() {
-      // check for small windows
-      if (window.innerWidth <= 800 || window.innerHeight <= 600) {
-        // Set true for small screens
-        setparallaxDisabledState(true)
-        // log state
-        console.log("Parallax Disabled", parallaxDisabledState)
-      } else {
-        // log state
-        console.log("Parallax Disabled", parallaxDisabledState)
-      }
-    }
-
-    // Call handler right away so state gets updated with initial window size
-    handleResize();
-
-    // When the window resizes, call handleResize
-    window.addEventListener("resize", handleResize);
-
-    // Remove event listener on cleanup
-    return () => window.removeEventListener("resize", handleResize);
-
-  }, [parallaxDisabledState])
+  const parallaxDisabledState = useParallaxDisabled();
   return (
     <>
       <section id="full-stack" className="home-page-section bg-black mobile-height-fluid small-padding-top-100 small-padding-bottom-100 midsize-padding-bottom-100 midsize-padding-top-100">
@@ -50,7 +23,7 @@ const FullStack = () => {
                 duration="time-1000ms"
                 delay="delay-0ms"
               >
-                <h3>My Perspective</h3>
+                <h2 className="h3">My Perspective</h2>
               </InViewAnimationTwo>
               <InViewAnimationTwo
                 rootMargin="-25% 0%"
@@ -81,9 +54,9 @@ const FullStack = () => {
                     duration="time-1000ms"
                     delay="delay-0ms"
                   >
-                    <h4>
+                    <h3 className="h4">
                       Backend Development
-                    </h4>
+                    </h3>
                   </InViewAnimationTwo>
                   <InViewAnimationTwo
                     rootMargin="-25% 0%"
@@ -123,9 +96,9 @@ const FullStack = () => {
                     duration="time-1000ms"
                     delay="delay-1000ms"
                   >
-                    <h4>
+                    <h3 className="h4">
                       Frontend Development
-                    </h4>
+                    </h3>
                   </InViewAnimationTwo>
                   <InViewAnimationTwo
                     rootMargin="-25% 0%"
@@ -165,9 +138,9 @@ const FullStack = () => {
                     duration="time-1000ms"
                     delay="delay-2000ms"
                   >
-                    <h4>
+                    <h3 className="h4">
                       UI Design
-                    </h4>
+                    </h3>
                   </InViewAnimationTwo>
                   <InViewAnimationTwo
                     rootMargin="-25% 0%"

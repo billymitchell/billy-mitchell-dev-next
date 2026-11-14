@@ -1,7 +1,8 @@
 @import "../styles/animations";
 
 // Static Styling
-.fullstack-container h4 {
+.fullstack-container h4,
+.fullstack-container .h4 {
   margin-top: 0;
 }
 
@@ -98,7 +99,8 @@
 // Mobile Styling
 
 @media only screen and (max-width: 650px) {
-  .fullstack-container h4 {
+  .fullstack-container h4,
+.fullstack-container .h4 {
     margin-top: revert;
   }
 

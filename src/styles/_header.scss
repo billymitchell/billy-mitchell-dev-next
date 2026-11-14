@@ -3,31 +3,23 @@ header {
     top: 0;
     width: 100%;
     z-index: 1000;
-    background: linear-gradient(
-        to bottom,
-          hsl(0, 0%, 0%) 0%,
-          hsla(0, 0%, 0%, 0.987) 8.1%,
-          hsla(0, 0%, 0%, 0.951) 15.5%,
-          hsla(0, 0%, 0%, 0.896) 22.5%,
-          hsla(0, 0%, 0%, 0.825) 29%,
-          hsla(0, 0%, 0%, 0.741) 35.3%,
-          hsla(0, 0%, 0%, 0.648) 41.2%,
-          hsla(0, 0%, 0%, 0.55) 47.1%,
-          hsla(0, 0%, 0%, 0.45) 52.9%,
-          hsla(0, 0%, 0%, 0.352) 58.8%,
-          hsla(0, 0%, 0%, 0.259) 64.7%,
-          hsla(0, 0%, 0%, 0.175) 71%,
-          hsla(0, 0%, 0%, 0.104) 77.5%,
-          hsla(0, 0%, 0%, 0.049) 84.5%,
-          hsla(0, 0%, 0%, 0.013) 91.9%,
-          hsla(0, 0%, 0%, 0) 100%
-        );;
+    background: #0b0b0b var(--dark-surface-grain);
+    border-bottom: 1px solid #363636;
 }
 
-.logo svg {
-    width: 100%;
-    max-width: 150px;
-    height: auto;
+.logo {
+    align-self: center;
+    color: #f7f7f5;
+    font-size: clamp(.75rem, 2.6vw, 1.25rem);
+    opacity: var(--wordmark-opacity, 1);
+
+    &:focus-visible {
+        opacity: 1;
+    }
+    font-weight: 800;
+    letter-spacing: -.02em;
+    text-decoration: none;
+    white-space: nowrap;
 }
 
 .header-main-container {
@@ -52,13 +44,36 @@ header {
 }
 
 #menu-items a {
-    color: #ffffff;
+    position: relative;
+    display: inline-block;
+    color: #fff;
     text-decoration: none;
-    text-transform: uppercase;
-}
 
-#menu-items a:hover {
-    color: #000000;
+    &::after {
+        content: "";
+        position: absolute;
+        inset: auto 0 -4px;
+        height: 1px;
+        background: currentColor;
+        opacity: 0;
+    }
+
+    &:hover::after,
+    &:focus-visible::after {
+        opacity: 1;
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+        &::after {
+            transform: scaleX(.4);
+            transition: transform 180ms ease, opacity 180ms ease;
+        }
+
+        &:hover::after,
+        &:focus-visible::after {
+            transform: scaleX(1);
+        }
+    }
 }
 
 .menu-item-active {
@@ -70,25 +85,15 @@ header {
     padding-left: 15px;
 }
 
-//Home Page Layout
-header.home .logo {
-    display: none;
-}
-
-header.home #menu-items {
-   justify-content: center;
-   padding-top: 15px;
-}
-
-header.home #menu-items li {
-    padding-left: 7px;
-    padding-right: 7px;
-}
-
 #home, #portfolio , #portfolio-page {
     position: relative;
 }
 
 #portfolio {
-    margin-top: 122px;
+    margin-top: 76px;
+}
+@media (max-width: 380px) {
+    #menu-items li {
+        padding-left: 8px;
+    }
 }

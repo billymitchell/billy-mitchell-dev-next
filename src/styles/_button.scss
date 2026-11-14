@@ -8,10 +8,17 @@ button, a.button {
   border: 1px solid $white;
   font-size: 15px;
   box-sizing: content-box;
-  transition: all 0.25s ease-in-out;
-  text-transform: uppercase;
-  font-variation-settings: "wght"600;
-  letter-spacing: 1px;
+  transition: background-color 180ms ease, color 180ms ease, border-color 180ms ease;
+
+  @media (prefers-reduced-motion: no-preference) {
+    transition: background-color 180ms ease, color 180ms ease, border-color 180ms ease, transform 140ms ease;
+
+    &:active {
+      transform: translateY(1px);
+    }
+  }
+  font-family: inherit;
+  font-weight: 600;
   text-decoration: none;
   text-align: center;
   display: flex;
@@ -27,12 +34,13 @@ button, a.button {
 }
 
 button.primary, a.button-primary {
-  background-color: $brand;
+  background-color: $paper-raised;
+  color: $paper-ink;
   border: 1px solid $white;
 
   &:hover {
-    background-color: $brand-dark-5;
-    color: $white;
+    background-color: #dcdcdc;
+    color: $paper-ink;
   }
 }
 
@@ -45,8 +53,8 @@ button a {
   text-decoration: none;
 }
 
-button.active {
-  background: #222;
-  color: #fff;
-  /* Add any other styles you want for the active button */
+button.active,
+button.active:hover {
+  background: $paper-raised;
+  color: $paper-ink;
 }

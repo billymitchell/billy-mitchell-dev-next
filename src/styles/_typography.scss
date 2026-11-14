@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,577;1,577&display=swap");
 
 /*Values from
 https://www.layoutgridcalculator.com/typographic-scale/
@@ -19,7 +17,7 @@ $base-font-size: 16px;
 $space: 1.35 * $base-font-size;
 
 * {
-  font-family: "Muli", sans-serif;
+  font-family: "Geist", system-ui, sans-serif;
   font-synthesis: none !important;
 }
 
@@ -88,7 +86,8 @@ h2,
   margin-bottom: $space;
 }
 
-h3 {
+h3,
+.h3 {
   font-size: $h3-font-size;
   line-height: $h3-line-height;
   margin-top: $space;
@@ -96,6 +95,7 @@ h3 {
 }
 
 h4,
+.h4,
 .gallery-title {
   font-size: $h4-font-size;
   line-height: $h4-line-height;
@@ -187,7 +187,7 @@ textarea {
 // Definitions
 
 body {
-  font-family: "Muli", sans-serif;
+  font-family: "Geist", system-ui, sans-serif;
 }
 
 h1,
@@ -196,18 +196,18 @@ h3,
 h4,
 h5,
 h6 {
-  font-variation-settings: "wght"800;
+  font-weight: 700;
 }
 
 footer,
 footer small {
-  font-variation-settings: "wght"400;
+  font-weight: 400;
 }
 
 p,
 blockquote {
-  font-variation-settings: "wght"400;
-  letter-spacing: 0.25px;
+  font-weight: 400;
+  line-height: 1.6;
 }
 
 //Deleated or subtracted text
@@ -219,13 +219,13 @@ s {
 
 //Inserted text
 ins {
-  font-variation-settings: "wght"800;
+  font-weight: 700;
 }
 
 //Stong, Bold, Emphisise
 strong,
 b {
-  font-variation-settings: "wght"800;
+  font-weight: 700;
 }
 
 blockquote {
@@ -279,7 +279,7 @@ address {
 
 //Links
 a {
-  font-variation-settings: "wght"800;
+  font-weight: 700;
   transition: all ease-in-out 0.3s;
   text-decoration-line: underline;
   text-decoration-skip-ink: auto;
@@ -297,12 +297,14 @@ a {
     line-height: $h2-mobile-line-height;
   }
 
-  h3 {
+  h3,
+  .h3 {
     font-size: $h3-mobile-font-size;
     line-height: $h3-mobile-line-height;
   }
 
   h4,
+  .h4,
   .gallery-title {
     font-size: $h4-mobile-font-size;
     line-height: $h4-mobile-line-height;
@@ -321,4 +323,15 @@ a {
 
 .strikethrough {
   text-decoration: line-through;
+}
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  text-wrap: balance;
+  break-after: avoid;
+}
+
+p, blockquote {
+  text-wrap: pretty;
+  widows: 2;
+  orphans: 2;
 }

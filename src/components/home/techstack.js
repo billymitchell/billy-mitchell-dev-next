@@ -1,204 +1,64 @@
-'use client';
+const cloud = 'https://res.cloudinary.com/billymitchell/image/upload/f_auto,q_auto,w_96,c_limit/tech-stack';
 
-import React, { useEffect, useState } from "react"
-import InViewAnimationTwo from "../utilities/InViewAnimationTwo.js"
-import { Parallax } from "react-scroll-parallax"
-import SeparatorTop from "../../components/separator-top"
-import SeparatorBottom from "../../components/separator-bottom"
-import Image from 'next/image'
-import nodejs from '../../../public/techstack/nodejs.svg'
-import nextLogo from '../../../public/techstack/nextjs.svg'
-import creativeCloudLogo from '../../../public/techstack/Adobe Creative Cloud.png'
-import chatGPTLogo from '../../../public/techstack/ChatGPT-Logo.svg.png'
-import leftRightLogo from '../../../public/techstack/lef-right.svg'
+const skillGroups = [
+  {
+    title: 'Languages & frameworks',
+    skills: [
+      { name: 'JavaScript', logo: `${cloud}/Unofficial_JavaScript_logo_2_fetebo` },
+      { name: 'React', logo: `${cloud}/React-icon_sppngx` },
+      { name: 'HTML', logo: `${cloud}/HTML5_logo_and_wordmark_hpthcm` },
+      { name: 'CSS', logo: `${cloud}/CSS3_logo_and_wordmark_mkbbgs` },
+      { name: 'Liquid', icon: 'M12 3C9 7 6 10 6 14a6 6 0 0 0 12 0c0-4-3-7-6-11Z M9 15a3 3 0 0 0 3 3' },
+    ],
+  },
+  {
+    title: 'APIs & integrations',
+    skills: [
+      { name: 'REST APIs', icon: 'm8 7-5 5 5 5m8-10 5 5-5 5m-3-13-2 16' },
+      { name: 'Third-party integrations', icon: 'm10 13 4-4m-6 6-1 1a3 3 0 0 1-4-4l3-3a3 3 0 0 1 4 0m4 6a3 3 0 0 0 4 0l3-3a3 3 0 0 0-4-4l-1 1' },
+      { name: 'Microservices', icon: 'M9 3h6v6H9zM3 15h6v6H3zm12 0h6v6h-6zM12 9v3m-6 3v-3h12v3' },
+      { name: 'Workflow automation', icon: 'm13 2-9 12h7l-1 8 10-12h-7l1-8Z' },
+    ],
+  },
+  {
+    title: 'Tools & platforms',
+    skills: [
+      { name: 'Shopify', icon: 'M5 7h14l2 14H3L5 7Zm4 1V6a3 3 0 1 1 6 0v2' },
+      { name: 'Git', logo: `${cloud}/Git-logo-01_vzwkrs` },
+      { name: 'Content management systems', icon: 'M4 5h16v14H4zM4 9h16m-12 4h8m-8 3h5' },
+      { name: 'Hosting & deployment', icon: 'M4 5h16v5H4zm0 9h16v5H4zm3-7h.01M7 16h.01m10-9h.01M17 16h.01' },
+      { name: 'AI-assisted coding', icon: 'M12 2l2.5 7.5L22 12l-7.5 2.5L12 22l-2.5-7.5L2 12l7.5-2.5L12 2Z' },
+    ],
+  },
+];
 
-const TechStack = () => {
-  // Set default state of parallax to enabled / not disabled
-  const [parallaxDisabledState, setparallaxDisabledState] = useState(false);
-
-  // .window is not available until after the render - useEffect needed
-  useEffect(() => {
-
-    function handleResize() {
-      // check for small windows
-      if (window.innerWidth <= 800 || window.innerHeight <= 600) {
-        // Set true for small screens
-        setparallaxDisabledState(true)
-        // log state
-        console.log("Parallax Disabled", parallaxDisabledState)
-      } else {
-        // log state
-        console.log("Parallax Disabled", parallaxDisabledState)
-      }
-    }
-
-    // Call handler right away so state gets updated with initial window size
-    handleResize();
-
-    // When the window resizes, call handleResize
-    window.addEventListener("resize", handleResize);
-
-    // Remove event listener on cleanup
-    return () => window.removeEventListener("resize", handleResize);
-
-  }, [parallaxDisabledState])
+export default function TechStack() {
   return (
-    <>
-      <SeparatorTop className="bg-white" />
-      <section id="tech-stack" className="home-page-section bg-white small-padding-top-50 small-padding-bottom-50 midsize-padding-bottom-100 midsize-padding-top-100">
-        <div className="outer-container">
-          <div className="inner-width-1000">
-            <Parallax disabled={parallaxDisabledState} y={[-30, 30]} x={[0, 0]}>
-              <InViewAnimationTwo
-                rootMargin="-25% 0%"
-                className="init-invisible"
-              >
-                <h3>Tech Stack</h3>
-              </InViewAnimationTwo>
-              <InViewAnimationTwo
-                rootMargin="-25% 0%"
-                delay="delay-250ms"
-                className="init-invisible"
-              >
-                <p>
-                  Here are some of the technologies and applications I use to
-                  bring ideas to life.
-              </p>
-              </InViewAnimationTwo>
-
-              <div className="teck-stack-container grid-container col-6 col-gap-30 small-col-4 small-col-gap-20">
-                <InViewAnimationTwo
-                  rootMargin="-25% 0%"
-                  delay="delay-500ms"
-                  className="init-invisible"
-                >
-                  <img
-                    className="fluid"
-                    src="https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/tech-stack/HTML5_logo_and_wordmark_hpthcm"
-                    alt="HTML"
-                  />
-                </InViewAnimationTwo>
-                <InViewAnimationTwo
-                  rootMargin="-25% 0%"
-                  delay="delay-550ms"
-                  className="init-invisible"
-                >
-                  <img
-                    className="fluid"
-                    src="https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/tech-stack/CSS3_logo_and_wordmark_mkbbgs"
-                    alt="CSS"
-                  />
-                </InViewAnimationTwo>
-                <InViewAnimationTwo
-                  rootMargin="-25% 0%"
-                  delay="delay-600ms"
-                  className="init-invisible"
-                >
-                  <img
-                    className="fluid"
-                    src="https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/tech-stack/sass-1_bkguwu"
-                    alt="Sass"
-                  />
-                </InViewAnimationTwo>
-                <InViewAnimationTwo
-                  rootMargin="-25% 0%"
-                  delay="delay-650ms"
-                  className="init-invisible"
-                >
-                  <img
-                    className="fluid"
-                    src="https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/tech-stack/Unofficial_JavaScript_logo_2_fetebo"
-                    alt="Javascript"
-                  />
-                </InViewAnimationTwo>
-                <InViewAnimationTwo
-                  rootMargin="-25% 0%"
-                  delay="delay-700ms"
-                  className="init-invisible"
-                >
-                  <Image
-                    src={nodejs}
-                    alt="nodejs"
-                    className="fluid"
-                  />
-                </InViewAnimationTwo>
-                <InViewAnimationTwo
-                  rootMargin="-25% 0%"
-                  delay="delay-750ms"
-                  className="init-invisible"
-                >
-                  <img
-                    className="fluid"
-                    src="https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/tech-stack/React-icon_sppngx"
-                    alt="React"
-                  />
-                </InViewAnimationTwo>
-                <InViewAnimationTwo
-                  rootMargin="-25% 0%"
-                  delay="delay-800ms"
-                  className="init-invisible"
-                >
-                  <Image
-                    src={nextLogo}
-                    alt="nextLogo"
-                    className="fluid"
-                  />
-                </InViewAnimationTwo>
-                <InViewAnimationTwo
-                  rootMargin="-25% 0%"
-                  delay="delay-850ms"
-                  className="init-invisible"
-                >
-                  <img
-                    className="fluid"
-                    src="https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/tech-stack/Git-logo-01_vzwkrs"
-                    alt="Git Worflow"
-                  />
-                </InViewAnimationTwo>
-                
-                <InViewAnimationTwo
-                  rootMargin="-25% 0%"
-                  delay="delay-950ms"
-                  className="init-invisible"
-                >
-                  <Image
-                    src={chatGPTLogo}
-                    alt="chatGPTLogo"
-                    className="fluid"
-                  />
-                </InViewAnimationTwo>
-                
-                <InViewAnimationTwo
-                  // 
-                  rootMargin="-25% 0%"
-                  delay="delay-1000ms"
-                  className="init-invisible"
-                >
-                  <img
-                    className="fluid"
-                    src="https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/tech-stack/wordpress"
-                    alt="Wordpress"
-                  />
-                </InViewAnimationTwo>
-                <InViewAnimationTwo
-                  rootMargin="-25% 0%"
-                  delay="delay-1050ms"
-                  className="init-invisible"
-                >
-                  <Image
-                    src={leftRightLogo}
-                    alt="leftRightLogo"
-                    className="fluid"
-                  />
-                </InViewAnimationTwo>
-              </div>
-            </Parallax>
-          </div>
+    <section id="tech-stack" className="home-page-section outer-container">
+      <div className="inner-width-1000">
+        <h2 className="h3">Technical Skills</h2>
+        <div className="skill-groups">
+          {skillGroups.map(({ title, skills }) => (
+            <div className="skill-group" key={title}>
+              <h3>{title}</h3>
+              <ul>
+                {skills.map(({ name, logo, icon }) => (
+                  <li key={name}>
+                    {logo ? (
+                      <img src={logo} alt="" width={20} height={20} loading="lazy" decoding="async" />
+                    ) : (
+                      <svg aria-hidden="true" width={20} height={20} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round">
+                        <path d={icon} />
+                      </svg>
+                    )}
+                    {name}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
         </div>
-      </section>
-      <SeparatorBottom className="bg-white" />
-    </>
-  )
+      </div>
+    </section>
+  );
 }
-
-export default TechStack

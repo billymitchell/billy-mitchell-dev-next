@@ -3,63 +3,87 @@ import projectsData from '../../../components/utilities/data/projectsData.json';
 import companiesData from '../../../components/utilities/data/companiesData.json';
 import cloudinaryData from '../../../components/utilities/data/cloudinaryData.json';
 import { projectSlug } from '../../../components/utilities/projectSlug';
-import { log } from 'node:console';
+import { notFound } from 'next/navigation';
 import Header from '../../../components/header';
 import { cleanURL } from '../../../components/utilities/cleanURL';
-import Lightbox from "yet-another-react-lightbox";
-import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
-import Video from "yet-another-react-lightbox/plugins/video";
-import "yet-another-react-lightbox/styles.css";
-import "yet-another-react-lightbox/plugins/thumbnails.css";
+import { siteUrl, siteName } from '../../../components/utilities/site';
 import GalleryLightbox from '../../../components/GalleryLightbox';
 
-const siteUrl = 'https://www.billymitchell.dev';
+// Only the projects in generateStaticParams exist; anything else is a real 404
+export const dynamicParams = false;
 
-// Generate metadata dynamically and pass project data
-export async function generateMetadata({ params }) {
-  const canonicalUrl = `${siteUrl}/portfolio/${params.project_title}`;
-
-  // Find the project
-  const project = projectsData.find((item) =>
-      projectSlug(item.fields['Project Title']) === params.project_title
+const findProject = (slug) =>
+  projectsData.find(
+    (item) => projectSlug(item.fields['Project Title']) === slug
   );
 
-  if (!project) {
-    return {
-      metadataBase: new URL(siteUrl),
-      alternates: {
-        canonical: canonicalUrl,
-      },
-      title: 'Project Not Found - Billy Mitchell Portfolio',
-      description: 'The requested project could not be found.',
-    };
-  }
+const list = (value) => (Array.isArray(value) ? value.join(', ') : '');
+
+// Plain-text summary for meta descriptions: intro copy without headings or tags
+const plainText = (html = '') =>
+  html
+    .replace(/<h[1-6][^>]*>[\s\S]*?<\/h[1-6]>/gi, ' ')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/&nbsp;/g, ' ')
+    .replace(/&amp;/g, '&')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+const truncate = (text, max = 155) => {
+  if (text.length <= max) return text;
+  const cut = text.slice(0, max);
+  return `${cut.slice(0, cut.lastIndexOf(' '))}...`;
+};
+
+const projectDescription = (data) => {
+  const intro = plainText(data['Intro Text']);
+  if (intro.length > 50) return truncate(intro);
+  return `${data['Project Title']}: a ${list(data['Job Type'])} project by Billy Mitchell. ${list(
+    data['Creative Discipline']
+  )}, built with ${list(data['Made With'])}.`;
+};
+
+// Social share image: cropped to 1200x630 (videos fall back to the site image)
+const shareImage = (data) =>
+  isVideoFile(data['Featured Image URL'])
+    ? `${siteUrl}/files/open-graph.png`
+    : `https://res.cloudinary.com/billymitchell/image/upload/c_fill,w_1200,h_630,f_jpg,q_auto/portfolio/${data['Featured Image URL']}`;
+
+const formatDate = (value) => {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return String(value);
+  return date.toLocaleDateString('en-US', {
+    month: 'long',
+    year: 'numeric',
+    timeZone: 'UTC',
+  });
+};
+
+// Generate metadata dynamically from the project data
+export async function generateMetadata({ params }) {
+  const project = findProject(params.project_title);
+  if (!project) return {};
 
   const data = project.fields;
+  const canonicalUrl = `${siteUrl}/portfolio/${params.project_title}`;
+  const title = `${data['Project Title']} - Portfolio`;
+  const description = projectDescription(data);
+  const image = shareImage(data);
 
   return {
-    metadataBase: new URL(siteUrl),
+    title,
+    description,
     alternates: {
       canonical: canonicalUrl,
     },
-    title: `${data['Project Title']} - Billy Mitchell Portfolio`,
-    description: `Explore the details of ${data['Project Title']}, a ${data['Job Type'].join(
-      ', '
-    )} project led by Billy Mitchell. Focused on ${data['Creative Discipline'].join(
-      ', '
-    )}, built using ${data['Made With'].join(', ')}.`,
     openGraph: {
-      title: `${data['Project Title']} - Billy Mitchell Portfolio`,
-      description: `A showcase of ${data['Project Title']}, built using ${data['Made With'].join(
-        ', '
-      )}.`,
+      title: `${title} | Billy Mitchell`,
+      description,
       url: canonicalUrl,
-      siteName: 'Billy Mitchell Portfolio',
+      siteName,
       images: [
         {
-          url: isVideoFile(data['Featured Image URL']) 
-            ? `${siteUrl}/files/open-graph.png`
-            : `https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/portfolio/${data['Featured Image URL']}`,
+          url: image,
           width: 1200,
           height: 630,
           alt: `${data['Project Title']} featured image`,
@@ -70,18 +94,9 @@ export async function generateMetadata({ params }) {
     },
     twitter: {
       card: 'summary_large_image',
-      title: `${data['Project Title']} - Billy Mitchell Portfolio`,
-      description: `A creative project built with ${data['Made With'].join(
-        ', '
-      )}. Focused on ${data['Creative Discipline'].join(', ')}.`,
-      images: [
-        isVideoFile(data['Featured Image URL']) 
-          ? `${siteUrl}/files/open-graph.png`
-          : `https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/portfolio/${data['Featured Image URL']}`,
-      ],
-    },
-    icons: {
-      icon: '/files/favicon.ico', // Path to your favicon
+      title: `${title} | Billy Mitchell`,
+      description,
+      images: [image],
     },
   };
 }
@@ -118,8 +133,6 @@ const IfLiveURL = (data) => {
 };
 
 const IfGitHubURL = (data) => {
-  let URL = data['GitHub URL'];
-  let URL2 = data['2nd Github URL'];
   if (data['GitHub URL'] || data['2nd Github URL']) {
     return (
       <>
@@ -127,13 +140,15 @@ const IfGitHubURL = (data) => {
           <b>GitHub Code Repository: </b>
         </span>
 
-        <a target="_blank" rel="noreferrer" href={data['GitHub URL']}>
-          {cleanURL (data['GitHub URL'])}
-        </a>
+        {data['GitHub URL'] && (
+          <a target="_blank" rel="noreferrer" href={data['GitHub URL']}>
+            {cleanURL (data['GitHub URL'])}
+          </a>
+        )}
         {data['2nd Github URL'] && (
           <>
-          <span> | </span>
-          <a href={data['2nd Github URL']}>
+          {data['GitHub URL'] && <span> | </span>}
+          <a target="_blank" rel="noreferrer" href={data['2nd Github URL']}>
             {cleanURL (data['2nd Github URL'])}
           </a>
           </>
@@ -160,14 +175,13 @@ const IfPosition = (data) => {
   return null;
 };
 
-// Helper to get correct Cloudinary URL
-const getCloudinaryMediaUrl = (filename) => {
+// Helper to get an optimized Cloudinary URL (modern format, capped width)
+const getCloudinaryMediaUrl = (filename, width = 1600) => {
   if (!filename) return '';
-  const isVideo = isVideoFile(filename);
-  const base = isVideo
-    ? 'https://res.cloudinary.com/billymitchell/video/upload'
-    : 'https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto';
-  return `${base}/portfolio/${filename}`;
+  if (isVideoFile(filename)) {
+    return `https://res.cloudinary.com/billymitchell/video/upload/portfolio/${filename}`;
+  }
+  return `https://res.cloudinary.com/billymitchell/image/upload/f_auto,q_auto,w_${width},c_limit/portfolio/${filename}`;
 };
 
 // New helper to get Cloudinary media sources for videos
@@ -211,6 +225,7 @@ const renderHeader = (data) => {
         <video
           className="fetched-header"
           controls
+          preload="metadata"
           // no autoplay, not muted, not looped
           playsInline
         >
@@ -221,12 +236,14 @@ const renderHeader = (data) => {
         </video>
       );
     } else {
-      const mediaUrl = getCloudinaryMediaUrl(data['Featured Image URL']);
+      const mediaUrl = getCloudinaryMediaUrl(data['Featured Image URL'], 1400);
       return (
         <img
           className="fetched-header"
           src={mediaUrl}
           alt={String(data['Project Title'])}
+          loading="lazy"
+          decoding="async"
         />
       );
     }
@@ -263,27 +280,58 @@ const ifIntroText = (data) => {
 
 // Server Component to render the project page
 export default function PortfolioContent({ params }) {
-  // Find the project
-  const project = projectsData.find((item) =>
-      projectSlug(item.fields['Project Title']) === params.project_title
-  );
+  const project = findProject(params.project_title);
 
   if (!project) {
-    return <p>Project not found.</p>;
+    notFound();
   }
 
   const data = project.fields;
-  
-  // Find company names for the "Made For" field
+
+  // Company names for the "Made For" field. Companies that are not part of this
+  // site's data export are skipped rather than shown as "Unknown Company".
   const companyNames = Array.isArray(data['Made For'])
-    ? data['Made For'].map((companyId) => {
-        const company = companiesData.find((item) => item.id === companyId);
-        return company ? company.fields['Company Name'] : 'Unknown Company';
-      })
+    ? data['Made For']
+        .map((companyId) => {
+          const company = companiesData.find((item) => item.id === companyId);
+          return company ? company.fields['Company Name'] : null;
+        })
+        .filter(Boolean)
     : [];
+
+  // Gallery assets, trimmed to the fields the gallery renders
+  const galleryAssets = (cloudinaryData[data['Gallery Folder Name']] || []).map(
+    ({ asset_id, public_id, format, resource_type, width, height, secure_url, context }) => ({
+      asset_id,
+      public_id,
+      format,
+      resource_type,
+      width,
+      height,
+      secure_url,
+      ...(context && { context }),
+    })
+  );
+
+  const projectJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'CreativeWork',
+    name: data['Project Title'],
+    description: projectDescription(data),
+    url: `${siteUrl}/portfolio/${params.project_title}`,
+    image: shareImage(data),
+    ...(data['End Date'] && { dateCreated: data['End Date'] }),
+    ...(data['Date Modified'] && { dateModified: data['Date Modified'] }),
+    keywords: [...(data['Creative Discipline'] || []), ...(data['Made With'] || [])].join(', '),
+    author: { '@type': 'Person', '@id': `${siteUrl}/#person`, name: 'Billy Mitchell', url: siteUrl },
+  };
 
   return (
     <div id="portfolio-page" className="bg-black">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(projectJsonLd) }}
+      />
       <Header />
       <main>
       <div className="portfolio-header-container">
@@ -309,7 +357,8 @@ export default function PortfolioContent({ params }) {
               suppressHydrationWarning
               className="portfolio-header"
               src={getCloudinaryMediaUrl(data['Featured Image URL'])}
-              alt={String(data['Project Title'])}
+              alt=""
+              fetchPriority="high"
             />
           )}
         </div>
@@ -320,7 +369,7 @@ export default function PortfolioContent({ params }) {
           <div className="portfolio-meta-data">
             <p>
               <span>
-                <b>End Date:</b> {data['End Date'] ? String(data['End Date']) : 'Ongoing'}
+                <b>End Date:</b> {data['End Date'] ? formatDate(data['End Date']) : 'Ongoing'}
               </span>
               <br />
               {IfLiveURL(data)}
@@ -337,19 +386,23 @@ export default function PortfolioContent({ params }) {
               </span>
               <br />
               <span>
-                <b>Job Type:</b> {String(data['Job Type'])}
+                <b>Job Type:</b> {list(data['Job Type'])}
               </span>
               <br />
-              <span>
-                <b>Made for:</b>{' '}
-                {companyNames.map((name, index) => (
-                  <span key={index} className="Company">
-                    {index > 0 && ' | '}
-                    {name}
+              {companyNames.length > 0 && (
+                <>
+                  <span>
+                    <b>Made for:</b>{' '}
+                    {companyNames.map((name, index) => (
+                      <span key={index} className="Company">
+                        {index > 0 && ' | '}
+                        {name}
+                      </span>
+                    ))}
                   </span>
-                ))}
-              </span>
-              <br />
+                  <br />
+                </>
+              )}
               {IfPosition(data)}
               <span>
                 <b>Made With:</b>{' '}
@@ -371,9 +424,9 @@ export default function PortfolioContent({ params }) {
           {ifCustomBodyHTML(data)}
         </div>
         <div className="inner-width gallery-section">
-          {data['Gallery Folder Name'] && (
+          {galleryAssets.length > 0 && (
             <GalleryLightbox
-              assets={cloudinaryData[data['Gallery Folder Name']] || []}
+              assets={galleryAssets}
               projectTitle={data['Project Title']}
             />
           )}

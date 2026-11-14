@@ -23,6 +23,18 @@ if (!CLOUD_NAME || !API_KEY || !API_SECRET) {
   process.exit(1);
 }
 
+const slimResource = ({ asset_id, public_id, format, resource_type, width, height, bytes, secure_url, context }) => ({
+  asset_id,
+  public_id,
+  format,
+  resource_type,
+  width,
+  height,
+  bytes,
+  secure_url,
+  ...(context && { context }),
+});
+
 /**
  * Fetches all image resources from a specific Cloudinary folder using the Search API.
  * @param {string} folder - The folder name to fetch resources from.
@@ -41,7 +53,9 @@ async function fetchFolderResources(folder) {
   };
   try {
     const res = await axios.post(url, data, { auth, headers: { "Content-Type": "application/json" } });
-    return res.data.resources;
+    // Keep only what the site renders. The raw response includes account
+    // metadata (API key, uploader IDs) that should not be committed or shipped.
+    return res.data.resources.map(slimResource);
   } catch (err) {
     if (err.response) {
       console.error(`[ERROR] Cloudinary Search API error for folder "${folder}":`, err.response.data);
