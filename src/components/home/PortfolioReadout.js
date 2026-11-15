@@ -1,5 +1,6 @@
 import projectsData from '../utilities/data/projectsData.json';
 import VisitReadout from './VisitReadout';
+import GitHubActivity from './GitHubActivity';
 
 const publishedProjects = projectsData.filter(({ fields }) => fields.Published);
 const disciplines = new Set(
@@ -20,6 +21,7 @@ export default function PortfolioReadout() {
           <div><dt>Active client stores at Centricity</dt><dd>40+</dd></div>
         </dl>
         <VisitReadout />
+        <GitHubActivity />
         <p className="terminal-note">Viewport and scroll progress are measured locally for this visit.</p>
       </div>
     </aside>
