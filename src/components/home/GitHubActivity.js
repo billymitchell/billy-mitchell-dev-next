@@ -67,13 +67,22 @@ export default async function GitHubActivity() {
     loadActivity(CONTRIBUTIONS_URL),
     loadActivity(EVENTS_URL),
   ]);
-  const commits = Array.isArray(events)
-    ? events.filter(({ type }) => type === 'PushEvent').flatMap(({ repo, payload, created_at }) =>
-        (payload?.commits || []).map(({ sha, message }) => ({
-          sha, message: message.split('\n')[0], repo: repo.name, created_at,
-        }))
-      ).filter(({ sha, message }) => sha && message).slice(0, 5)
+  // GitHub's public Events API no longer reliably includes commit details in PushEvent payloads.
+  // Fetch the latest commits from recently pushed public repositories instead.
+  const recentRepos = Array.isArray(events)
+    ? [...new Set(events.filter(({ type }) => type === 'PushEvent').map(({ repo }) => repo.name))].slice(0, 8)
     : [];
+  const recentCommits = await Promise.all(recentRepos.map(async (repo) => {
+    const result = await loadActivity(`https://api.github.com/repos/${repo}/commits?per_page=5`);
+    return Array.isArray(result) ? result.map(({ sha, commit }) => ({
+      sha, message: commit?.message?.split('\n')[0], repo,
+      created_at: commit?.author?.date,
+    })) : [];
+  }));
+  const commits = recentCommits.flat()
+    .filter(({ sha, message, created_at }) => sha && message && created_at)
+    .sort((a, b) => new Date(b.created_at) - new Date(a.created_at))
+    .slice(0, 5);
   return (
     <section className="github-activity" aria-label="GitHub development activity">
       <ContributionCalendar contributions={calendar?.contributions} />
