@@ -101,6 +101,9 @@ export default function ParticlePortrait({ src }) {
     let scrollImpulse = 0;
     let pointer = null;
     let hoverStart = 0;
+    let touchRelease = 0;
+    let touchTimer = null;
+    const isTouchDevice = window.matchMedia('(hover: none) and (pointer: coarse)').matches;
 
     function schedule() {
       if (!frame && visible && groups && !motion.matches && !document.hidden) {
@@ -121,6 +124,10 @@ export default function ParticlePortrait({ src }) {
       const edgePhase = edgeDriftTime / EDGE_DRIFT_DURATION * Math.PI * 2;
 
       const burstAge = now - hoverStart;
+      if (touchRelease && now >= touchRelease) {
+        pointer = null;
+        touchRelease = 0;
+      }
       const bounds = portrait.getBoundingClientRect();
       const viewport = canvas.getBoundingClientRect();
       const viewportWidth = viewport.width;
@@ -173,8 +180,9 @@ export default function ParticlePortrait({ src }) {
             const reach = Math.min(reachX, reachY) * particle.burstSpread;
             const screenX = pointer.x + directionX * reach;
             const screenY = pointer.y + directionY * reach;
-            targetX += ((screenX - bounds.left) / scaleX - x) * burstProgress;
-            targetY += ((screenY - bounds.top) / scaleY - y) * burstProgress;
+            const touchFade = touchRelease ? Math.min(1, Math.max(0, (touchRelease - now) / 350)) : 1;
+            targetX += ((screenX - bounds.left) / scaleX - x) * burstProgress * touchFade;
+            targetY += ((screenY - bounds.top) / scaleY - y) * burstProgress * touchFade;
           }
 
           const stiffness = (pointer ? .19 : .075) + (1 - delay / 550) * .06;
@@ -231,6 +239,8 @@ export default function ParticlePortrait({ src }) {
       previous = null;
       scrollImpulse = 0;
       pointer = null;
+      touchRelease = 0;
+      clearTimeout(touchTimer);
     }
 
     function onMotionChange() {
@@ -254,8 +264,22 @@ export default function ParticlePortrait({ src }) {
       schedule();
     }
 
-    function onPointerLeave() {
+    function onPointerLeave(event) {
+      if (event.pointerType === 'touch') return;
       pointer = null;
+      schedule();
+    }
+
+    function onTouchPointerDown(event) {
+      if (event.pointerType !== 'touch' || motion.matches) return;
+      hoverStart = performance.now();
+      pointer = { x: event.clientX, y: event.clientY };
+      touchRelease = hoverStart + 1150;
+      clearTimeout(touchTimer);
+      touchTimer = setTimeout(() => {
+        touchRelease = 0;
+        pointer = null;
+      }, 1200);
       schedule();
     }
 
@@ -264,7 +288,8 @@ export default function ParticlePortrait({ src }) {
       const delta = next - lastScroll;
       lastScroll = next;
       if (!visible || motion.matches) return;
-      scrollImpulse = Math.max(-48, Math.min(48, scrollImpulse + delta * .65));
+      // Touch scrolling must not impart momentum to the portrait.
+      if (!isTouchDevice) scrollImpulse = Math.max(-48, Math.min(48, scrollImpulse + delta * .65));
       schedule();
     }
 
@@ -280,6 +305,7 @@ export default function ParticlePortrait({ src }) {
     });
     observer.observe(portrait);
     image.addEventListener('load', prepare);
+    portrait.addEventListener('pointerdown', onTouchPointerDown);
     portrait.addEventListener('pointerenter', onPointer);
     portrait.addEventListener('pointermove', onPointer);
     portrait.addEventListener('pointerleave', onPointerLeave);
@@ -293,6 +319,7 @@ export default function ParticlePortrait({ src }) {
       delete portrait.dataset.animated;
       delete canvas.dataset.animated;
       image.removeEventListener('load', prepare);
+      portrait.removeEventListener('pointerdown', onTouchPointerDown);
       portrait.removeEventListener('pointerenter', onPointer);
       portrait.removeEventListener('pointermove', onPointer);
       portrait.removeEventListener('pointerleave', onPointerLeave);
