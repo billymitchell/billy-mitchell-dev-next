@@ -66,12 +66,19 @@
   width: 100%;
   max-width: 28rem;
   border-radius: 4px;
+  touch-action: pan-y;
+  -webkit-touch-callout: none;
+  user-select: none;
+  -webkit-user-select: none;
 
   img {
     display: block;
     width: 100%;
     height: auto;
     filter: grayscale(1);
+    -webkit-touch-callout: none;
+    user-select: none;
+    -webkit-user-select: none;
   }
 
   @media (prefers-reduced-motion: no-preference) {

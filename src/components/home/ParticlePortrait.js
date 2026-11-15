@@ -6,7 +6,7 @@ import { createPortal } from 'react-dom';
 const WIDTH = 480;
 const HEIGHT = 390;
 const SHADES = 48;
-const EDGE_DRIFT_DURATION = 14000;
+const EDGE_DRIFT_DURATION = 9000;
 
 function samplePortrait(image) {
   const sampler = document.createElement('canvas');
@@ -102,7 +102,7 @@ export default function ParticlePortrait({ src }) {
     let pointer = null;
     let hoverStart = 0;
     let touchRelease = 0;
-    let touchTimer = null;
+    let touchOrigin = null;
     const isTouchDevice = window.matchMedia('(hover: none) and (pointer: coarse)').matches;
 
     function schedule() {
@@ -124,10 +124,6 @@ export default function ParticlePortrait({ src }) {
       const edgePhase = edgeDriftTime / EDGE_DRIFT_DURATION * Math.PI * 2;
 
       const burstAge = now - hoverStart;
-      if (touchRelease && now >= touchRelease) {
-        pointer = null;
-        touchRelease = 0;
-      }
       const bounds = portrait.getBoundingClientRect();
       const viewport = canvas.getBoundingClientRect();
       const viewportWidth = viewport.width;
@@ -165,7 +161,7 @@ export default function ParticlePortrait({ src }) {
 
           if (edgeStrength > 0) {
             const drift = edgePhase + particle.edgePhase;
-            const driftRadius = particle.driftRadius ?? 1.75 * edgeStrength;
+            const driftRadius = particle.driftRadius ?? 5 * edgeStrength;
             targetX += (particle.edgeX + Math.cos(drift) * driftRadius) * assembly;
             targetY += (particle.edgeY + Math.sin(drift) * driftRadius) * assembly;
           }
@@ -180,7 +176,7 @@ export default function ParticlePortrait({ src }) {
             const reach = Math.min(reachX, reachY) * particle.burstSpread;
             const screenX = pointer.x + directionX * reach;
             const screenY = pointer.y + directionY * reach;
-            const touchFade = touchRelease ? Math.min(1, Math.max(0, (touchRelease - now) / 350)) : 1;
+            const touchFade = touchRelease ? Math.max(0, 1 - (now - touchRelease) / 400) : 1;
             targetX += ((screenX - bounds.left) / scaleX - x) * burstProgress * touchFade;
             targetY += ((screenY - bounds.top) / scaleY - y) * burstProgress * touchFade;
           }
@@ -240,7 +236,7 @@ export default function ParticlePortrait({ src }) {
       scrollImpulse = 0;
       pointer = null;
       touchRelease = 0;
-      clearTimeout(touchTimer);
+      touchOrigin = null;
     }
 
     function onMotionChange() {
@@ -273,14 +269,30 @@ export default function ParticlePortrait({ src }) {
     function onTouchPointerDown(event) {
       if (event.pointerType !== 'touch' || motion.matches) return;
       hoverStart = performance.now();
+      touchRelease = 0;
+      touchOrigin = { x: event.clientX, y: event.clientY, id: event.pointerId };
       pointer = { x: event.clientX, y: event.clientY };
-      touchRelease = hoverStart + 1150;
-      clearTimeout(touchTimer);
-      touchTimer = setTimeout(() => {
-        touchRelease = 0;
-        pointer = null;
-      }, 1200);
       schedule();
+    }
+
+    function onTouchPointerMove(event) {
+      if (event.pointerType !== 'touch' || !touchOrigin || touchOrigin.id !== event.pointerId) return;
+      // Allow vertical page scrolling without dragging the particle burst along.
+      if (Math.hypot(event.clientX - touchOrigin.x, event.clientY - touchOrigin.y) > 12) {
+        touchRelease = performance.now();
+        touchOrigin = null;
+      }
+    }
+
+    function onTouchPointerEnd(event) {
+      if (event.pointerType !== 'touch' || !touchOrigin || touchOrigin.id !== event.pointerId) return;
+      touchOrigin = null;
+      touchRelease = performance.now();
+      schedule();
+    }
+
+    function preventImageMenu(event) {
+      event.preventDefault();
     }
 
     function onScroll() {
@@ -305,7 +317,13 @@ export default function ParticlePortrait({ src }) {
     });
     observer.observe(portrait);
     image.addEventListener('load', prepare);
+    if (image.complete) prepare();
     portrait.addEventListener('pointerdown', onTouchPointerDown);
+    portrait.addEventListener('pointermove', onTouchPointerMove);
+    portrait.addEventListener('pointerup', onTouchPointerEnd);
+    portrait.addEventListener('pointercancel', onTouchPointerEnd);
+    portrait.addEventListener('contextmenu', preventImageMenu);
+    image.addEventListener('dragstart', preventImageMenu);
     portrait.addEventListener('pointerenter', onPointer);
     portrait.addEventListener('pointermove', onPointer);
     portrait.addEventListener('pointerleave', onPointerLeave);
@@ -320,6 +338,11 @@ export default function ParticlePortrait({ src }) {
       delete canvas.dataset.animated;
       image.removeEventListener('load', prepare);
       portrait.removeEventListener('pointerdown', onTouchPointerDown);
+      portrait.removeEventListener('pointermove', onTouchPointerMove);
+      portrait.removeEventListener('pointerup', onTouchPointerEnd);
+      portrait.removeEventListener('pointercancel', onTouchPointerEnd);
+      portrait.removeEventListener('contextmenu', preventImageMenu);
+      image.removeEventListener('dragstart', preventImageMenu);
       portrait.removeEventListener('pointerenter', onPointer);
       portrait.removeEventListener('pointermove', onPointer);
       portrait.removeEventListener('pointerleave', onPointerLeave);
@@ -338,6 +361,7 @@ export default function ParticlePortrait({ src }) {
         width={1000}
         height={812}
         fetchPriority="high"
+        draggable={false}
       />
       {mounted && createPortal(
         <canvas className="hero-portrait-canvas" ref={setCanvas} aria-hidden="true" />,
