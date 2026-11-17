@@ -78,8 +78,8 @@ export default function PricingPage() {
           </section>
 
           <section aria-labelledby="full-time-opportunities">
-            <h2 id="full-time-opportunities">Full-time opportunities</h2>
-            <p>I’m open to full-stack product engineering roles in e-commerce, integrations, and automation. I’m targeting a six-figure base salary, with flexibility based on the role and total compensation.</p>
+            <h2 id="full-time-opportunities">Full-time roles</h2>
+            <p>I’m currently in a full-time position I enjoy. I’m open to hearing about exceptional opportunities, with compensation starting in the low-to-mid six figures.</p>
           </section>
 
           <section aria-labelledby="maintenance-pricing">
