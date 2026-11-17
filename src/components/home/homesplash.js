@@ -11,7 +11,7 @@ export default function Homesplash() {
           <HeroWordmark />
           <h2>{developerTitle}</h2>
           <p className="hero-specialty">E-commerce systems, API integrations, and automation</p>
-          <p className="hero-availability">Baltimore, MD · Open to developer roles and freelance contracts</p>
+          <p className="hero-availability">Baltimore, MD · Available for freelance and contract projects</p>
           <div className="hero-actions">
             <Link className="button button-primary" href="/portfolio">View work</Link>
             <a className="button" href="/files/Billy-Mitchell-Resume.pdf">Résumé</a>

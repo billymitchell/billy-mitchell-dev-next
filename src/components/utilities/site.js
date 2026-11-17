@@ -4,6 +4,6 @@ export const wordmark = 'BILLY MITCHELL DEV';
 export const developerTitle = 'Full-Stack Product Engineer';
 export const profileTitle = `${siteName} | ${developerTitle}`;
 export const profileDescription =
-  'Billy Mitchell is a Baltimore-based full-stack developer building e-commerce systems, REST API integrations, and automation. Open to developer roles and freelance contracts.';
+  'Billy Mitchell is a Baltimore-based full-stack developer building e-commerce systems, REST API integrations, and automation. Available for freelance and contract projects.';
 export const linkedInUrl = 'https://www.linkedin.com/in/billymitchell91/';
 export const headshotPath = '/files/billy-mitchell-headshot.jpg';
