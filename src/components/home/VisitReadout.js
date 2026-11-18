@@ -13,11 +13,16 @@ export default function VisitReadout() {
       frame = 0;
       const height = root.scrollHeight - root.clientHeight;
       const progress = height > 0 ? Math.round(window.scrollY / height * 100) : 0;
-      setVisit({
+      const next = {
         width: root.clientWidth,
         height: root.clientHeight,
         progress: Math.min(100, Math.max(0, progress)),
-      });
+      };
+      // Skip re-rendering on scroll frames where nothing visible changed.
+      setVisit((current) => (current
+        && current.width === next.width
+        && current.height === next.height
+        && current.progress === next.progress ? current : next));
     }
 
     function schedule() {
@@ -39,13 +44,13 @@ export default function VisitReadout() {
   }, []);
 
   return (
-    <dl className="terminal-metrics visit-metrics">
+    <dl className="visit-metrics" title="Measured locally for this visit">
       <div>
         <dt>Viewport</dt>
-        <dd>{visit ? `${visit.width} × ${visit.height} px` : '—'}</dd>
+        <dd>{visit ? `${visit.width}×${visit.height}` : '—'}</dd>
       </div>
       <div>
-        <dt>Page progress</dt>
+        <dt>Read</dt>
         <dd>
           {visit ? (
             <>

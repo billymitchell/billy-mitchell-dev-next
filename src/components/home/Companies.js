@@ -12,14 +12,14 @@ export default function Companies({ children }) {
             <InViewAnimationTwo
               rootMargin="-25% 0%"
               className="init-invisible" animation={undefined} duration={undefined} delay={undefined} fillmode={undefined} easing={undefined} iteration={undefined} threshold={undefined}            >
-              <h2 className="h3 margin-top-0">Businesses I&apos;ve Worked With</h2>
+              <h2 className="h3 margin-top-0">Brands I&apos;ve Built For</h2>
             </InViewAnimationTwo>
             <InViewAnimationTwo
               rootMargin="-25% 0%"
               className="init-invisible"
               delay="delay-250ms" animation={undefined} duration={undefined} fillmode={undefined} easing={undefined} iteration={undefined} threshold={undefined}            >
               <p>
-                Teams and clients I&apos;ve worked with in developer, designer, and freelance roles.
+                Work shipped through in-house teams, agencies, and independent projects.
               </p>
             </InViewAnimationTwo>
               <div className="company-logos" >

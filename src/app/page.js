@@ -1,5 +1,6 @@
 import Homesplash from '../components/home/homesplash';
 import PortfolioReadout from '../components/home/PortfolioReadout';
+import GitHubActivity from '../components/home/GitHubActivity';
 import Link from 'next/link';
 import { projectSlug } from '../components/utilities/projectSlug';
 import TechStack from '../components/home/techstack';
@@ -194,6 +195,7 @@ export default function Home() {
             <PortfolioReadout />
           </div>
         </section>
+        <GitHubActivity />
         <About />
         <TechStack />
         <Services>

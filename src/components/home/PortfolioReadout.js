@@ -1,6 +1,5 @@
 import projectsData from '../utilities/data/projectsData.json';
 import VisitReadout from './VisitReadout';
-import GitHubActivity from './GitHubActivity';
 
 const publishedProjects = projectsData.filter(({ fields }) => fields.Published);
 const disciplines = new Set(
@@ -15,14 +14,12 @@ export default function PortfolioReadout() {
       </h3>
       <div className="terminal-content">
         <p className="terminal-command" aria-hidden="true">$ portfolio --summary</p>
-        <dl className="terminal-metrics">
-          <div><dt>Published projects</dt><dd>{publishedProjects.length}</dd></div>
-          <div><dt>Disciplines</dt><dd>{disciplines.size}</dd></div>
-          <div><dt>Active client stores at Centricity</dt><dd>40+</dd></div>
+        <dl className="readout-stats">
+          <div><dd>{publishedProjects.length}</dd><dt>Projects</dt></div>
+          <div><dd>{disciplines.size}</dd><dt>Disciplines</dt></div>
+          <div><dd>40+</dd><dt>Client stores</dt></div>
         </dl>
         <VisitReadout />
-        <GitHubActivity />
-        <p className="terminal-note">Viewport and scroll progress are measured locally for this visit.</p>
       </div>
     </aside>
   );

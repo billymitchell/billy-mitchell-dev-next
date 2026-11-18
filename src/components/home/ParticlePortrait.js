@@ -124,6 +124,9 @@ export default function ParticlePortrait({ src }) {
       const edgePhase = edgeDriftTime / EDGE_DRIFT_DURATION * Math.PI * 2;
 
       const burstAge = now - hoverStart;
+      // The canvas lives in page coordinates and is re-anchored to the viewport each frame.
+      // Between frames it scrolls natively with the portrait, so particles don't lag behind on touch scrolling.
+      canvas.style.transform = `translate3d(0, ${window.scrollY}px, 0)`;
       const bounds = portrait.getBoundingClientRect();
       const viewport = canvas.getBoundingClientRect();
       const viewportWidth = viewport.width;
