@@ -46,7 +46,7 @@ const projectDescription = (data) => {
 // Social share image: cropped to 1200x630 (videos fall back to the site image)
 const shareImage = (data) =>
   isVideoFile(data['Featured Image URL'])
-    ? `${siteUrl}/files/open-graph.png`
+    ? `${siteUrl}/files/og-portfolio.jpg`
     : `https://res.cloudinary.com/billymitchell/image/upload/c_fill,w_1200,h_630,f_jpg,q_auto/portfolio/${data['Featured Image URL']}`;
 
 const formatDate = (value) => {
@@ -96,7 +96,7 @@ export async function generateMetadata({ params }) {
       card: 'summary_large_image',
       title: `${title} | Billy Mitchell`,
       description,
-      images: [image],
+      images: [{ url: image, alt: `${data['Project Title']} featured image` }],
     },
   };
 }

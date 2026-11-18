@@ -28,10 +28,11 @@ export const metadata = {
     siteName,
     images: [
       {
-        url: '/files/open-graph.png',
+        url: '/files/og-home.jpg',
         width: 1200,
         height: 630,
-        alt: 'Billy Mitchell, full-stack product engineer',
+        type: 'image/jpeg',
+        alt: 'Billy Mitchell Dev: Full-Stack Product Engineer building e-commerce systems, API integrations, and automation',
       },
     ],
     locale: 'en_US',
@@ -41,7 +42,7 @@ export const metadata = {
     card: 'summary_large_image',
     title,
     description,
-    images: ['/files/open-graph.png'],
+    images: [{ url: '/files/og-home.jpg', alt: 'Billy Mitchell Dev: Full-Stack Product Engineer building e-commerce systems, API integrations, and automation' }],
   },
 };
 

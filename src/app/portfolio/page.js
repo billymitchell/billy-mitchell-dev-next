@@ -22,10 +22,11 @@ export const metadata = {
     siteName,
     images: [
       {
-        url: '/files/open-graph.png',
+        url: '/files/og-portfolio.jpg',
         width: 1200,
         height: 630,
-        alt: 'Billy Mitchell portfolio',
+        type: 'image/jpeg',
+        alt: 'Selected work by Billy Mitchell: storefront features, REST API integrations, and workflow automation',
       },
     ],
     locale: 'en_US',
@@ -35,7 +36,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: `${title} | Billy Mitchell`,
     description,
-    images: ['/files/open-graph.png'],
+    images: [{ url: '/files/og-portfolio.jpg', alt: 'Selected work by Billy Mitchell: storefront features, REST API integrations, and workflow automation' }],
   },
 };
 
