@@ -2,7 +2,6 @@ import Homesplash from '../components/home/homesplash';
 import PortfolioReadout from '../components/home/PortfolioReadout';
 import GitHubActivity from '../components/home/GitHubActivity';
 import Link from 'next/link';
-import { projectSlug } from '../components/utilities/projectSlug';
 import TechStack from '../components/home/techstack';
 import About from '../components/home/about';
 import Services from '../components/home/Services';
@@ -167,30 +166,6 @@ export default function Home() {
         <section id="featured-work" className="home-page-section outer-container">
           <div className="inner-width-1000 featured-work-layout">
             <div className="featured-work-list">
-              <h2 className="h3">Selected Development Projects</h2>
-              <ul className="featured-projects">
-                <li>
-                  <Link href={`/portfolio/${projectSlug('Forbes Travel Guide Award API')}`}>
-                    <strong>Forbes Travel Guide Award API</strong>
-                    <span>A custom API for an international award redemption program.</span>
-                    <span aria-hidden="true">↗</span>
-                  </Link>
-                </li>
-                <li>
-                  <Link href={`/portfolio/${projectSlug('Automotive Service Excellence Technician Validation API')}`}>
-                    <strong>ASE Technician Validation API</strong>
-                    <span>A REST API integration for validating technician credentials across client stores.</span>
-                    <span aria-hidden="true">↗</span>
-                  </Link>
-                </li>
-                <li>
-                  <Link href={`/portfolio/${projectSlug('Orderdesk Fulfillment Rules')}`}>
-                    <strong>Orderdesk Fulfillment Rules</strong>
-                    <span>E-commerce order and fulfillment automation.</span>
-                    <span aria-hidden="true">↗</span>
-                  </Link>
-                </li>
-              </ul>
               <Link href="/portfolio" className="button portfolio-link">View full portfolio</Link>
             </div>
             <PortfolioReadout />
